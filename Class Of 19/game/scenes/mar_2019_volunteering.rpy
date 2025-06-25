@@ -150,12 +150,12 @@ label mar_2019_volunteering:
 
     tanish "Oh no. You’re one of those."
 
-    show alex neutral at right
+    show alex neutral at left
     alex "We’re doomed."
 
     # [Outside the window, the sky darkens slightly. The light turns soft and golden.]
 
-    show tanish neutral at left
+    show tanish neutral at right
     alex "You know, we actually finished a lot."
 
     clara "Maybe Lam should abandon us more often."
