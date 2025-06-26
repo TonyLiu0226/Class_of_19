@@ -5,7 +5,8 @@ label feb_2019_cs_lab:
 
     show splash with pixellate
     show text "February 2019" with dissolve
-    with Pause(2)
+    play sound yooo
+    with Pause(10)
 
     scene black with pixellate
     with Pause(1)

@@ -14,6 +14,7 @@ define door_open = "audio/sfx/door_open.mp3"
 define typing = "audio/sfx/typing.mp3"
 define whistle = "audio/sfx/whistle.mp3"
 define phone_ping = "audio/sfx/phone_ping.mp3"
+define yooo = "audio/sfx/yooo.mp3"
 
 # define music
 define cpen = "audio/CPEN.mp3"
