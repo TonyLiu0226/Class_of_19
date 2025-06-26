@@ -104,7 +104,7 @@ label mar_2019_volunteering:
     alex "Okay, fair. But I did organize my desktop once."
 
     show tanish happy at left
-    tanish "Then cluttered it again with 800 downloads titled 'assignmentfinalv3_REALLYfinal.zip'."
+    tanish "Then cluttered it again with 800 downloads titled '\'.pdf'."
 
     clara "Honestly, relatable. My desktop’s just chaos and vibes."
 
