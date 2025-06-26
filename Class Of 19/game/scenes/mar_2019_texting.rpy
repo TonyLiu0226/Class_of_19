@@ -6,7 +6,7 @@ label mar_2019_texting:
     show splash with pixellate
     show text "Late March, 2019" with dissolve
     play sound yooo
-    with Pause(10)
+    $ renpy.pause(10, hard=True)
 
     scene black with pixellate
     with Pause(1)

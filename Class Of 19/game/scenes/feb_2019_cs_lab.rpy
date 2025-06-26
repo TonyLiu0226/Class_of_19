@@ -6,7 +6,7 @@ label feb_2019_cs_lab:
     show splash with pixellate
     show text "February 2019" with dissolve
     play sound yooo
-    with Pause(10)
+    $ renpy.pause(10, hard=True)
 
     scene black with pixellate
     with Pause(1)
