@@ -18,33 +18,63 @@ label mar_2019_texting:
     show tanish happy at center
     show phone at right
 
-    tanish "yo, i heard you’re a huge fan of Demon Slayer"
+    play sound phone_ping
+    tanish "{i}yo, i heard you’re a huge fan of Demon Slayer{/i}"
 
     pause
     
-    play sound phone_ping
-    clara "lol who told you that??"
-    play sound phone_ping
-    clara "i’ve only seen like the first season 😭"
+    scene bg clara_room_night
 
-    tanish "oh word? the way you were talking about Rengoku in class made it sound serious"
+    show clara neutral at center
+    show phone at left
 
     play sound phone_ping
-    clara "okay fair, he’s a legend"
+    clara "{i}lol who told you that??{/i}"
     play sound phone_ping
-    clara "i cried on the train scene and everything"
+    clara "{i}i’ve only seen like the first season 😭{/i}"
 
-    tanish "you and half the country tbh"
-    tanish "dude really went out with flames AND wisdom"
+    scene bg tanish_room_night
+
+    show tanish happy at center
+    show phone at right
+
+    play sound phone_ping
+    tanish "{i}oh word? the way you were talking about Rengoku in class made it sound serious{/i}"
+
+    scene bg clara_room_night
+
+    show clara neutral at center
+    show phone at left
+
+    play sound phone_ping
+    clara "{i}okay fair, he’s a legend{/i}"
+    play sound phone_ping
+    clara "{i}i cried on the train scene and everything{/i}"
+
+    scene bg tanish_room_night
+
+    show tanish happy at center
+    show phone at right
+
+    play sound phone_ping
+    tanish "{i}you and half the country tbh{/i}"
+    play sound phone_ping
+    tanish "{i}dude really went out with flames AND wisdom{/i}"
+
+    scene bg clara_room_night
+
+    show clara neutral at center
+    show phone at left
 
     play sound phone_ping
     clara "🔥🔥🔥"
     play sound phone_ping
-    clara "i respect that. 10/10 death monologue"
+    clara "{i}i respect that. 10/10 death monologue{/i}"
+
+    scene bg tanish_room_night
 
     show tanish blush at center
     show phone at left
-    pause
 
     tanish "She’s not obsessed with anime or anything, but she’s fun to talk to."
     tanish "Funny, kinda chaotic in a good way. Honestly… I like texting her."
@@ -59,35 +89,62 @@ label mar_2019_texting:
             jump clara_chill_path
 
     label clara_flirt_path:
-
-    tanish "not gonna lie"
-    tanish "talking to you kinda makes this break feel less boring 🫣"
+    play sound phone_ping
+    tanish "{i}not gonna lie{/i}"
+    play sound phone_ping
+    tanish "{i}talking to you kinda makes this break feel less boring{/i} 🫣"
 
     pause
     show tanish happy at center
 
-    tanish "might have to start calling u baeby now lmao"
+    play sound phone_ping
+    tanish "{i}might have to start calling u baeby now lmao{/i}"
 
     pause
 
+    scene bg clara_room_night
+
+    show clara happy at center
+    show phone at left
+
     play sound phone_ping
-    clara "...omg 😳"
+    clara "{i}...omg{/i} 😳"
     play sound phone_ping
-    clara "ok baeby haha"
+    clara "{i}ok baeby haha{/i}"
+
+    scene bg tanish_room_night
+
+    show tanish blush at center
+    show phone at right
 
     tanish "That worked… sort of. Her reply’s cute, flirty even. Who knows what will happen from here."
 
     jump tanish_texts_alex
 
     label clara_chill_path:
+     
+        show tanish neutral at center
+        play sound phone_ping
+        tanish "{i}lol same{/i}"
+        play sound phone_ping
+        tanish "{i}i’ve been rewatching the Mugen Train arc, it still hits{/i}"
 
-        tanish "lol same"
-        tanish "i’ve been rewatching the Mugen Train arc, it still hits"
+        scene bg clara_room_night
 
-        clara "fr fr"
-        clara "might rewatch season 1 next week. i need to feel again lol"
+        show clara neutral at center
+        show phone at left
 
-        tanish "nothing like anime trauma to keep u grounded"
+        play sound phone_ping
+        clara "{i}fr fr{/i}"
+        play sound phone_ping
+        clara "{i}might rewatch season 1 next week. i need to feel again lol{/i}"
+
+        scene bg tanish_room_night
+
+        show tanish neutral at center
+
+        play sound phone_ping
+        tanish "{i}nothing like anime trauma to keep u grounded{/i}"
 
         jump tanish_texts_alex
 
@@ -95,24 +152,24 @@ label mar_2019_texting:
         scene black with pixellate
         with Pause(1)
 
-        tanish "yo i’ve been talking to clara a lot lately"
+        tanish "{i}yo i’ve been talking to clara a lot lately{/i}"
 
         play sound phone_ping
-        alex "LMAO"
+        alex "{i}LMAO{/i}"
         play sound phone_ping
-        alex "u tryna bag the TA or what?"
+        alex "{i}u tryna bag the TA or what?{/i}"
 
-        tanish "bruh she’s not even MY TA 💀"
-
-        play sound phone_ping
-        alex "still fair game"
-        play sound phone_ping
-        alex "lowkey i’ve been thinking of messaging her too 👀"
-
-        tanish "don’t u dare lol"
+        tanish "{i}bruh she’s not even MY TA{/i} 💀"
 
         play sound phone_ping
-        alex "better shoot ur shot before i do 😎"
+        alex "{i}still fair game{/i}"
+        play sound phone_ping
+        alex "{i}lowkey i’ve been thinking of messaging her too{/i} 👀"
+
+        tanish "{i}don’t u dare lol{/i}"
+
+        play sound phone_ping
+        alex "{i}better shoot ur shot before i do{/i} 😎"
 
         scene black with pixellate
         with Pause(1)
@@ -125,11 +182,16 @@ label mar_2019_texting:
     label clara_response_scene:
 
         scene bg tanish_room_night
+        show tanish happy at center
+        show phone at left
 
-        tanish "yo baeby 😘"
-        tanish "miss me yet or still crying over Rengoku?"
+        play sound phone_ping
+        tanish "{i}yo baeby{/i} 😘"
+        play sound phone_ping
+        tanish "{i}miss me yet or still crying over Rengoku?{/i}"
+        play sound phone_ping
 
-        tanish "need a cuddle buddy for anime trauma recovery? 💀"
+        tanish "{i}need a cuddle buddy for anime trauma recovery?{/i} 💀"
 
         scene bg clara_room_night
         show clara blush at center
