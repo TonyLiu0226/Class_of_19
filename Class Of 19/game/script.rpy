@@ -8,7 +8,6 @@ define alex = Character("Alex")
 define cindy = Character("Cindy")
 define mcdonald = Character("McDonald")
 define phone = Character("Phone")
-define narrator = Character("Narrator")
 
 # define sounds
 define door_open = "audio/sfx/door_open.mp3"
@@ -32,6 +31,19 @@ image bg library = "images/backgrounds/library.png"
 image bg tanish_room_night = "images/backgrounds/tanish_room.png"
 image bg clara_room_night = "images/backgrounds/clara_room.png"
 
+init python:
+
+    # Ending 8: Alex dates Ms. Neuheimer
+    Ending8Condition1 = False
+    Ending8Condition2 = False
+    Ending8Condition3 = False
+
+    # Ending 9: Tanish and Cindy Prom
+    Ending9Condition1 = False
+    Ending9Condition2 = False
+
+    # Ending 6: Tanish harvard university
+    Ending7Eligible = True
 # The game starts here.
 label start:
     call feb_2019_cs_lab
