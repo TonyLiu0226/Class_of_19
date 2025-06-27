@@ -41,6 +41,7 @@ image bg tanish_room_night = "images/backgrounds/tanish_room.png"
 image bg clara_room_night = "images/backgrounds/clara_room.png"
 image bg school_hallway = "images/backgrounds/hallway.png"
 image bg alex_room = "images/backgrounds/alex_room.png"
+image bg cindy_room = "images/backgrounds/cindy_room.png"
 image bg classroom = "images/backgrounds/english.png"
 image bg cafeteria_lunch = "images/backgrounds/cafeteria.png"
 
@@ -73,4 +74,5 @@ label start:
     call apr_2019_studying
     call apr_2019_texting_2
     call apr_2019_lunch
+    call apr_2019_texting_3
     return

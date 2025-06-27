@@ -29,6 +29,7 @@ label apr_2019_lunch:
     alex "We just need to not be weird about it"
 
     show clara neutral at right with moveinright
+    pause
 
     alex "Yo Clara!"
 
@@ -45,6 +46,7 @@ label apr_2019_lunch:
     clara "Anyway, I gotta go to class"
 
     hide clara with moveoutright
+    pause
 
     tanish "She smiled. That means something, right?"
 
@@ -81,6 +83,7 @@ label apr_2019_lunch:
 
     show alex sideways at right with moveinright
     show tanish left at left with moveinleft
+    pause
 
     alex "Appreciate it. These tables fill up fast."
 
@@ -113,6 +116,7 @@ label apr_2019_lunch:
     # Cindy and Tanish break into their side convo
     show tanish happy at mid_left with moveinleft
     tanish "Hey what’s your name again?"
+    pause
     show clara neutral at mid_right with moveinleft
     show cindy happy at left with moveinright
     cindy "Cindy. You’re Tanish, right?"

@@ -74,6 +74,7 @@ label apr_2019_texting_2:
     play sound phone_ping
     alex "{i}same. mostly chill stuff. lately been grinding CSGO tho (but albert keeps recking me){/i}"
 
+    pause
     scene bg clara_room_night
     show clara happy at center
     show phone at right
@@ -83,6 +84,7 @@ label apr_2019_texting_2:
     play sound phone_ping
     clara "{i}i used to play pubg mobile a lot{/i}"
 
+    pause
     scene bg alex_room
     show alex excited at center
     show phone at right
@@ -143,6 +145,7 @@ label apr_2019_texting_2:
     play sound phone_ping
     alex "{i}lets give it a try tonight maybe?{/i}"
 
+    pause
     scene bg clara_room_night
     show clara neutral at center
     show phone at right
