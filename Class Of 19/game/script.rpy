@@ -29,6 +29,8 @@ define chill = "audio/chill.mp3"
 define lunchly = "audio/lunchly.mp3"
 define TS = "audio/TS.mp3"
 define study = "audio/c.mp3"
+define chiggajockey = "audio/chiggajockey.mp3"
+define dfd = "audio/dfd.mp3"
 
 # define scenes
 image bg computer_lab = "images/backgrounds/computer_lab.png"
@@ -38,9 +40,14 @@ image bg library = "images/backgrounds/library.png"
 image bg tanish_room_night = "images/backgrounds/tanish_room.png"
 image bg clara_room_night = "images/backgrounds/clara_room.png"
 image bg school_hallway = "images/backgrounds/hallway.png"
+image bg alex_room = "images/backgrounds/alex_room.png"
+image bg classroom = "images/backgrounds/english.png"
+image bg cafeteria_lunch = "images/backgrounds/cafeteria.png"
 
 define far_left = Position(xalign=0.1, yalign=1.0)
 define far_right = Position(xalign=0.9, yalign=1.0)
+define mid_left = Position(xalign=0.25, yalign=1.0)
+define mid_right = Position(xalign=0.75, yalign=1.0)
 define middle_left = Position(xalign=0.4, yalign=1.0)
 define middle_right = Position(xalign=0.6, yalign=1.0)
 
@@ -64,4 +71,6 @@ label start:
     call mar_2019_volunteering
     call mar_2019_texting
     call apr_2019_studying
+    call apr_2019_texting_2
+    call apr_2019_lunch
     return

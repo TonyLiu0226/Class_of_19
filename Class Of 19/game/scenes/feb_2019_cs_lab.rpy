@@ -39,7 +39,7 @@ label feb_2019_cs_lab:
     play sound door_open
     pause
 
-    show mcdonald neutral at center
+    show mcdonald neutral at center with moveinleft
     mcdonald "Alex. Tanish. I assume your animated discussion is directly related to linked lists?"
 
     show tanish neutral at left
@@ -52,7 +52,7 @@ label feb_2019_cs_lab:
 
     mcdonald "I'd be less worried if you didn't say it like a question."
 
-    hide mcdonald
+    hide mcdonald with moveoutleft
     pause
 
     show tanish left at left
@@ -87,7 +87,7 @@ label feb_2019_cs_lab:
 
     tanish "Hey Clara, got a sec?"
 
-    show clara happy at center
+    show clara happy at center with moveinleft
     clara "Sure! What's up?"
 
     alex "We're, uh… hitting a wall with this data structures thing. Think you could take a look?"
@@ -102,7 +102,7 @@ label feb_2019_cs_lab:
 
     clara "You guys got this. Probably."
 
-    hide clara
+    hide clara with moveoutleft
     play sound typing
     pause
 
@@ -115,8 +115,8 @@ label feb_2019_cs_lab:
     alex "Can you blame me?"
 
     pause
-    hide tanish
-    show clara left at left
+    hide tanish with moveoutleft
+    show clara left at left with moveinleft
 
     # [Class winds down. Students begin to leave. Clara stays behind, organizing papers.]
     # [Alex hesitates, then walks over to her solo.]
@@ -136,7 +136,5 @@ label feb_2019_cs_lab:
     clara "Bring it on. But no JoJo memes. I've seen everything."
 
     alex "You're gonna regret saying that."
-
-    # This ends the game.
 
     return 

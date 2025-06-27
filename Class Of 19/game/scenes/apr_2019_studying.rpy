@@ -55,7 +55,7 @@ label apr_2019_studying:
     show lia blush at middle_right
     lia "You want my notes in prose or physics?"
 
-    clara "Just don’t let Mr. Nguyen catch you."
+    clara "Just don’t let Mr. Manias catch you."
 
     show lia neutral at middle_right
     play sound flipping_page

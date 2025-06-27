@@ -31,7 +31,7 @@ label mar_2019_volunteering:
 
     mcdonald "I’ll check in tomorrow. Don’t burn the place down."
 
-    hide mcdonald
+    hide mcdonald with moveoutleft
 
     alex "So… do we give points for effort? Like if someone narrates their whole project in ASMR?"
 
@@ -42,7 +42,7 @@ label mar_2019_volunteering:
     play sound door_open
     pause
 
-    show clara happy at center
+    show clara happy at center with moveinleft
     show alex excited at right
     show tanish happy at left
 
