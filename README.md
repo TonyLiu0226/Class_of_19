@@ -1,1 +1,1 @@
-![Trailer](Class%20of%2019/game/images/trailer.png)
+![Trailer](Class%20Of%2019/game/images/trailer.png)
