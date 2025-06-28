@@ -83,6 +83,7 @@ label mar_2019_texting:
     menu:
         "Flirt a little":
             $ flirted_with_clara = True
+            $Ending7Eligible = False
             jump clara_flirt_path
         "Keep it light":
             $ flirted_with_clara = False

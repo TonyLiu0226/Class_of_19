@@ -20,6 +20,8 @@ label apr_2019_texting_3:
     tanish "Ahh... just another boring weeknight. What should I do?"
     menu:
         "Text Cindy":
+            $Ending9Condition1 = True
+            $Ending7Eligible = False
             jump cindy_flirting
         "Watch Anime":
             return

@@ -10,6 +10,9 @@ define mcdonald = Character("McDonald")
 define phone = Character("Phone")
 define albert = Character("Albert")
 define lia = Character("Lia")
+define sandwich1 = Character("Sandwich1")
+define sandwich2 = Character("Sandwich2")
+define chunky = Character("Chunky")
 
 # define sounds
 define door_open = "audio/sfx/door_open.mp3"
@@ -19,6 +22,9 @@ define phone_ping = "audio/sfx/phone_ping.mp3"
 define yooo = "audio/sfx/yooo.mp3"
 define flipping_page = "audio/sfx/flipping_page.mp3"
 define laugh = "audio/sfx/laugh.mp3"
+define eating = "audio/sfx/eating.mp3"
+define ohno = "audio/sfx/ohno.mp3"
+define kiss = "audio/sfx/kiss.mp3"
 
 # define music
 define cpen = "audio/CPEN.mp3"
@@ -31,6 +37,8 @@ define TS = "audio/TS.mp3"
 define study = "audio/c.mp3"
 define chiggajockey = "audio/chiggajockey.mp3"
 define dfd = "audio/dfd.mp3"
+define calc_studying = "audio/calc_studying.mp3"
+define library = "audio/library.mp3"
 
 # define scenes
 image bg computer_lab = "images/backgrounds/computer_lab.png"
@@ -44,6 +52,9 @@ image bg alex_room = "images/backgrounds/alex_room.png"
 image bg cindy_room = "images/backgrounds/cindy_room.png"
 image bg classroom = "images/backgrounds/english.png"
 image bg cafeteria_lunch = "images/backgrounds/cafeteria.png"
+image bg public_library = "images/backgrounds/public_library.png"
+image bg library_shelf = "images/backgrounds/library_shelf.png"
+image bg cafe = "images/backgrounds/cafe.png"
 
 define far_left = Position(xalign=0.1, yalign=1.0)
 define far_right = Position(xalign=0.9, yalign=1.0)
@@ -51,6 +62,10 @@ define mid_left = Position(xalign=0.25, yalign=1.0)
 define mid_right = Position(xalign=0.75, yalign=1.0)
 define middle_left = Position(xalign=0.4, yalign=1.0)
 define middle_right = Position(xalign=0.6, yalign=1.0)
+
+define table_right = Position(xalign=0.6, yalign=0.3)
+define table_center = Position(xalign=0.5, yalign=0.3)
+define table_left = Position(xalign=0.4, yalign=0.3)
 
 init python:
 
@@ -75,4 +90,7 @@ label start:
     call apr_2019_texting_2
     call apr_2019_lunch
     call apr_2019_texting_3
+
+    if Ending9Condition1:
+        call may_2019_library_date
     return

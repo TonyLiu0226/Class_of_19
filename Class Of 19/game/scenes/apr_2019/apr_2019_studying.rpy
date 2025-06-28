@@ -38,6 +38,9 @@ label apr_2019_studying:
 
     stop music
    
+    scene black
+    with Pause(2)
+
     scene bg library
     play music study
 
