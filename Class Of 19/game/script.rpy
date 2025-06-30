@@ -13,6 +13,7 @@ define lia = Character("Lia")
 define sandwich1 = Character("Sandwich1")
 define sandwich2 = Character("Sandwich2")
 define chunky = Character("Chunky")
+define manias = Character("Manias")
 
 # define sounds
 define door_open = "audio/sfx/door_open.mp3"
@@ -39,6 +40,7 @@ define chiggajockey = "audio/chiggajockey.mp3"
 define dfd = "audio/dfd.mp3"
 define calc_studying = "audio/calc_studying.mp3"
 define library = "audio/library.mp3"
+define themepark = "audio/themepark.mp3"
 
 # define scenes
 image bg computer_lab = "images/backgrounds/computer_lab.png"
@@ -55,6 +57,11 @@ image bg cafeteria_lunch = "images/backgrounds/cafeteria.png"
 image bg public_library = "images/backgrounds/public_library.png"
 image bg library_shelf = "images/backgrounds/library_shelf.png"
 image bg cafe = "images/backgrounds/cafe.png"
+image bg cafe_night = "images/backgrounds/cafe_night.png"
+image bg theme_park = "images/backgrounds/theme_park.png"
+image bg drop_tower = "images/backgrounds/drop_tower.png"
+image bg park = "images/backgrounds/park.png"
+image bg alex_house = "images/backgrounds/alex_house.png"
 
 define far_left = Position(xalign=0.1, yalign=1.0)
 define far_right = Position(xalign=0.9, yalign=1.0)
@@ -93,4 +100,6 @@ label start:
 
     if Ending9Condition1:
         call may_2019_library_date
+
+    call may_2019_field_trip
     return

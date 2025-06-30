@@ -200,7 +200,7 @@ label may_2019_library_date:
     scene black
     with Pause(1)
 
-    scene bg cafe
+    scene bg cafe_night
 
     show tanish blush at middle_left
     show cindy blush at mid_right
@@ -315,6 +315,8 @@ label may_2019_library_date:
     cindy "That was actually fun..."
 
     cindy "He’s goofy, but sweet."
+
+    show cindy blush at center
 
     cindy "Still... forgetting his wallet?"
 
