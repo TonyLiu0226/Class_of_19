@@ -79,7 +79,7 @@ label jun_2019_great_gatsby:
 
         cindy "..."
 
-        cindy "*What the hell is wrong with you?*"
+        cindy "What the hell is wrong with you?"
 
         play sound slapping
 
@@ -100,6 +100,14 @@ label jun_2019_great_gatsby:
 
         hide tanish with moveoutleft
 
+        neuheimer "(sighs)"
+
+        neuheimer "Cindy, I'm going to need you to go to the principal's office to explain what happened."
+
+        cindy "(sighs)"
+
+        hide cindy with moveoutright
+
         scene splash
 
         show tanish sad at center with moveinleft
@@ -119,6 +127,8 @@ label jun_2019_great_gatsby:
         cindy "(I can’t believe he said that... in the middle of class.)"
 
         cindy "(I didn’t mean to slap him that hard... now we’re both humiliated.)"
+
+        cindy "(On top of that, I have detention after school tomorrow, yet Tanish can just run away like nothing happened.)"
 
         # Movie ends. Class dismisses
 

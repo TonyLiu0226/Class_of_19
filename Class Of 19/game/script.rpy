@@ -47,6 +47,7 @@ define library = "audio/library.mp3"
 define themepark = "audio/themepark.mp3"
 define bunny = "audio/chau_bunny.mp3"
 define gatsby = "audio/gatsby.mp3"
+define sad = "audio/sad.mp3"
 
 # define scenes
 image bg computer_lab = "images/backgrounds/computer_lab.png"
@@ -75,8 +76,8 @@ define far_left = Position(xalign=0.1, yalign=1.0)
 define far_right = Position(xalign=0.9, yalign=1.0)
 define mid_left = Position(xalign=0.25, yalign=1.0)
 define mid_right = Position(xalign=0.75, yalign=1.0)
-define middle_left = Position(xalign=0.4, yalign=1.0)
-define middle_right = Position(xalign=0.6, yalign=1.0)
+define middle_left = Position(xalign=0.365, yalign=1.0)
+define middle_right = Position(xalign=0.635, yalign=1.0)
 
 define table_right = Position(xalign=0.6, yalign=0.3)
 define table_center = Position(xalign=0.5, yalign=0.3)
@@ -99,6 +100,9 @@ init python:
     # Tanish and Cindy breakup
     TanishCindyBreakup = False
 
+    # Tanish deported ending
+    Ending3Triggered = False
+
 # The game starts here.
 label start:
     call feb_2019_cs_lab
@@ -114,4 +118,8 @@ label start:
 
     call may_2019_field_trip
     call jun_2019_great_gatsby
+    if TanishCindyBreakup:
+        call jun_2019_gatsby_aftermath
+    if Ending3Triggered:
+        call jun_2019_deported
     return
