@@ -137,7 +137,7 @@ label may_2019_field_trip:
     label approach_clara:
 
     stop music
-    play music chill
+    play music bunny
 
     alex "..."
 
@@ -221,9 +221,12 @@ label may_2019_field_trip:
 
     alex "Wait here."
 
-    # Bunny appears outside (offscreen or implied)
+    hide alex with moveoutleft
 
-    show alex excited at left
+    pause
+
+    show alex excited at left with moveinleft
+    show bunny at center with moveinleft
     alex "Okay. Meet Bunny."
 
     show clara neutral at right
@@ -281,4 +284,112 @@ label may_2019_field_trip:
 
     alex "Bye, Clara."
 
+    scene black
+    with Pause(2)
+
+    scene bg 108_day
+
+    show clara neutral at right
+
+    clara "..."
+
+    clara "Okay, that was... unexpectedly nice."
+
+    clara "And he seriously named his bunny 'Bunny.' I still can't believe that."
+
+    # Clara reaches her doorstep, sees Lia waiting
+
+    show lia neutral at left with moveinleft
+
+    pause
+
+    clara "Wait—Lia?"
+
+    lia "Hey."
+
+    clara "What are you doing here?"
+
+    lia "I felt bad about ditching you earlier. So... I came to offer peace snacks."
+
+    show clara sideways at right
+
+    clara "Did you actually bring snacks or are you lying again?"
+
+    show lia blush at left
+
+    lia "Emotionally, yes. Spiritually, I brought chips."
+
+    clara "That’ll do."
+
+    lia "Sooo. I saw you walking with Alex on the way home...?"
+
+    show clara neutral at right
+    clara "...Yeah."
+
+    lia "You two looked... cozy."
+
+    clara "We just talked. Walked home. That’s it."
+
+    lia "Uh huh."
+
+    clara "Okay, fine. It was nice."
+
+    show lia neutral at left
+
+    lia "He's not awful. But can I be real for a sec?"
+
+    clara "Always."
+
+    lia "You remember at lunch a couple weeks ago? He was acting kind of weird."
+
+    clara "Weird how?"
+
+    lia "Like... super quiet, staring at everyone but not really talking. Gave me ‘trying to analyze the table dynamic’ vibes."
+
+    clara "Maybe he was just nervous?"
+
+    lia "Maybe. But also during the physics study group — he was definitely staring at you while you were explaining stuff."
+
+    clara "...Oh."
+
+    lia "And I’m not trying to be petty, but in middle school? He used to follow some of the popular girls around a little too often."
+
+    clara "Seriously?"
+
+    lia "Yeah. Like, not 'call-the-counselor' level, but definitely hovering. Whispery hallway kid energy."
+
+    clara "...Damn."
+
+    pause
+
+    lia "Look, I’m not saying he’s a red flag bouquet or anything. Just... don’t rush into trusting the vibe too quick. Also don't shut him out, he might actually be figuring things out."
+
+    clara "Got it. Yeah I guess, he chases me around a bit. But not in an annoying way. He's definitely not as try-hard as Tanish."
+
+    lia "Tanish...?"
+
+    clara "Yeah, that guy called me \"babe\" like the week we met"
+
+    lia "Screams pretty try-hard to me."
+
+    clara "Exactly. Tanish is all try-hard energy. Like he’s performing. Alex is... quieter. More himself."
+
+    show lia blush at left
+
+    lia "Hmm okay... Well let me know if you need me to start planning the wedding"
+
+    show clara blush at right
+
+    clara "Liaaaaa, noooo, its not anything like that yet"
+
+    lia "Too late. I already picked the bunny as ring bearer."
+
+    clara "You're actually insane."
+
+    lia "Only for you."
+
+    clara "Okay for real though, next time, don’t ditch me."
+
+    lia "Deal."
+    
     return

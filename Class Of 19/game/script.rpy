@@ -14,6 +14,7 @@ define sandwich1 = Character("Sandwich1")
 define sandwich2 = Character("Sandwich2")
 define chunky = Character("Chunky")
 define manias = Character("Manias")
+define bunny = Character("Bunny")
 
 # define sounds
 define door_open = "audio/sfx/door_open.mp3"
@@ -41,9 +42,11 @@ define dfd = "audio/dfd.mp3"
 define calc_studying = "audio/calc_studying.mp3"
 define library = "audio/library.mp3"
 define themepark = "audio/themepark.mp3"
+define bunny = "audio/chau_bunny.mp3"
 
 # define scenes
 image bg computer_lab = "images/backgrounds/computer_lab.png"
+image bg 108_day = "images/backgrounds/108_day.png"
 image bg 108_night = "images/backgrounds/108_night.png"
 image splash = "images/backgrounds/school.png"
 image bg library = "images/backgrounds/library.png"
