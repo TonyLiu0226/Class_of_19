@@ -15,6 +15,8 @@ define sandwich2 = Character("Sandwich2")
 define chunky = Character("Chunky")
 define manias = Character("Manias")
 define bunny = Character("Bunny")
+define neuheimer = Character("Neuheimer")
+define nicole = Character("Nicole")
 
 # define sounds
 define door_open = "audio/sfx/door_open.mp3"
@@ -27,6 +29,7 @@ define laugh = "audio/sfx/laugh.mp3"
 define eating = "audio/sfx/eating.mp3"
 define ohno = "audio/sfx/ohno.mp3"
 define kiss = "audio/sfx/kiss.mp3"
+define slapping = "audio/sfx/slap.mp3"
 
 # define music
 define cpen = "audio/CPEN.mp3"
@@ -43,6 +46,7 @@ define calc_studying = "audio/calc_studying.mp3"
 define library = "audio/library.mp3"
 define themepark = "audio/themepark.mp3"
 define bunny = "audio/chau_bunny.mp3"
+define gatsby = "audio/gatsby.mp3"
 
 # define scenes
 image bg computer_lab = "images/backgrounds/computer_lab.png"
@@ -56,6 +60,7 @@ image bg school_hallway = "images/backgrounds/hallway.png"
 image bg alex_room = "images/backgrounds/alex_room.png"
 image bg cindy_room = "images/backgrounds/cindy_room.png"
 image bg classroom = "images/backgrounds/english.png"
+image bg classroom_dimmed = "images/backgrounds/english_dimmed.png"
 image bg cafeteria_lunch = "images/backgrounds/cafeteria.png"
 image bg public_library = "images/backgrounds/public_library.png"
 image bg library_shelf = "images/backgrounds/library_shelf.png"
@@ -91,6 +96,9 @@ init python:
     # Ending 6: Tanish harvard university
     Ending7Eligible = True
 
+    # Tanish and Cindy breakup
+    TanishCindyBreakup = False
+
 # The game starts here.
 label start:
     call feb_2019_cs_lab
@@ -105,4 +113,5 @@ label start:
         call may_2019_library_date
 
     call may_2019_field_trip
+    call jun_2019_great_gatsby
     return
