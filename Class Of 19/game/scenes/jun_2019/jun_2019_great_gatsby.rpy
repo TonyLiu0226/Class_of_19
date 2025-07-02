@@ -61,6 +61,7 @@ label jun_2019_great_gatsby:
 
     menu:
         "Whisper to Cindy: 'This will be us in the future.'":
+            $TanishCindyBreakup = True
             jump tanish_inappropriate
         "Stay quiet and keep watching the movie.":
             jump tanish_respectful
@@ -143,6 +144,7 @@ label jun_2019_great_gatsby:
 
         menu:
             "Ask Neuheimer a question about the movie":
+                $Ending8Condition1 = True
                 jump alex_talks_to_neuheimer
             "Leave and save the question for next class":
                 jump scene_12_end
