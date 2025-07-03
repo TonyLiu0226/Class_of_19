@@ -30,6 +30,7 @@ define eating = "audio/sfx/eating.mp3"
 define ohno = "audio/sfx/ohno.mp3"
 define kiss = "audio/sfx/kiss.mp3"
 define slapping = "audio/sfx/slap.mp3"
+define tv_static = "audio/sfx/tv_static.mp3"
 
 # define music
 define cpen = "audio/CPEN.mp3"
@@ -120,9 +121,17 @@ label start:
         call may_2019_library_date
 
     call may_2019_field_trip
-    call jun_2019_great_gatsby
+
+    if Ending9Condition1:
+        call jun_2019_great_gatsby
+
     if TanishCindyBreakup:
         call jun_2019_gatsby_aftermath
+
     if Ending3Triggered:
         call tanish_deported
+
+    if Ending9Condition1 and not TanishCindyBreakup:
+        call jun_2019_squid_game
+    
     return

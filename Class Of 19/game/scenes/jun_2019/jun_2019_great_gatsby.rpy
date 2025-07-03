@@ -16,7 +16,7 @@ label jun_2019_great_gatsby:
     scene black with pixellate
     with Pause(1)
 
-    play music calc_studying
+    play music chiki
 
     scene bg classroom
 
