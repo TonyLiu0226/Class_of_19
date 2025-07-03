@@ -72,6 +72,9 @@ image bg drop_tower = "images/backgrounds/drop_tower.png"
 image bg park = "images/backgrounds/park.png"
 image bg alex_house = "images/backgrounds/alex_house.png"
 
+# ending scenes
+image bg 03_tanish_deported = "images/backgrounds/03_tanish_deported.png"
+
 define far_left = Position(xalign=0.1, yalign=1.0)
 define far_right = Position(xalign=0.9, yalign=1.0)
 define mid_left = Position(xalign=0.25, yalign=1.0)
@@ -121,5 +124,5 @@ label start:
     if TanishCindyBreakup:
         call jun_2019_gatsby_aftermath
     if Ending3Triggered:
-        call jun_2019_deported
+        call tanish_deported
     return

@@ -219,6 +219,51 @@ label jun_2019_gatsby_aftermath:
 
         clara "Don’t make me do it again."
 
+        scene black
+        with Pause(1)
+
+        scene bg tanish_room_night
+
+        show tanish sad at center
+        show phone at right
+
+        tanish "(Okay... here goes nothing.)"
+    
+        play sound phone_ping
+        tanish "Hey. I just wanted to say I’m sorry for what I said during the movie."
+        play sound phone_ping
+        tanish "It was stupid and disrespectful. You didn’t deserve that."
+        play sound phone_ping
+        tanish "I was trying to be funny, but I wasn’t thinking at all. I’m sorry."
+
+        scene bg cindy_room
+
+        show cindy sad at center
+        show phone at right
+
+        play sound phone_ping
+        cindy "Thanks for the apology."
+        play sound phone_ping
+        cindy "It doesn’t make it okay, but I appreciate that you owned up to it."
+        play sound phone_ping
+        cindy "We’re done, though. I’m not interested in picking this back up."
+        play sound phone_ping
+        cindy "Take care of yourself, alright?"
+
+        scene bg tanish_room_night
+
+        show tanish sad at center
+        show phone at right
+
+        tanish "(Yeah. I deserve that.)"
+
+        play sound phone_ping
+        tanish "ok... you too. Take care."
+        pause
+        tanish "(Screw it. Guess it's anime therapy hours again.)"
+
+        tanish "(Time to change my username to 'hikkikomori_life'.)"
+
         return
 
     label tanish_refuses:
