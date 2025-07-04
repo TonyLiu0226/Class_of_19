@@ -139,4 +139,6 @@ label start:
     if Ending9Condition1 and not TanishCindyBreakup:
         call jun_2019_squid_game
     
+    call jun_2019_alex_confession
+    
     return
