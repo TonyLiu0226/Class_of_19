@@ -98,14 +98,19 @@ init python:
     Ending9Condition1 = False
     Ending9Condition2 = False
 
-    # Ending 6: Tanish harvard university
+    # Ending 7: Tanish waterloo cs
     Ending7Eligible = True
+
+    #Ending 6: Alex harvard university
+    Ending6Eligible = True
 
     # Tanish and Cindy breakup
     TanishCindyBreakup = False
 
     # Tanish deported ending
     Ending3Triggered = False
+
+
 
 # The game starts here.
 label start:

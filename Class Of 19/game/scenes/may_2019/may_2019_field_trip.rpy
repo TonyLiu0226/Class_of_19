@@ -323,7 +323,7 @@ label may_2019_field_trip:
 
     lia "Sooo. I saw you walking with Alex on the way home...?"
 
-    show clara neutral at right
+    show clara embarrassed at right
     clara "...Yeah."
 
     lia "You two looked... cozy."
@@ -338,6 +338,7 @@ label may_2019_field_trip:
 
     lia "He's not awful. But can I be real for a sec?"
 
+    show clara neutral at right
     clara "Always."
 
     lia "You remember at lunch a couple weeks ago? He was acting kind of weird."
