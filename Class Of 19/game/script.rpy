@@ -17,6 +17,7 @@ define manias = Character("Manias")
 define bunny = Character("Bunny")
 define neuheimer = Character("Neuheimer")
 define nicole = Character("Nicole")
+define dealer = Character("Dealer")
 
 # define sounds
 define door_open = "audio/sfx/door_open.mp3"
@@ -31,6 +32,7 @@ define ohno = "audio/sfx/ohno.mp3"
 define kiss = "audio/sfx/kiss.mp3"
 define slapping = "audio/sfx/slap.mp3"
 define tv_static = "audio/sfx/tv_static.mp3"
+define smoke = "audio/sfx/smoke.mp3"
 
 # define music
 define cpen = "audio/CPEN.mp3"
@@ -75,6 +77,7 @@ image bg alex_house = "images/backgrounds/alex_house.png"
 
 # ending scenes
 image bg 03_tanish_deported = "images/backgrounds/03_tanish_deported.png"
+image bg 05_alex_overdose = "images/backgrounds/05_overdose.png"
 
 define far_left = Position(xalign=0.1, yalign=1.0)
 define far_right = Position(xalign=0.9, yalign=1.0)
@@ -110,7 +113,8 @@ init python:
     # Tanish deported ending
     Ending3Triggered = False
 
-
+    # Alex overdose ending
+    Ending05Triggered = False
 
 # The game starts here.
 label start:
@@ -130,15 +134,23 @@ label start:
     if Ending9Condition1:
         call jun_2019_great_gatsby
 
-    if TanishCindyBreakup:
-        call jun_2019_gatsby_aftermath
+        if TanishCindyBreakup:
+            call jun_2019_gatsby_aftermath
 
-    if Ending3Triggered:
-        call tanish_deported
+            if Ending3Triggered:
+                call tanish_deported
 
-    if Ending9Condition1 and not TanishCindyBreakup:
-        call jun_2019_squid_game
+        if Ending9Condition1 and not TanishCindyBreakup:
+            call jun_2019_squid_game
     
     call jun_2019_alex_confession
+
+    if Ending6Eligible == False:
+        call jun_2019_alex_rejected
+
+        if Ending05Triggered:
+            call alex_overdose
+    else:
+        call alex_harvard
     
     return
