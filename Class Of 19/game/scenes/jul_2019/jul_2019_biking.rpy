@@ -2,6 +2,7 @@ label jul_2019_biking:
 
     stop music
     scene black
+    show text "Meanwhile..." with dissolve
     $renpy.pause(1.5, hard=True)
 
     play music turtle
@@ -90,6 +91,62 @@ label jul_2019_biking:
     pause
     menu:
         "Bike to Clara's house":
+            $Ending1Triggered = True
             jump alex_bikes_to_clara_postfinals
+            
         "Leave it alone":
-            jump alex_moves_on_summer
+            return
+
+    label alex_bikes_to_clara_postfinals:
+
+        stop music
+        play music theme
+
+        scene bg 108_night
+
+        show alex neutral at center
+
+        alex "(Okay. Just be calm. She might not even be home. Just talk. That's all I want.)"
+
+        alex "(I'll give her a call, I guess.)"
+
+        pause
+
+        alex "(Here goes nothing...)"
+
+        alex "(Let me just grab my phone—)"
+
+        stop music
+        play music sirens
+
+        pause
+
+        alex "(...What the?)"
+
+        show cop at left with moveinleft
+
+        cop "HANDS UP WHERE I CAN SEE THEM, NOW!"
+
+        show alex sad at center
+
+        alex "Wait, what—? I live down the street! I’m just here to—"
+
+        cop "PUT YOUR HANDS BEHIND YOUR BACK!"
+
+        alex "I wasn’t— I was just gonna call her—"
+
+        cop "NOW!!!"
+
+        show cop at mid_left with move
+
+        play sound handcuffs
+
+        cop "You’re under arrest for trespassing. You have the right to remain silent, but anything you say can and will be used against you in a court of law."
+
+        pause
+
+        alex "(...This can’t be happening.)"
+
+        scene black
+
+        return

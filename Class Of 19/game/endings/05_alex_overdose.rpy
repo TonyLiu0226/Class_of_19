@@ -72,6 +72,6 @@ label alex_overdose:
     window hide
     show screen credits5
     $ renpy.pause(60.0, hard=True)
-    hide screen credits
+    hide screen credits5
     call screen game_over_button5
     return

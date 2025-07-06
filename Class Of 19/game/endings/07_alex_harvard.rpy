@@ -70,6 +70,6 @@ label alex_harvard:
     play music congratulations
     show screen credits7
     $ renpy.pause(60.0, hard=True)
-    hide screen credits
+    hide screen credits7
     call screen game_over_button7
     return

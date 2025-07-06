@@ -18,6 +18,7 @@ define bunny = Character("Bunny")
 define neuheimer = Character("Neuheimer")
 define nicole = Character("Nicole")
 define dealer = Character("Dealer")
+define cop = Character("Cop")
 
 # define sounds
 define door_open = "audio/sfx/door_open.mp3"
@@ -36,6 +37,7 @@ define smoke = "audio/sfx/smoke.mp3"
 define dial = "audio/sfx/dial.mp3"
 define ring = "audio/sfx/ring.mp3"
 define drinking = "audio/sfx/drinking.mp3"
+define handcuffs = "audio/sfx/handcuffs.mp3"
 
 # define music
 define cpen = "audio/CPEN.mp3"
@@ -57,6 +59,7 @@ define sad = "audio/sad.mp3"
 define congratulations = "audio/congratulations.mp3"
 define distance = "audio/distance.mp3"
 define turtle = "audio/turtle.mp3"
+define sirens = "audio/sirens.mp3"
 
 # define scenes
 image bg computer_lab = "images/backgrounds/computer_lab.png"
@@ -85,6 +88,7 @@ image bg clara_street = "images/backgrounds/street.png"
 image bg bar = "images/backgrounds/bar.png"
 
 # ending scenes
+image bg 01_alex_arrested = "images/backgrounds/01_alex_arrested.png"
 image bg 03_tanish_deported = "images/backgrounds/03_tanish_deported.png"
 image bg 05_alex_overdose = "images/backgrounds/05_overdose.png"
 image bg 07_alex_harvard = "images/backgrounds/07_alex_harvard.png"
@@ -182,5 +186,9 @@ label start:
 
     call jul_2019_bar_night
     call jul_2019_biking
+
+    if Ending1Triggered:
+        call alex_arrested
+        return
     
     return
