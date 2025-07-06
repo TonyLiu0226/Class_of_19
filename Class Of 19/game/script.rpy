@@ -33,6 +33,7 @@ define kiss = "audio/sfx/kiss.mp3"
 define slapping = "audio/sfx/slap.mp3"
 define tv_static = "audio/sfx/tv_static.mp3"
 define smoke = "audio/sfx/smoke.mp3"
+define dial = "audio/sfx/dial.mp3"
 
 # define music
 define cpen = "audio/CPEN.mp3"
@@ -118,6 +119,9 @@ init python:
     # Alex overdose ending
     Ending05Triggered = False
 
+    # Alex biked to Clara's house
+    AlexBikedToClara = False
+
 # The game starts here.
 label start:
     call feb_2019_cs_lab
@@ -154,5 +158,7 @@ label start:
             call alex_overdose
     else:
         call alex_harvard
+    
+    call jun_2019_complications
     
     return
