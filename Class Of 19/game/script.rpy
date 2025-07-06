@@ -34,6 +34,7 @@ define slapping = "audio/sfx/slap.mp3"
 define tv_static = "audio/sfx/tv_static.mp3"
 define smoke = "audio/sfx/smoke.mp3"
 define dial = "audio/sfx/dial.mp3"
+define ring = "audio/sfx/ring.mp3"
 
 # define music
 define cpen = "audio/CPEN.mp3"
@@ -62,6 +63,7 @@ image splash = "images/backgrounds/school.png"
 image bg library = "images/backgrounds/library.png"
 image bg tanish_room_night = "images/backgrounds/tanish_room.png"
 image bg clara_room_night = "images/backgrounds/clara_room.png"
+image bg clara_room_day = "images/backgrounds/clara_room_day.png"
 image bg school_hallway = "images/backgrounds/hallway.png"
 image bg alex_room = "images/backgrounds/alex_room.png"
 image bg cindy_room = "images/backgrounds/cindy_room.png"
@@ -76,6 +78,7 @@ image bg theme_park = "images/backgrounds/theme_park.png"
 image bg drop_tower = "images/backgrounds/drop_tower.png"
 image bg park = "images/backgrounds/park.png"
 image bg alex_house = "images/backgrounds/alex_house.png"
+image bg clara_street = "images/backgrounds/street.png"
 
 # ending scenes
 image bg 03_tanish_deported = "images/backgrounds/03_tanish_deported.png"
@@ -160,5 +163,10 @@ label start:
         call alex_harvard
     
     call jun_2019_complications
+
+    if AlexBikedToClara:
+        call jun_2019_bike
+    else:
+        call alex_harvard
     
     return
