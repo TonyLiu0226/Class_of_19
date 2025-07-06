@@ -51,6 +51,7 @@ define themepark = "audio/themepark.mp3"
 define bunny = "audio/chau_bunny.mp3"
 define gatsby = "audio/gatsby.mp3"
 define sad = "audio/sad.mp3"
+define congratulations = "audio/congratulations.mp3"
 
 # define scenes
 image bg computer_lab = "images/backgrounds/computer_lab.png"
@@ -78,6 +79,7 @@ image bg alex_house = "images/backgrounds/alex_house.png"
 # ending scenes
 image bg 03_tanish_deported = "images/backgrounds/03_tanish_deported.png"
 image bg 05_alex_overdose = "images/backgrounds/05_overdose.png"
+image bg 07_alex_harvard = "images/backgrounds/07_alex_harvard.png"
 
 define far_left = Position(xalign=0.1, yalign=1.0)
 define far_right = Position(xalign=0.9, yalign=1.0)

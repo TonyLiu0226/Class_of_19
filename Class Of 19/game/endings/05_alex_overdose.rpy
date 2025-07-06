@@ -63,7 +63,7 @@ style game_over_button:
 
 screen game_over_button():
 
-    add "bg 03_tanish_deported"
+    add "bg 05_alex_overdose"
     textbutton _("Return to Main Menu") text_style "game_over_button" action Return() xalign 0.5 yalign 0.5
 
 ## Show credits screen.
