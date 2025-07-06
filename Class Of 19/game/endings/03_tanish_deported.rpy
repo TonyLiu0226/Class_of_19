@@ -4,8 +4,8 @@ transform credits_scroll(speed):
 
 ## Credits screen.
 
-screen credits():
-    style_prefix "credits"
+screen credits3():
+    style_prefix "credits3"
 
     add "bg 03_tanish_deported"
 
@@ -39,34 +39,33 @@ screen credits():
             hbox:
                 text "He thought maybe the distance would help him forget. But deep down, he knew he wasn't leaving his problems behind. He was carrying them, 35,000 feet above everything he ruined."
 
-style credits_hbox:
+style credits3_hbox:
     spacing 100
     textalign 0.5
     xalign 0.5
     ysize 50
 
-style credits_text:
+style credits3_text:
     xalign 0.5
     textalign 0.5
     spacing 10
 
-style game_over_button:
+style game_over_button3:
     xalign 0.5
     yalign 0.5
     color "#ff52c0"
     size 60
 
-screen game_over_button():
+screen game_over_button3():
 
     add "bg 03_tanish_deported"
-    textbutton _("Return to Main Menu") text_style "game_over_button" action Return() xalign 0.5 yalign 0.5
+    textbutton _("Return to Main Menu") text_style "game_over_button3" action Return() xalign 0.5 yalign 0.5
 
 ## Show credits screen.
 
 label tanish_deported:
     window hide
-    show screen credits
+    show screen credits3
     $ renpy.pause(60.0, hard=True)
-    hide screen credits
-    call screen game_over_button
+    call screen game_over_button3
     return

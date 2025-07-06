@@ -4,8 +4,8 @@ transform credits_scroll(speed):
 
 ## Credits screen.
 
-screen credits():
-    style_prefix "credits"
+screen credits5():
+    style_prefix "credits5"
 
     add "bg 05_alex_overdose"
 
@@ -44,34 +44,34 @@ screen credits():
                 text "Sometimes he replayed that moment—sitting in the exam room, feeling like he had it all under control. But he didn’t. And he lost everything in the space of a heartbeat."
             
 
-style credits_hbox:
+style credits5_hbox:
     spacing 100
     textalign 0.5
     xalign 0.5
     ysize 50
 
-style credits_text:
+style credits5_text:
     xalign 0.5
     textalign 0.5
     spacing 10
 
-style game_over_button:
+style game_over_button5:
     xalign 0.5
     yalign 0.5
     color "#52FF91"
     size 60
 
-screen game_over_button():
+screen game_over_button5():
 
     add "bg 05_alex_overdose"
-    textbutton _("Return to Main Menu") text_style "game_over_button" action Return() xalign 0.5 yalign 0.5
+    textbutton _("Return to Main Menu") text_style "game_over_button5" action Return() xalign 0.5 yalign 0.5
 
 ## Show credits screen.
 
 label alex_overdose:
     window hide
-    show screen credits
+    show screen credits5
     $ renpy.pause(60.0, hard=True)
     hide screen credits
-    call screen game_over_button
+    call screen game_over_button5
     return

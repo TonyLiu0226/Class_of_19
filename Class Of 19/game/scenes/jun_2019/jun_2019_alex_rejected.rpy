@@ -89,7 +89,7 @@ label jun_2019_alex_rejected:
 
     menu:
         "Take the edibles":
-            $Ending05Triggered = True
+            $Ending5Triggered = True
             jump alex_accepts_drugs
         "Refuse and walk away":
             jump alex_refuses_drugs

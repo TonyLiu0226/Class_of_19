@@ -4,8 +4,8 @@ transform credits_scroll(speed):
 
 ## Credits screen.
 
-screen credits():
-    style_prefix "credits"
+screen credits7():
+    style_prefix "credits7"
 
     add "bg 07_alex_harvard"
 
@@ -40,27 +40,27 @@ screen credits():
                 text "When the Harvard offer came... he wasn't shocked. Because, deep down in his heart, he knew he earned it."
             
 
-style credits_hbox:
+style credits7_hbox:
     spacing 100
     textalign 0.5
     xalign 0.5
     ysize 50
 
-style credits_text:
+style credits7_text:
     xalign 0.5
     textalign 0.5
     spacing 10
 
-style game_over_button:
+style game_over_button7:
     xalign 0.5
     yalign 0.5
     color "#52FF91"
     size 60
 
-screen game_over_button():
+screen game_over_button7():
 
     add "bg 07_alex_harvard"
-    textbutton _("Return to Main Menu") text_style "game_over_button" action Return() xalign 0.5 yalign 0.5
+    textbutton _("Return to Main Menu") text_style "game_over_button7" action Return() xalign 0.5 yalign 0.5
 
 ## Show credits screen.
 
@@ -68,8 +68,8 @@ label alex_harvard:
     stop music
     window hide
     play music congratulations
-    show screen credits
+    show screen credits7
     $ renpy.pause(60.0, hard=True)
     hide screen credits
-    call screen game_over_button
+    call screen game_over_button7
     return

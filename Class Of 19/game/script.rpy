@@ -35,6 +35,7 @@ define tv_static = "audio/sfx/tv_static.mp3"
 define smoke = "audio/sfx/smoke.mp3"
 define dial = "audio/sfx/dial.mp3"
 define ring = "audio/sfx/ring.mp3"
+define drinking = "audio/sfx/drinking.mp3"
 
 # define music
 define cpen = "audio/CPEN.mp3"
@@ -54,6 +55,8 @@ define bunny = "audio/chau_bunny.mp3"
 define gatsby = "audio/gatsby.mp3"
 define sad = "audio/sad.mp3"
 define congratulations = "audio/congratulations.mp3"
+define distance = "audio/distance.mp3"
+define turtle = "audio/turtle.mp3"
 
 # define scenes
 image bg computer_lab = "images/backgrounds/computer_lab.png"
@@ -79,6 +82,7 @@ image bg drop_tower = "images/backgrounds/drop_tower.png"
 image bg park = "images/backgrounds/park.png"
 image bg alex_house = "images/backgrounds/alex_house.png"
 image bg clara_street = "images/backgrounds/street.png"
+image bg bar = "images/backgrounds/bar.png"
 
 # ending scenes
 image bg 03_tanish_deported = "images/backgrounds/03_tanish_deported.png"
@@ -120,10 +124,13 @@ init python:
     Ending3Triggered = False
 
     # Alex overdose ending
-    Ending05Triggered = False
+    Ending5Triggered = False
 
     # Alex biked to Clara's house
     AlexBikedToClara = False
+
+    # Clara calls cops on Alex
+    Ending1Triggered = False
 
 # The game starts here.
 label start:
@@ -148,6 +155,7 @@ label start:
 
             if Ending3Triggered:
                 call tanish_deported
+                return
 
         if Ending9Condition1 and not TanishCindyBreakup:
             call jun_2019_squid_game
@@ -157,10 +165,12 @@ label start:
     if Ending6Eligible == False:
         call jun_2019_alex_rejected
 
-        if Ending05Triggered:
+        if Ending5Triggered:
             call alex_overdose
+            return
     else:
         call alex_harvard
+        return
     
     call jun_2019_complications
 
@@ -168,5 +178,9 @@ label start:
         call jun_2019_bike
     else:
         call alex_harvard
+        return
+
+    call jul_2019_bar_night
+    call jul_2019_biking
     
     return
