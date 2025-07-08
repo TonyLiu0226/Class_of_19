@@ -95,6 +95,7 @@ label jul_2019_biking:
             jump alex_bikes_to_clara_postfinals
             
         "Leave it alone":
+            jump alex_leaves_it_alone
             return
 
     label alex_bikes_to_clara_postfinals:
@@ -148,5 +149,15 @@ label jul_2019_biking:
         alex "(...This can’t be happening.)"
 
         scene black
+
+        return
+
+    label alex_leaves_it_alone:
+
+        alex "(No. I’m not doing this again.)"
+
+        alex "(If she wants space, I have to respect that.)"
+
+        alex "(Maybe it’s over. Maybe it’s not. But chasing her down isn’t gonna fix anything.)"
 
         return

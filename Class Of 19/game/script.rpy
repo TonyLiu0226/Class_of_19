@@ -60,6 +60,9 @@ define congratulations = "audio/congratulations.mp3"
 define distance = "audio/distance.mp3"
 define turtle = "audio/turtle.mp3"
 define sirens = "audio/sirens.mp3"
+define block = "audio/block.mp3"
+define error = "audio/error.mp3"
+define floater = "audio/floater.mp3"
 
 # define scenes
 image bg computer_lab = "images/backgrounds/computer_lab.png"
@@ -88,7 +91,9 @@ image bg clara_street = "images/backgrounds/street.png"
 image bg bar = "images/backgrounds/bar.png"
 
 # ending scenes
+image bg 00_neutral_ending = "images/backgrounds/00_neutral_ending.png"
 image bg 01_alex_arrested = "images/backgrounds/01_alex_arrested.png"
+image bg 02_alex_suicide = "images/backgrounds/02_alex_suicide.png"
 image bg 03_tanish_deported = "images/backgrounds/03_tanish_deported.png"
 image bg 05_alex_overdose = "images/backgrounds/05_overdose.png"
 image bg 07_alex_harvard = "images/backgrounds/07_alex_harvard.png"
@@ -135,6 +140,9 @@ init python:
 
     # Clara calls cops on Alex
     Ending1Triggered = False
+
+    #Alex commits suicide
+    Ending2Triggered = False
 
 # The game starts here.
 label start:
@@ -190,5 +198,13 @@ label start:
     if Ending1Triggered:
         call alex_arrested
         return
-    
+    else:
+        call jul_2019_clara_block
+        call jul_2019_aftermath
+        if Ending2Triggered:
+            call alex_suicide
+            return
+
+    call neutral_ending
+
     return
