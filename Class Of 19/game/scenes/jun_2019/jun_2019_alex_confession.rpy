@@ -23,18 +23,18 @@ label jun_2019_alex_confession:
     show alex neutral at center
     show phone at right
 
-    alex "(Damn can't believe its the end of the year already. I still want to see some of my friends before exams kill me. Maybe I’ll check if Clara’s around...)"
+    alex "(Damn can't believe its the end of the year already. I still want to see some of my friends before exams kill me. Maybe I’ll check if Gina’s around...)"
 
     play sound phone_ping
-    alex "{i}hey clara{/i}"
+    alex "{i}hey Gina{/i}"
 
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara neutral at center
+    show gina neutral at center
     show phone at right
 
     play sound phone_ping
-    clara "{i}hey{/i}"
+    gina "{i}hey{/i}"
 
     scene bg alex_room
 
@@ -44,13 +44,13 @@ label jun_2019_alex_confession:
     play sound phone_ping
     alex "{i}how’s it going?{/i}"
 
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara neutral at center
+    show gina neutral at center
     show phone at right
 
     play sound phone_ping
-    clara "{i}busy. school’s kinda killing me lately{/i}"
+    gina "{i}busy. school’s kinda killing me lately{/i}"
 
     scene bg alex_room
 
@@ -62,13 +62,13 @@ label jun_2019_alex_confession:
     
     pause
  
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara neutral at center
+    show gina neutral at center
     show phone at right
 
     play sound phone_ping
-    clara "{i}hey, can I ask something?{/i}"
+    gina "{i}hey, can I ask something?{/i}"
  
     scene bg alex_room
 
@@ -78,22 +78,22 @@ label jun_2019_alex_confession:
     play sound phone_ping
     alex "{i}yeah ofc{/i}"
  
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara neutral at center
+    show gina neutral at center
     show phone at right
 
     play sound phone_ping
-    clara "{i}do you... actually like me?{/i}"
+    gina "{i}do you... actually like me?{/i}"
 
     play sound phone_ping
-    clara "{i}i’m asking because lately... it feels like you’ve been putting a lot of pressure on me{/i}"
+    gina "{i}i’m asking because lately... it feels like you’ve been putting a lot of pressure on me{/i}"
 
     play sound phone_ping
-    clara "{i}being around you is fun, but sometimes it’s like you’re expecting something back{/i}"
+    gina "{i}being around you is fun, but sometimes it’s like you’re expecting something back{/i}"
 
     play sound phone_ping
-    clara "{i}so i need to know. is this just a crush thing? or do you really like me?{/i}"
+    gina "{i}so i need to know. is this just a crush thing? or do you really like me?{/i}"
 
     scene bg alex_room
 
@@ -111,7 +111,7 @@ label jun_2019_alex_confession:
  
         show alex blush at center
         play sound phone_ping
-        alex "{i}i do. i really like you clara{/i}"
+        alex "{i}i do. i really like you gina{/i}"
 
         play sound phone_ping
         alex "{i}i wasn’t trying to push you. i guess i just... got excited{/i}"
@@ -119,23 +119,23 @@ label jun_2019_alex_confession:
         play sound phone_ping
         alex "{i}you’re smart and chill and funny and yeah i catch myself thinking about you a lot{/i}"
 
-        scene bg clara_room_night
+        scene bg gina_room_night
 
-        show clara blush at center
+        show gina blush at center
         show phone at right
 
-        show clara blush at center
-        clara "(...)"
+        show gina blush at center
+        gina "(...)"
 
         play sound phone_ping
-        clara "{i}thanks for being honest{/i}"
+        gina "{i}thanks for being honest{/i}"
         
-        show clara neutral at center
+        show gina neutral at center
         play sound phone_ping
-        clara "{i}i don’t know if i’m ready for anything right now{/i}"
+        gina "{i}i don’t know if i’m ready for anything right now{/i}"
 
         play sound phone_ping
-        clara "{i}but i’ll think about it. i just need space to figure things out{/i}"
+        gina "{i}but i’ll think about it. i just need space to figure things out{/i}"
 
         scene bg alex_room
 
@@ -145,7 +145,7 @@ label jun_2019_alex_confession:
         play sound phone_ping
         alex "{i}yeah. totally. take your time{/i}"
 
-        jump clara_cafe
+        jump gina_cafe
 
     # ──────────────────────
     # Back off branch
@@ -161,113 +161,113 @@ label jun_2019_alex_confession:
         play sound phone_ping
         alex "{i}i’ll back off if it’s too much{/i}"
 
-        scene bg clara_room_night
+        scene bg gina_room_night
 
-        show clara neutral at center
+        show gina neutral at center
         show phone at right
 
         play sound phone_ping
-        clara "{i}thanks for saying that{/i}"
+        gina "{i}thanks for saying that{/i}"
 
         play sound phone_ping
-        clara "{i}i just wanted to be honest{/i}"
+        gina "{i}i just wanted to be honest{/i}"
 
         play sound phone_ping
-        clara "{i}we’re good{/i}"
+        gina "{i}we’re good{/i}"
 
         jump albert_park
 
-    label clara_cafe:
+    label gina_cafe:
         scene black with pixellate
         with Pause(1)
 
         scene bg cafe
 
-        show clara neutral at center
+        show gina neutral at center
         show lia happy at right
         show nicole blush at left
 
         lia "You told him?"
 
-        clara "Yeah."
+        gina "Yeah."
 
         nicole "Finally. That’s been simmering for weeks."
 
         lia "How’d he take it?"
 
-        show clara blush at center
+        show gina blush at center
 
-        clara "Pretty well, actually. He was honest about it. Said he really likes me."
+        gina "Pretty well, actually. He was honest about it. Said he really likes me."
 
         nicole "Did he ask you out?"
 
-        clara "Kinda. But I told him I need time."
+        gina "Kinda. But I told him I need time."
 
         lia "That’s fair. He’s been... kinda obsessed to say the least."
 
         nicole "Yeah, like, sweet... but kind of constantly in orbit around you."
 
-        show clara embarrassed at center
+        show gina embarrassed at center
 
-        clara "That’s what I told him. I felt like I was being observed. Texting a lot, chasing me around at lunch or before school, you know."
+        gina "That’s what I told him. I felt like I was being observed. Texting a lot, chasing me around at lunch or before school, you know."
 
         show lia neutral at right
 
         lia "You're not wrong about that. Guy has resting ‘I’m silently in love with you’ face."
 
-        clara "I don’t want to hurt him. He means well."
+        gina "I don’t want to hurt him. He means well."
 
         nicole "You’re not hurting him by telling the truth. You don’t owe anyone a yes."
 
-        clara "I know. But I also don't want to just cut him off, you know?"
+        gina "I know. But I also don't want to just cut him off, you know?"
 
         show lia happy at right
 
         lia "Do you actually like him?"
 
-        show clara neutral at center
+        show gina neutral at center
 
-        clara "Not gonna lie, I do a little. But I don't know if I'm ready for any commitments. Besides, what you told me the other week about his past... still kinda gives me a bit of a red flag."
+        gina "Not gonna lie, I do a little. But I don't know if I'm ready for any commitments. Besides, what you told me the other week about his past... still kinda gives me a bit of a red flag."
 
         nicole "Oh uhh... what?"
 
         lia "Well, I told her that Alex used to chase around the popular girls in middle school. It kinda got on their nerves, and he basically got told to piss off."
 
-        nicole "Oh, I didn't know that about him. But from what Clara is telling us, maybe we're seeing a similar kind of energy build up with Alex hovering over her."
+        nicole "Oh, I didn't know that about him. But from what Gina is telling us, maybe we're seeing a similar kind of energy build up with Alex hovering over her."
 
         lia "Yea I guess Alex is a bit awkward, but I’ve seen worse. Remember Ben from our history class?"
 
         nicole "He literally took pics of the substitute teacher's feet and sent them to the whole class."
 
-        show clara blush at center
+        show gina blush at center
 
-        clara "Hmm..?"
+        gina "Hmm..?"
 
         show lia neutral at right
 
         lia "So in hindsight, Alex isn’t that bad. He's got potential."
 
-        clara "That’s what makes this hard. If he was a jerk or a total perv, I could just walk away."
+        gina "That’s what makes this hard. If he was a jerk or a total perv, I could just walk away."
 
         nicole "Take your time. Just don’t ghost him."
 
-        show clara neutral at center
+        show gina neutral at center
 
-        clara "I won’t. I just needed to talk it out with people who aren’t... him."
+        gina "I won’t. I just needed to talk it out with people who aren’t... him."
 
         lia "That’s what we’re here for. Also, to remind you to eat something."
 
         nicole "Seriously, go order something."
 
-        show clara happy at center
+        show gina happy at center
 
-        clara "I’m thinking!"
+        gina "I’m thinking!"
 
         show lia happy at right
 
-        lia "Think with snacks in your mouth, Clara. It's how you stay grounded."
+        lia "Think with snacks in your mouth, Gina. It's how you stay grounded."
 
-        clara "*sighs* Fine."
+        gina "*sighs* Fine."
 
     label albert_park:
         scene black with pixellate
@@ -313,7 +313,7 @@ label jun_2019_alex_confession:
 
         albert "Also, I don't know, but Lia is definitely cheating on him too. Saw her walking with a guy after school yesterday."
 
-        alex "Bruh after what happened, I'm not surprised. As Clara said it, Lia deserves someone with actual brain cells."
+        alex "Bruh after what happened, I'm not surprised. As Gina said it, Lia deserves someone with actual brain cells."
 
         albert "Cheating on him all of a sudden kinda sounds slutty though not gonna lie."
 

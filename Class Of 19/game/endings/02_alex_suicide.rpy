@@ -29,7 +29,7 @@ screen credits2():
             hbox:
                 text "Thoughts swirled—memories of being ignored, of always falling short, of desperately trying to be seen and always ending up invisible."
             hbox:
-                text "He thought about Clara. About everyone. About how no one had called him back."
+                text "He thought about Gina. About everyone. About how no one had called him back."
             hbox:
                 text "The train horn wailed, long and hollow. And as the light grew brighter, something inside him snapped."
             hbox:

@@ -16,13 +16,13 @@ label apr_2019_texting_2:
     play sound phone_ping
     alex "{i}hey, thanks for helping earlier. u explained torque way better than the textbook lol{/i}"
 
-    scene bg clara_room_night
-    show clara happy at center
+    scene bg gina_room_night
+    show gina happy at center
     show phone at right
     play sound phone_ping
-    clara "{i}haha np :){/i}"
+    gina "{i}haha np :){/i}"
     play sound phone_ping
-    clara "{i}you were catching on fast anyway{/i}"
+    gina "{i}you were catching on fast anyway{/i}"
 
     scene bg alex_room
     show alex blush at center
@@ -32,11 +32,11 @@ label apr_2019_texting_2:
     play sound phone_ping
     alex "{i}but fr, appreciate it. i probs would’ve blanked without u{/i}"
 
-    scene bg clara_room_night
-    show clara happy at center
+    scene bg gina_room_night
+    show gina happy at center
     show phone at right
     play sound phone_ping
-    clara "{i}well, at least now u won’t have to guess every multiple choice{/i}"
+    gina "{i}well, at least now u won’t have to guess every multiple choice{/i}"
 
     scene bg alex_room
     show alex blush at center
@@ -47,11 +47,11 @@ label apr_2019_texting_2:
     play sound phone_ping
     alex "{i}u always that patient when teaching?{/i}"
 
-    scene bg clara_room_night
-    show clara blush at center
+    scene bg gina_room_night
+    show gina blush at center
     show phone at right
     play sound phone_ping
-    clara "{i}depends who’s asking ;p{/i}"
+    gina "{i}depends who’s asking ;p{/i}"
 
     scene bg alex_room
     show alex blush at center
@@ -62,11 +62,11 @@ label apr_2019_texting_2:
     play sound phone_ping
     alex "{i}btw u play any games?{/i}"
 
-    scene bg clara_room_night
-    show clara neutral at center
+    scene bg gina_room_night
+    show gina neutral at center
     show phone at right
     play sound phone_ping
-    clara "{i}sometimes. not like hardcore or anything{/i}"
+    gina "{i}sometimes. not like hardcore or anything{/i}"
 
     scene bg alex_room
     show alex neutral at center
@@ -75,14 +75,14 @@ label apr_2019_texting_2:
     alex "{i}same. mostly chill stuff. lately been grinding CSGO tho (but albert keeps recking me){/i}"
 
     pause
-    scene bg clara_room_night
-    show clara happy at center
+    scene bg gina_room_night
+    show gina happy at center
     show phone at right
     play sound phone_ping
-    clara "{i}oh LOL{/i}"
+    gina "{i}oh LOL{/i}"
 
     play sound phone_ping
-    clara "{i}i used to play pubg mobile a lot{/i}"
+    gina "{i}i used to play pubg mobile a lot{/i}"
 
     pause
     scene bg alex_room
@@ -91,17 +91,17 @@ label apr_2019_texting_2:
     play sound phone_ping
     alex "{i}WAIT really? lmao i used to be obsessed with that. Me and Bobby would literally play it while Mr. Blackwell droned on last year in science.{/i}"
 
-    scene bg clara_room_night
-    show clara blush at center
+    scene bg gina_room_night
+    show gina blush at center
     show phone at right
     play sound phone_ping
-    clara "{i}oh my god... you were one of those kids{/i}"
+    gina "{i}oh my god... you were one of those kids{/i}"
 
     play sound phone_ping
-    clara "{i}but i still play sometimes haha{/i}"
+    gina "{i}but i still play sometimes haha{/i}"
 
     play sound phone_ping
-    clara "{i}squad wipe queen tbh{/i}"
+    gina "{i}squad wipe queen tbh{/i}"
 
     scene bg alex_room
     show alex excited at center
@@ -112,14 +112,14 @@ label apr_2019_texting_2:
     play sound phone_ping
     alex "{i}how many chicken dinners we talkin{/i}"
 
-    scene bg clara_room_night
-    show clara blush at center
+    scene bg gina_room_night
+    show gina blush at center
     show phone at right
     play sound phone_ping
-    clara "{i}like… too many{/i}"
+    gina "{i}like… too many{/i}"
 
     play sound phone_ping
-    clara "{i}i’m cracked with the m416 don’t test me{/i}"
+    gina "{i}i’m cracked with the m416 don’t test me{/i}"
 
     scene bg alex_room
     show alex excited at center
@@ -130,11 +130,11 @@ label apr_2019_texting_2:
     play sound phone_ping
     alex "{i}remind me not to 1v1 you{/i}"
 
-    scene bg clara_room_night
-    show clara blush at center
+    scene bg gina_room_night
+    show gina blush at center
     show phone at right
     play sound phone_ping
-    clara "{i}you wouldn’t last{/i} 😌"
+    gina "{i}you wouldn’t last{/i} 😌"
 
     scene bg alex_room
     show alex excited at center
@@ -146,14 +146,14 @@ label apr_2019_texting_2:
     alex "{i}lets give it a try tonight maybe?{/i}"
 
     pause
-    scene bg clara_room_night
-    show clara neutral at center
+    scene bg gina_room_night
+    show gina neutral at center
     show phone at right
     play sound phone_ping
-    clara "{i}ah shoot, i still got assignments due{/i}"
+    gina "{i}ah shoot, i still got assignments due{/i}"
 
     play sound phone_ping
-    clara "{i}maybe another time tho :p{/i}"
+    gina "{i}maybe another time tho :p{/i}"
 
     scene bg alex_room
     show alex neutral at center

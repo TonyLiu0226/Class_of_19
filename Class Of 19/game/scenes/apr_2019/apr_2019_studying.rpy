@@ -44,7 +44,7 @@ label apr_2019_studying:
     scene bg library
     play music study
 
-    show clara neutral at middle_left
+    show gina neutral at middle_left
     show lia neutral at middle_right
     show alex neutral at far_left
     show albert neutral at far_right
@@ -53,12 +53,12 @@ label apr_2019_studying:
 
     lia "Easy. a = g * sin(theta). So 9.8 * 0.5 = 4.9 m/s²."
 
-    clara "You’re skipping steps again, Lia."
+    gina "You’re skipping steps again, Lia."
 
     show lia blush at middle_right
     lia "You want my notes in prose or physics?"
 
-    clara "Just don’t let Mr. Manias catch you."
+    gina "Just don’t let Mr. Manias catch you."
 
     show lia neutral at middle_right
     play sound flipping_page
@@ -68,14 +68,14 @@ label apr_2019_studying:
 
     alex "...uh, vertical velocity’s 20 * sin(45)... that’s around 14.1?"
 
-    clara "Yep. And total time is 2 * Vy / g, so..."
+    gina "Yep. And total time is 2 * Vy / g, so..."
 
     lia "2 * 14.1 / 9.8 = 2.88 seconds. Boom."
 
     show albert happy at far_right
     albert "Let’s gooo. You guys are cracked."
 
-    clara "Okay but plot twist—what if we’re on the moon?"
+    gina "Okay but plot twist—what if we’re on the moon?"
 
     show alex excited at far_left
     alex "Then Albert can afford real estate there."
@@ -83,39 +83,39 @@ label apr_2019_studying:
     albert "True. Gucci shades, lunar edition."
 
     show lia happy at middle_right
-    show clara happy at middle_left
+    show gina happy at middle_left
     lia "The moon doesn’t even have an atmosphere and this dude still flexing."
 
     play sound laugh
     pause
 
-    show clara neutral at middle_left
+    show gina neutral at middle_left
     show lia neutral at middle_right
     show alex neutral at far_left
     show albert neutral at far_right
 
-    clara "Okay serious time—last section. Torque problems. I hate these."
+    gina "Okay serious time—last section. Torque problems. I hate these."
 
     lia "Torque is just grown-up lever problems. Physics cosplay for seesaws."
 
     alex "I haven’t even looked at this section yet..."
 
-    clara "No worries. I got you."
+    gina "No worries. I got you."
 
     play sound flipping_page
     pause
 
-    clara "So this bar is pivoted at one end. You’ve got a force acting perpendicular at the other end. Torque is force times distance from pivot. Easy multiplication."
+    gina "So this bar is pivoted at one end. You’ve got a force acting perpendicular at the other end. Torque is force times distance from pivot. Easy multiplication."
 
     alex "Okay... so 10 newtons at 2 meters is 20 newton-meters?"
 
-    clara "Exactly. See? You’re already better than half the class."
+    gina "Exactly. See? You’re already better than half the class."
 
     show albert troll at far_right
-    albert "Bro, we should just cheat off Clara."
+    albert "Bro, we should just cheat off Gina."
 
-    show clara blush at middle_left
-    clara "You wish."
+    show gina blush at middle_left
+    gina "You wish."
 
     play sound flipping_page
     pause
@@ -123,15 +123,15 @@ label apr_2019_studying:
     show albert neutral at far_right
     albert "Yo Lia... your boyfriend still suspended?"
 
-    show clara neutral at middle_left
+    show gina neutral at middle_left
     lia "Ugh, don’t even. He’s not suspended, but he’s like *this* close to being kicked out."
 
     alex "What happened?"
 
     lia "He lit a bunson burner on fire. On purpose. Then blamed it on 'spontaneous combustion' and walked out like it was a movie scene."
 
-    show clara embarrassed at middle_left
-    clara "Wait—*that* was your boyfriend?!"
+    show gina embarrassed at middle_left
+    gina "Wait—*that* was your boyfriend?!"
 
     lia "Unfortunately."
 
@@ -145,7 +145,7 @@ label apr_2019_studying:
 
     lia "Nguyen *lost it*. Sent him straight to the office, called home, and now admin’s watching him like a hawk."
 
-    clara "You should dump him and date someone with actual brain cells."
+    gina "You should dump him and date someone with actual brain cells."
 
     lia "I know. I’m like 80\% there. Maybe after the test."
 

@@ -172,26 +172,26 @@ label apr_2019_texting_3:
         play sound phone_ping
         cindy "i’ll bring chunky for moral support"
 
-        scene bg clara_room_night
+        scene bg gina_room_night
 
-        show clara embarrassed at center
+        show gina embarrassed at center
         pause
-        clara "so now they’re texting."
+        gina "so now they’re texting."
 
-        clara "figures."
+        gina "figures."
 
-        clara "I don’t know what’s going on with those two lately..."
+        gina "I don’t know what’s going on with those two lately..."
 
-        clara "they used to just be fun and cringe. now it’s like getting kinda annoying—"
+        gina "they used to just be fun and cringe. now it’s like getting kinda annoying—"
 
-        show clara neutral at center
-        clara "Bobby is suddenly friendly with Cindy? Sweet, even."
+        show gina neutral at center
+        gina "Bobby is suddenly friendly with Cindy? Sweet, even."
 
-        clara "is he for real? or just trying to mess around to get a rise out of me?"
+        gina "is he for real? or just trying to mess around to get a rise out of me?"
 
-        show clara sideways at center
-        clara "ugh."
+        show gina sideways at center
+        gina "ugh."
 
-        clara "I need to stop thinking about this."
+        gina "I need to stop thinking about this."
 
         return

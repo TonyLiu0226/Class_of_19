@@ -2,7 +2,7 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-define clara = Character("Clara")
+define gina = Character("Gina")
 define bobby = Character("Bobby")
 define alex = Character("Alex")
 define cindy = Character("Cindy")
@@ -71,8 +71,8 @@ image bg 108_night = "images/backgrounds/108_night.png"
 image splash = "images/backgrounds/school.png"
 image bg library = "images/backgrounds/library.png"
 image bg bobby_room_night = "images/backgrounds/bobby_room.png"
-image bg clara_room_night = "images/backgrounds/clara_room.png"
-image bg clara_room_day = "images/backgrounds/clara_room_day.png"
+image bg gina_room_night = "images/backgrounds/gina_room.png"
+image bg gina_room_day = "images/backgrounds/gina_room_day.png"
 image bg school_hallway = "images/backgrounds/hallway.png"
 image bg alex_room = "images/backgrounds/alex_room.png"
 image bg cindy_room = "images/backgrounds/cindy_room.png"
@@ -87,7 +87,7 @@ image bg theme_park = "images/backgrounds/theme_park.png"
 image bg drop_tower = "images/backgrounds/drop_tower.png"
 image bg park = "images/backgrounds/park.png"
 image bg alex_house = "images/backgrounds/alex_house.png"
-image bg clara_street = "images/backgrounds/street.png"
+image bg gina_street = "images/backgrounds/street.png"
 image bg bar = "images/backgrounds/bar.png"
 
 # ending scenes
@@ -135,10 +135,10 @@ init python:
     # Alex overdose ending
     Ending5Triggered = False
 
-    # Alex biked to Clara's house
-    AlexBikedToClara = False
+    # Alex biked to Gina's house
+    AlexBikedToGina = False
 
-    # Clara calls cops on Alex
+    # Gina calls cops on Alex
     Ending1Triggered = False
 
     #Alex commits suicide
@@ -186,7 +186,7 @@ label start:
     
     call jun_2019_complications
 
-    if AlexBikedToClara:
+    if AlexBikedToGina:
         call jun_2019_bike
     else:
         call alex_harvard
@@ -199,7 +199,7 @@ label start:
         call alex_arrested
         return
     else:
-        call jul_2019_clara_block
+        call jul_2019_gina_block
         call jul_2019_aftermath
         if Ending2Triggered:
             call alex_suicide

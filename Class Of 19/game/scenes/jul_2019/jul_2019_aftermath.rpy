@@ -65,7 +65,7 @@ label jul_2019_aftermath:
 
     alex "She blocked me."
 
-    bobby "...Clara?"
+    bobby "...Gina?"
 
     alex "Yeah. Discord. Text. Everything. I was just casually checking discord and saw 'Unknown User'... and then I checked my texts..."
 

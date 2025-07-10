@@ -22,35 +22,35 @@ label jun_2019_alex_rejected:
 
     alex "(Why is Bobby still not responding to my messages? Is he even gonna show up today?)"
 
-    alex "(Also, Clara is not responding to my messages... great)"
+    alex "(Also, Gina is not responding to my messages... great)"
 
-    show clara neutral at left with moveinleft
+    show gina neutral at left with moveinleft
 
-    clara "Hey."
+    gina "Hey."
 
     alex "Hey. How was the bio final?"
 
-    clara "It was brutal. I hope we get curved"
+    gina "It was brutal. I hope we get curved"
 
     alex "I’m sure you did fine."
 
-    clara "Thanks."
+    gina "Thanks."
 
-    clara "So... I’ve been thinking. About us."
+    gina "So... I’ve been thinking. About us."
 
     pause
 
-    clara "I don’t think I’m ready. And honestly, I just don’t see it working out."
+    gina "I don’t think I’m ready. And honestly, I just don’t see it working out."
 
     alex "...Right."
 
-    show clara happy at left
+    show gina happy at left
 
-    clara "But... I still want us to be friends. Hope that's okay with you."
+    gina "But... I still want us to be friends. Hope that's okay with you."
 
     alex "Yeah. Friends."
 
-    hide clara with moveoutleft
+    hide gina with moveoutleft
 
     show alex sad at center
 

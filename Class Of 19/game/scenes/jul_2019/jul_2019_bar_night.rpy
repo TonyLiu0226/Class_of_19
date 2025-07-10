@@ -23,7 +23,7 @@ label jul_2019_bar_night:
 
     nicole "Don't worry she'll for sure let us in."
 
-    show clara neutral at center with moveinright
+    show gina neutral at center with moveinright
     show lia happy at right
 
     lia "There she is!"
@@ -32,17 +32,17 @@ label jul_2019_bar_night:
 
     nicole "Miss Finals Survivor!"
 
-    clara "Ughhh. My brain is literal soup."
+    gina "Ughhh. My brain is literal soup."
 
     lia "Perfect. That means you’re ready for tequila."
 
     nicole "We’re celebrating tonight. No excuses."
 
-    clara "I didn’t bring ID—"
+    gina "I didn’t bring ID—"
 
     lia "I got you. Let’s just go change and bounce."
 
-    hide clara with moveoutright
+    hide gina with moveoutright
     hide lia with moveoutright
     hide nicole with moveoutright
 
@@ -51,10 +51,10 @@ label jul_2019_bar_night:
 
     scene bg bar
 
-    show clara neutral at center
+    show gina neutral at center
 
 
-    show clara happy at center with moveinright
+    show gina happy at center with moveinright
     show lia happy at mid_left with moveinright
     show nicole blush at mid_right with moveinright
 
@@ -62,7 +62,7 @@ label jul_2019_bar_night:
 
     nicole "Perfect for the occasion. Goodbye exams, hello irresponsibility."
 
-    clara "Honestly I needed this so bad."
+    gina "Honestly I needed this so bad."
 
     play sound drinking
 
@@ -70,7 +70,7 @@ label jul_2019_bar_night:
 
     nicole "Well... I *was* supposed to go camping with Rodley."
 
-    clara "Ooh, camping. Seems fun"
+    gina "Ooh, camping. Seems fun"
 
     show nicole cry at mid_right
 
@@ -80,9 +80,9 @@ label jul_2019_bar_night:
 
     lia "Ugh, one of those."
 
-    show clara neutral at center
+    show gina neutral at center
 
-    clara "Awww bb don't be sad about it. What happened?"
+    gina "Awww bb don't be sad about it. What happened?"
 
     nicole "He's been acting so weird about it. Like, come on, it's just a couple of days, then you'll have your so called 'freedom' back."
 
@@ -93,7 +93,7 @@ label jul_2019_bar_night:
 
     nicole "But for real, looks like I’m not going anywhere, and he’s probably gonna be 'finding himself' playing WoW and eating junk food at his cousin’s basement party."
 
-    clara "Yikes. I’m sorry."
+    gina "Yikes. I’m sorry."
 
     show nicole blush at mid_right
 
@@ -101,20 +101,20 @@ label jul_2019_bar_night:
 
     lia "Honestly, you dodged a travel disaster."
 
-    clara "What about you, Lia?"
+    gina "What about you, Lia?"
 
     lia "I finally dumped Jacob."
 
-    show clara happy at center
+    show gina happy at center
     pause
 
-    clara "Wait, what? When?!"
+    gina "Wait, what? When?!"
 
     nicole "YES. About time."
 
     lia "After everything he pulled this semester? He got himself expelled. Expelled."
 
-    clara "Wait—what?!"
+    gina "Wait—what?!"
 
     lia "Yup. First of all, he literally burned this girl's hair in chem lab. I literally don't know why. Then there are these rumors about him literally threatening to molest a teacher when he was reported for that incident."
 
@@ -124,13 +124,13 @@ label jul_2019_bar_night:
 
     lia "He never told any of this to me, I only knew when my friends told me they saw Principal Aarvindh yelling 'YOU'RE EXPELLED' at him when walking past the office. I was so shocked I didn't even know what to do."
 
-    show clara neutral at center
+    show gina neutral at center
 
     nicole "I'm so sorry, Lia."
 
     lia "Despite this, he still managed to make *me* the villain."
 
-    clara "What?"
+    gina "What?"
 
     lia "Said I wasn’t being ‘emotionally supportive’ enough while he was spiraling."
 
@@ -138,22 +138,22 @@ label jul_2019_bar_night:
 
     lia "Exactly. I'm done with the chaos."
 
-    clara "Good. You deserve peace."
+    gina "Good. You deserve peace."
 
     play sound drinking
     pause
     show lia neutral at mid_left
 
-    lia "Thanks. Now please — Clara. It’s your turn. What's going on with you and Alex?"
+    lia "Thanks. Now please — Gina. It’s your turn. What's going on with you and Alex?"
 
-    show clara embarrassed at center
+    show gina embarrassed at center
 
-    clara "Oh boy..."
+    gina "Oh boy..."
 
     play sound drinking
     pause
 
-    clara "Alex showed up near my house after finals."
+    gina "Alex showed up near my house after finals."
 
     show lia blush at mid_left
 
@@ -161,13 +161,13 @@ label jul_2019_bar_night:
 
     nicole "What do you mean 'showed up'?"
 
-    clara "Like... on his bike. I saw him through my window. He called me while he was standing across the street."
+    gina "Like... on his bike. I saw him through my window. He called me while he was standing across the street."
 
     lia "You're kidding."
 
     nicole "That’s so creepy."
 
-    clara "He said he didn’t want to ambush me, and that he just wanted to talk. He looked all nervous."
+    gina "He said he didn’t want to ambush me, and that he just wanted to talk. He looked all nervous."
 
     show lia neutral at mid_left
 
@@ -175,21 +175,21 @@ label jul_2019_bar_night:
 
     nicole "That is stalker behavior, not sweet. Do not romanticize it."
 
-    clara "I didn’t. I mean, we talked. But it freaked me out at first."
+    gina "I didn’t. I mean, we talked. But it freaked me out at first."
 
     lia "As it should’ve. You need to draw the line."
 
     nicole "You really should block him. If he ever comes near your house again, you call the cops. No hesitation."
 
-    show clara neutral at center
+    show gina neutral at center
 
-    clara "...I guess part of me still feels bad."
+    gina "...I guess part of me still feels bad."
 
     lia "Feeling bad is fine. Just don’t let it override common sense."
 
     nicole "You deserve peace, not paranoia."
 
-    clara "*sighs* Yeah... you’re right."
+    gina "*sighs* Yeah... you’re right."
 
     play sound drinking
     pause
@@ -198,6 +198,6 @@ label jul_2019_bar_night:
 
     nicole "And we’re getting fries."
 
-    clara "Double order, please."
+    gina "Double order, please."
 
     return

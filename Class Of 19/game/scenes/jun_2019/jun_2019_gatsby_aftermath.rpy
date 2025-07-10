@@ -9,22 +9,22 @@ label jun_2019_gatsby_aftermath:
     scene bg school_hallway
 
     show cindy sad at center
-    show clara neutral at middle_left
+    show gina neutral at middle_left
     show lia neutral at middle_right
 
-    clara "Cindy? Hey—what’s wrong?"
+    gina "Cindy? Hey—what’s wrong?"
 
     cindy "..."
 
     pause
 
-    clara "I saw you walk out of class like you were about to cry."
+    gina "I saw you walk out of class like you were about to cry."
 
     lia "Did something happen in English?"
 
     cindy "...Yeah. Bobby happened."
 
-    clara "What did he do?"
+    gina "What did he do?"
 
     cindy "During the movie—during that steamy scene—he leaned over and whispered..."
 
@@ -36,9 +36,9 @@ label jun_2019_gatsby_aftermath:
 
     cindy "And then the teacher stopped the movie. Turned on the lights. Everyone stared."
 
-    show clara angry at middle_left
+    show gina angry at middle_left
 
-    clara "What the hell was he thinking?"
+    gina "What the hell was he thinking?"
 
     cindy "I don’t know. He just said it like it was a joke. Like we were in on it together."
 
@@ -46,15 +46,15 @@ label jun_2019_gatsby_aftermath:
 
     cindy "It was so embarrassing. I didn’t want to make it a scene, but my body just reacted."
 
-    show clara neutral at middle_left
+    show gina neutral at middle_left
 
-    clara "No one blames you. He crossed a line."
+    gina "No one blames you. He crossed a line."
 
     cindy "Still… I feel like the entire class was watching me for the rest of the period."
 
     lia "They were probably just shocked. You handled it way better than I would’ve."
 
-    clara "You don’t need to explain anything. We’ve got your back."
+    gina "You don’t need to explain anything. We’ve got your back."
 
     cindy "...Thanks. I just want this to go away."
 
@@ -65,7 +65,7 @@ label jun_2019_gatsby_aftermath:
     scene bg cafeteria_lunch
 
     show alex neutral at left
-    show clara neutral at mid_left
+    show gina neutral at mid_left
     show cindy sad at center
     show lia neutral at mid_right
     show albert troll at right
@@ -80,7 +80,7 @@ label jun_2019_gatsby_aftermath:
 
     albert "Library goblin arc?"
 
-    clara "More like coward arc."
+    gina "More like coward arc."
 
     cindy "..."
 
@@ -92,7 +92,7 @@ label jun_2019_gatsby_aftermath:
 
     albert "What even possessed him to say that? Middle of Gatsby? Really?"
 
-    clara "He thought it was funny. Or charming. Either way, it wasn’t."
+    gina "He thought it was funny. Or charming. Either way, it wasn’t."
 
     pause
 
@@ -100,7 +100,7 @@ label jun_2019_gatsby_aftermath:
 
     cindy "...I just wish he hadn’t made me part of it."
 
-    clara "You didn’t do anything wrong."
+    gina "You didn’t do anything wrong."
 
     lia "Girl, you slapped him into another timeline. That was justified."
 
@@ -112,28 +112,28 @@ label jun_2019_gatsby_aftermath:
 
     albert "Exactly. Wait till Jacob fails chem again and sets off the fire alarm. It'll blow over."
 
-    show clara angry at mid_left
+    show gina angry at mid_left
     pause
 
-    clara "Still. He doesn’t get to just disappear."
+    gina "Still. He doesn’t get to just disappear."
 
     show lia sideways at mid_right
 
-    lia "Clara—"
+    lia "Gina—"
 
-    clara "He humiliated Cindy and left her to deal with it alone. That’s not okay."
+    gina "He humiliated Cindy and left her to deal with it alone. That’s not okay."
 
     alex "You gonna talk to him?"
 
-    clara "I’m going to find him."
+    gina "I’m going to find him."
 
     show albert troll at right
 
     albert "Should we prepare a eulogy?"
 
-    clara "Don’t be dramatic."
+    gina "Don’t be dramatic."
 
-    hide clara with moveoutleft
+    hide gina with moveoutleft
 
     show alex excited at left
 
@@ -145,7 +145,7 @@ label jun_2019_gatsby_aftermath:
 
     show cindy neutral at center
 
-    cindy "...Thanks, Clara."
+    cindy "...Thanks, Gina."
 
     scene black
     with Pause(1)
@@ -158,43 +158,43 @@ label jun_2019_gatsby_aftermath:
 
     bobby "(I'm so embarrassed. I can't believe I did that. I'm such a fool.)"
 
-    show clara angry at left with moveinleft
+    show gina angry at left with moveinleft
 
-    clara "I... Found You..."
+    gina "I... Found You..."
 
-    bobby "Clara... hey."
+    bobby "Gina... hey."
 
-    clara "Don’t ‘hey’ me. You’ve been hiding out for days, not responding to anyone, not talking to anyone at school... We've all been wondering what the hell happened with you."
+    gina "Don’t ‘hey’ me. You’ve been hiding out for days, not responding to anyone, not talking to anyone at school... We've all been wondering what the hell happened with you."
 
     bobby "I didn’t feel like seeing anyone."
 
-    clara "Well if it wasn’t obvious, you made Cindy cry."
+    gina "Well if it wasn’t obvious, you made Cindy cry."
 
     bobby "...I know."
 
-    clara "You embarrassed her in front of a whole class. What did you expect?"
+    gina "You embarrassed her in front of a whole class. What did you expect?"
 
     bobby "I messed up. I get it."
 
-    clara "Then own it. Go apologize."
+    gina "Then own it. Go apologize."
 
     show bobby angry at center
 
     bobby "I know! I know it's bad, and I'm sorry!"
 
-    clara "Don't apologize to me, I'm not the one who got slapped!"
+    gina "Don't apologize to me, I'm not the one who got slapped!"
 
     bobby "But for real, where should I even start? Do I just go up to her and say \"Hey, I’m sorry I said something weird. I don’t remember what it was, so can you remind me? And if it’s that bad, I promise I’ll never talk to you again so it’s less awkward?\""
 
-    clara "Are you serious right now?"
+    gina "Are you serious right now?"
 
-    clara "Bruh do you even hear yourself? You don’t even remember what you said, and somehow you’re still messing this up by acting like she owes you something?"
+    gina "Bruh do you even hear yourself? You don’t even remember what you said, and somehow you’re still messing this up by acting like she owes you something?"
 
-    clara "You don't sound sorry at all... You sound pathetic..."
+    gina "You don't sound sorry at all... You sound pathetic..."
 
-    clara "Anyways, I'm going to leave you to it. You decide whether you want to actually apologize or not. But let me be clear, time is running out, and Cindy is still pissed."
+    gina "Anyways, I'm going to leave you to it. You decide whether you want to actually apologize or not. But let me be clear, time is running out, and Cindy is still pissed."
 
-    hide clara with moveoutleft
+    hide gina with moveoutleft
 
     menu:
         "Apologize to Cindy":
@@ -211,13 +211,13 @@ label jun_2019_gatsby_aftermath:
 
         bobby "I’ll talk to her tomorrow. I owe her that much."
 
-        show clara neutral at left with moveinleft
+        show gina neutral at left with moveinleft
 
-        clara "You owe her more, but yeah. Start there."
+        gina "You owe her more, but yeah. Start there."
 
         bobby "Thanks... for coming to yell at me, I guess."
 
-        clara "Don’t make me do it again."
+        gina "Don’t make me do it again."
 
         scene black
         with Pause(1)

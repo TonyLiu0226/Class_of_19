@@ -14,25 +14,25 @@ label jun_2019_complications:
 
     alex "(I just feel like I’m floating through all this alone.)"
 
-    alex "(But Clara and I are still friends, right?)"
+    alex "(But Gina and I are still friends, right?)"
 
     alex "(It’s not weird to check in.)"
 
     show phone at right
 
     play sound phone_ping
-    alex "{i}hey clara, want to study together sometime this week?{/i}"
+    alex "{i}hey Gina, want to study together sometime this week?{/i}"
 
     play sound phone_ping
     alex "{i}we could invite the others too{/i}"
 
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara neutral at center
+    show gina neutral at center
     show phone at right
 
     play sound phone_ping
-    clara "{i}hey, sorry. i’m swamped with chem right now{/i}"
+    gina "{i}hey, sorry. i’m swamped with chem right now{/i}"
 
     scene bg alex_room
 
@@ -60,13 +60,13 @@ label jun_2019_complications:
     show text "A few hours later" with dissolve
     with Pause(1)
 
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara neutral at center
+    show gina neutral at center
     show phone at right
 
     play sound phone_ping
-    clara "{i}lol nice{/i}"
+    gina "{i}lol nice{/i}"
 
     scene black
     show text "The next day" with dissolve
@@ -87,13 +87,13 @@ label jun_2019_complications:
     show text "18 hours later" with dissolve
     with Pause(1)
 
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara neutral at center
+    show gina neutral at center
     show phone at right
 
     play sound phone_ping
-    clara "{i}cool{/i}"
+    gina "{i}cool{/i}"
 
     scene bg alex_room
 
@@ -113,13 +113,13 @@ label jun_2019_complications:
     show text "Literally after like forever..." with dissolve
     with Pause(1)
 
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara angry at center
+    show gina angry at center
     show phone at right
 
     play sound phone_ping
-    clara "{i}lmao{/i}"
+    gina "{i}lmao{/i}"
 
     scene bg alex_room
 
@@ -139,7 +139,7 @@ label jun_2019_complications:
 
     albert "Always. What’s going on?"
 
-    alex "Clara’s going cold. Like, she still responds, but it’s robotic. It feels like she’s pulling away."
+    alex "Gina’s going cold. Like, she still responds, but it’s robotic. It feels like she’s pulling away."
 
     albert "Yeah... that’s rough."
 
@@ -175,7 +175,7 @@ label jun_2019_complications:
 
     bobby "Alex? What’s up?"
 
-    alex "Clara."
+    alex "Gina."
 
     bobby "...Oof. Yeah."
 
@@ -230,18 +230,18 @@ label jun_2019_complications:
 
     alex "(...)"
 
-    alex "(Wait... isn’t this close to where Clara lives?)"
+    alex "(Wait... isn’t this close to where Gina lives?)"
 
     # Player choice
 
     menu:
-        "Bike to Clara’s house":
-            $ AlexBikedToClara = True
-            jump alex_bikes_to_clara
+        "Bike to Gina’s house":
+            $ AlexBikedToGina = True
+            jump alex_bikes_to_gina
         "Let it go and go home":
             jump alex_goes_home
 
-    label alex_bikes_to_clara:
+    label alex_bikes_to_gina:
 
         stop music
         play music theme

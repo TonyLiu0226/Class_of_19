@@ -42,50 +42,50 @@ label mar_2019_volunteering:
     play sound door_open
     pause
 
-    show clara happy at center with moveinleft
+    show gina happy at center with moveinleft
     show alex excited at right
     show bobby happy at left
 
-    clara "Hey—what are you two still doing here? I saw Alex through the door looking way too intense for 4 PM."
+    gina "Hey—what are you two still doing here? I saw Alex through the door looking way too intense for 4 PM."
 
     alex "Volunteer hours. We're helping McDonald build rubrics for the media project. He bailed and left us in charge."
 
     bobby "It’s basically a power trip disguised as community service."
 
-    clara "Sounds like fun. Need backup?"
+    gina "Sounds like fun. Need backup?"
 
     alex "Absolutely. We’re rapidly losing perspective on what 'creativity' even means."
 
     bobby "If you’ve ever suffered through an iMovie project, you’re qualified."
 
-    clara "Cool. So, what counts as 'Excellent' for multimedia use? No star wipes?"
+    gina "Cool. So, what counts as 'Excellent' for multimedia use? No star wipes?"
 
     alex "Excuse you—star wipes are the peak of amateur editing."
 
     bobby "Star wipes are what happen when a group project has no designated editor and five people argue in iMovie at 2 a.m."
 
-    clara "I’ve lived that timeline."
+    gina "I’ve lived that timeline."
 
-    show clara neutral at center
+    show gina neutral at center
     show alex neutral at right
     show bobby neutral at left
 
     play sound typing
     pause
 
-    clara "Okay, hear me out: should we reward originality even if the execution sucks?"
+    gina "Okay, hear me out: should we reward originality even if the execution sucks?"
 
     alex "You mean like, if someone tries to animate their whole project but the audio is out of sync and their transitions give you vertigo?"
 
     bobby "Honestly... yeah. At least they tried. That’s worth something."
 
-    clara "So maybe under 'Creativity' we give them full marks for bold attempts, but under 'Technical Quality' we gently roast them?"
+    gina "So maybe under 'Creativity' we give them full marks for bold attempts, but under 'Technical Quality' we gently roast them?"
 
     alex "I support kind, educational roasting."
 
     bobby "4 – Technically flawed but spiritually ambitious."
 
-    clara "That’s going in the final draft."
+    gina "That’s going in the final draft."
 
     play sound typing
     pause
@@ -96,8 +96,8 @@ label mar_2019_volunteering:
 
     bobby "You mean when you said—and I quote—'This is the term I become a beast'?"
 
-    show clara blush at center
-    clara "A beast of procrastination maybe."
+    show gina blush at center
+    gina "A beast of procrastination maybe."
 
     show alex excited at right
 
@@ -106,48 +106,48 @@ label mar_2019_volunteering:
     show bobby happy at left
     bobby "Then cluttered it again with 800 downloads titled '\'.pdf'."
 
-    clara "Honestly, relatable. My desktop’s just chaos and vibes."
+    gina "Honestly, relatable. My desktop’s just chaos and vibes."
 
     alex "Next volunteer project: Marie Kondoing our file systems."
 
-# [Clara finishes a section and sets her pen down.]
+# [Gina finishes a section and sets her pen down.]
     play sound typing
     pause
 
-    show clara neutral at center
+    show gina neutral at center
     show alex neutral at right
     show bobby neutral at left
 
-    clara "You know, this is the most I’ve talked to people in class without it being about deadlines or debug errors."
+    gina "You know, this is the most I’ve talked to people in class without it being about deadlines or debug errors."
 
     bobby "Yeah. It’s weird—school’s so packed, but sometimes it feels like you never actually talk to anyone."
 
     show alex blush at right
     alex "I mean, unless you count memes as communication."
 
-    clara "Memes are communication. Just chaotic ones."
+    gina "Memes are communication. Just chaotic ones."
 
     alex "Wait—you and Bobby haven’t even added each other yet, right?"
 
     show bobby blush at left
     bobby "Nope. We only ever talk when Alex’s around being loud."
 
-    show clara happy at center
-    clara "Well, I guess we fix that now."
+    show gina happy at center
+    gina "Well, I guess we fix that now."
 
     pause
 # [She pulls out her phone.]
     show bobby blush at right
     show alex blush at left
 
-    clara "Discord, number, Instagram—dealer’s choice."
+    gina "Discord, number, Instagram—dealer’s choice."
 
     bobby "I’ll take the full set. I need backup options when I lock myself out of my email again."
 
     play sound phone_ping
     pause
 
-    clara "Okay, sent you a cursed meme as a test of friendship."
+    gina "Okay, sent you a cursed meme as a test of friendship."
 
     bobby "Oh no. You’re one of those."
 
@@ -159,11 +159,11 @@ label mar_2019_volunteering:
     show bobby neutral at right
     alex "You know, we actually finished a lot."
 
-    clara "Maybe Lam should abandon us more often."
+    gina "Maybe Lam should abandon us more often."
 
     bobby "Careful. Say that too loud and he’ll make us rubric consultants for every class."
 
-    clara "Rubric Inc., now hiring. Must love red pens and existential despair."
+    gina "Rubric Inc., now hiring. Must love red pens and existential despair."
 
     alex "Benefits include free marker fumes and occasional hallway fame."
 

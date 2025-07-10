@@ -30,7 +30,7 @@ screen credits0():
                 else:
                     text "They both became more confident in themselves, and attended prom with their respective dates - Alex with a Gr. 10 girl he met at a party, and Bobby with a Gr. 12 girl he met in class."
             hbox:
-                text "Clara let the entire Alex situation go, and in the end she got together with Albert, much to the dismay of Bobby and Alex when they found out."
+                text "Gina let the entire Alex situation go, and in the end she got together with Albert, much to the dismay of Bobby and Alex when they found out."
             hbox:
                 text "But by that point, the incident on July 11th, 2019 had long faded from their memories."
             hbox:

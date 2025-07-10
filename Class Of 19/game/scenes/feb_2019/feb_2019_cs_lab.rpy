@@ -61,7 +61,7 @@ label feb_2019_cs_lab:
 
     alex "How did we forget? Didn't he literally write it on the whiteboard in all caps?"
 
-    bobby "I was distracted. Clara was standing in front of the board."
+    bobby "I was distracted. Gina was standing in front of the board."
 
     alex "Wow. So brave of you to admit that out loud."
 
@@ -74,7 +74,7 @@ label feb_2019_cs_lab:
 
     alex "So helpful, thanks."
 
-    bobby "We could ask Clara for help?"
+    bobby "We could ask Gina for help?"
 
     alex "You sure? Isn't she assigned to the 100-level class?"
 
@@ -85,30 +85,30 @@ label feb_2019_cs_lab:
 
     show bobby happy at left
 
-    bobby "Hey Clara, got a sec?"
+    bobby "Hey Gina, got a sec?"
 
-    show clara happy at center with moveinleft
-    clara "Sure! What's up?"
+    show gina happy at center with moveinleft
+    gina "Sure! What's up?"
 
     alex "We're, uh… hitting a wall with this data structures thing. Think you could take a look?"
 
-    clara "Oof. Yeah, that one's tricky. But I actually haven't finished it yet—I'm only assigned to help the first-years."
+    gina "Oof. Yeah, that one's tricky. But I actually haven't finished it yet—I'm only assigned to help the first-years."
 
     bobby "Darn. You seemed like our last hope."
 
-    clara "Sorry! But hey, the hint on the assignment page? It's more useful than it looks. Read the hint."
+    gina "Sorry! But hey, the hint on the assignment page? It's more useful than it looks. Read the hint."
 
     alex "Got it."
 
-    clara "You guys got this. Probably."
+    gina "You guys got this. Probably."
 
-    hide clara with moveoutleft
+    hide gina with moveoutleft
     play sound typing
     pause
 
     show bobby left at left
     show alex blush at right
-    alex "Okay but real talk… Clara's kinda cute."
+    alex "Okay but real talk… Gina's kinda cute."
 
     bobby "I knew it. You were paying more attention to her than the whiteboard too."
 
@@ -116,24 +116,24 @@ label feb_2019_cs_lab:
 
     pause
     hide bobby with moveoutleft
-    show clara left at left with moveinleft
+    show gina left at left with moveinleft
 
-    # [Class winds down. Students begin to leave. Clara stays behind, organizing papers.]
+    # [Class winds down. Students begin to leave. Gina stays behind, organizing papers.]
     # [Alex hesitates, then walks over to her solo.]
 
     alex "Hey—uh, thanks again for earlier. Even if you couldn't help, it… helped. Y'know?"
 
-    clara "Of course. You guys are fun."
+    gina "Of course. You guys are fun."
 
     alex "Do you, uh... use Discord? Maybe we could trade memes. Or debugging pain."
 
-    clara "Memes and suffering? Sounds like my kind of chat. Here—add me."
+    gina "Memes and suffering? Sounds like my kind of chat. Here—add me."
 
     # [They exchange phones. SFX: Discord notification ping.]
 
     alex "Nice. I'll start with something cursed. Test your threshold."
 
-    clara "Bring it on. But no JoJo memes. I've seen everything."
+    gina "Bring it on. But no JoJo memes. I've seen everything."
 
     alex "You're gonna regret saying that."
 

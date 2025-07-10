@@ -20,15 +20,15 @@ label jul_2019_biking:
 
     alex "Just... not that hungry."
 
-    albert "Still Clara?"
+    albert "Still Gina?"
 
-    alex "Still Clara."
+    alex "Still Gina."
 
     pause
 
     show albert troll at right
 
-    albert "So... what happened at Clara's house on June 24th?"
+    albert "So... what happened at Gina's house on June 24th?"
 
     show alex excited at left
     alex "Bruh... how did you know?"
@@ -90,15 +90,15 @@ label jul_2019_biking:
 
     pause
     menu:
-        "Bike to Clara's house":
+        "Bike to Gina's house":
             $Ending1Triggered = True
-            jump alex_bikes_to_clara_postfinals
+            jump alex_bikes_to_gina_postfinals
             
         "Leave it alone":
             jump alex_leaves_it_alone
             return
 
-    label alex_bikes_to_clara_postfinals:
+    label alex_bikes_to_gina_postfinals:
 
         stop music
         play music theme

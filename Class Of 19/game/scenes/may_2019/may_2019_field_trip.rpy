@@ -19,7 +19,7 @@ label may_2019_field_trip:
     show albert neutral at left
     show alex neutral at middle_left
     show bobby neutral at mid_left
-    show clara neutral at mid_right
+    show gina neutral at mid_right
     show lia neutral at middle_right
 
     manias "Alright people, welcome to the physics field trip. I know you’re all thrilled to be here instead of in a windowless classroom doing actual work."
@@ -34,7 +34,7 @@ label may_2019_field_trip:
 
     hide manias with moveoutright
     hide albert with moveoutleft
-    hide clara with moveoutleft
+    hide gina with moveoutleft
     hide lia with moveoutleft
 
     show bobby neutral at left with move
@@ -125,16 +125,16 @@ label may_2019_field_trip:
 
     alex "...Wait."
 
-    alex "Is that Clara I see over in the distance?"
+    alex "Is that Gina I see over in the distance?"
 
 
     menu:
         "Approach her":
-            jump approach_clara
+            jump approach_gina
         "Don’t approach her":
             return
 
-    label approach_clara:
+    label approach_gina:
 
     stop music
     play music bunny
@@ -143,28 +143,28 @@ label may_2019_field_trip:
 
     alex "Alright. Let’s go say hi."
 
-    show clara happy at left with moveinleft
+    show gina happy at left with moveinleft
 
     alex "Hey."
 
-    clara "Oh—hey. Weren’t you heading out?"
+    gina "Oh—hey. Weren’t you heading out?"
 
     alex "I was. Then I saw you standing here looking like you were waiting for a philosophical moment."
 
-    clara "More like catching my breath after some of those rides."
+    gina "More like catching my breath after some of those rides."
 
     alex "The loop-de-loop one almost separated my soul from my body."
 
-    clara "That’s physics for ya."
+    gina "That’s physics for ya."
 
     alex "So... not heading back with anyone?"
 
-    clara "Nah. Lia ditched me for Albert’s chaos squad. I was just gonna walk home."
+    gina "Nah. Lia ditched me for Albert’s chaos squad. I was just gonna walk home."
 
     show alex blush at center
     alex "Same. You wanna walk together?"
 
-    clara "Sure. Lead the way, stopwatch boy."
+    gina "Sure. Lead the way, stopwatch boy."
 
     scene black
     with Pause(2)
@@ -172,52 +172,52 @@ label may_2019_field_trip:
     scene bg park
 
     show alex excited at left
-    show clara happy at right
+    show gina happy at right
 
     alex "This place gets so quiet sometimes."
 
-    clara "Right? I like walking here in the morning to school, or late at night to destress after a long day."
+    gina "Right? I like walking here in the morning to school, or late at night to destress after a long day."
 
     alex "You ever bring homework here or just vibes?"
 
-    clara "Homework kills the vibes."
+    gina "Homework kills the vibes."
 
     alex "Good answer."
 
     pause
 
-    clara "So... doing anything this weekend?"
+    gina "So... doing anything this weekend?"
 
     alex "Might study. Might not. What about you?"
 
-    clara "Not sure. Might meet up with Lia. Or just draw."
+    gina "Not sure. Might meet up with Lia. Or just draw."
 
     alex "If you’re down for something low effort, we could hang out."
 
-    clara "Low effort is my love language. I’d be down."
+    gina "Low effort is my love language. I’d be down."
 
     scene black
     with Pause(2)
     scene bg alex_house
 
     show alex neutral at left
-    show clara neutral at right
+    show gina neutral at right
 
     alex "Well... this is me."
 
-    clara "Cute place. I’m guessing there’s at least one anime poster inside."
+    gina "Cute place. I’m guessing there’s at least one anime poster inside."
 
     show alex blush at left
     alex "That’s classified."
 
-    clara "Uhh, do you keep secrets from everyone, or just TA girls?"
+    gina "Uhh, do you keep secrets from everyone, or just TA girls?"
 
 
     show alex neutral at left
     alex "Depends. Wanna meet the rabbit I trust with everything?"
 
-    show clara happy at right
-    clara "There’s a rabbit involved?"
+    show gina happy at right
+    gina "There’s a rabbit involved?"
 
     alex "Wait here."
 
@@ -229,167 +229,167 @@ label may_2019_field_trip:
     show bunny at center with moveinleft
     alex "Okay. Meet Bunny."
 
-    show clara neutral at right
-    clara "..."
+    show gina neutral at right
+    gina "..."
 
-    clara "You named your bunny... Bunny."
+    gina "You named your bunny... Bunny."
 
     alex "Listen, it’s minimalist."
 
-    show clara blush at right
-    clara "Yo its not even minilalist. It's anti-lore..."
+    show gina blush at right
+    gina "Yo its not even minilalist. It's anti-lore..."
 
-    clara "Zero Creativity. Maximal Chaos. Like calling your future child \"Child\" or a dog \"Dog\"."
+    gina "Zero Creativity. Maximal Chaos. Like calling your future child \"Child\" or a dog \"Dog\"."
 
     alex "She responds to it. Sometimes."
 
-    clara "Wow. Such a deep bond I guess."
+    gina "Wow. Such a deep bond I guess."
 
     alex "Go ahead. You can pet her if she doesn’t run."
 
-    show clara neutral at right
-    clara "I swear if she bites me..."
+    show gina neutral at right
+    gina "I swear if she bites me..."
 
     pause
 
-    show clara happy at right
-    clara "Okay, fine. She’s adorable."
+    show gina happy at right
+    gina "Okay, fine. She’s adorable."
 
     alex "Told you."
 
-    clara "Still judging you for the name, though."
+    gina "Still judging you for the name, though."
 
     show alex neutral at left
     alex "As expected."
 
-    clara "You and Bobby should really co-author a book called \"Naming Things Is Hard: A Journey into Functional Nihilism\""
+    gina "You and Bobby should really co-author a book called \"Naming Things Is Hard: A Journey into Functional Nihilism\""
 
     alex "Why?"
 
-    clara "Didn't Bobby name a bunch of files \'.png? Basically the same energy as you naming your bunny \"Bunny\"."
+    gina "Didn't Bobby name a bunch of files \'.png? Basically the same energy as you naming your bunny \"Bunny\"."
 
     show alex blush at left
     alex "Oh, of course Bobby... He'd definitely be the type to do that."
 
-    show clara neutral at right
-    clara "Anyways, gotta get going. Thanks for the walk though. And the bunny interaction."
+    show gina neutral at right
+    gina "Anyways, gotta get going. Thanks for the walk though. And the bunny interaction."
 
     alex "Thanks for tolerating my animal naming skills."
 
-    clara "See you at school?"
+    gina "See you at school?"
 
     alex "Definitely."
 
-    clara "Cool. Bye, Alex."
+    gina "Cool. Bye, Alex."
 
-    alex "Bye, Clara."
+    alex "Bye, Gina."
 
     scene black
     with Pause(2)
 
     scene bg 108_day
 
-    show clara neutral at right
+    show gina neutral at right
 
-    clara "..."
+    gina "..."
 
-    clara "Okay, that was... unexpectedly nice."
+    gina "Okay, that was... unexpectedly nice."
 
-    clara "And he seriously named his bunny 'Bunny.' I still can't believe that."
+    gina "And he seriously named his bunny 'Bunny.' I still can't believe that."
 
-    # Clara reaches her doorstep, sees Lia waiting
+    # Gina reaches her doorstep, sees Lia waiting
 
     show lia neutral at left with moveinleft
 
     pause
 
-    clara "Wait—Lia?"
+    gina "Wait—Lia?"
 
     lia "Hey."
 
-    clara "What are you doing here?"
+    gina "What are you doing here?"
 
     lia "I felt bad about ditching you earlier. So... I came to offer peace snacks."
 
-    show clara sideways at right
+    show gina sideways at right
 
-    clara "Did you actually bring snacks or are you lying again?"
+    gina "Did you actually bring snacks or are you lying again?"
 
     show lia blush at left
 
     lia "Emotionally, yes. Spiritually, I brought chips."
 
-    clara "That’ll do."
+    gina "That’ll do."
 
     lia "Sooo. I saw you walking with Alex on the way home...?"
 
-    show clara embarrassed at right
-    clara "...Yeah."
+    show gina embarrassed at right
+    gina "...Yeah."
 
     lia "You two looked... cozy."
 
-    clara "We just talked. Walked home. That’s it."
+    gina "We just talked. Walked home. That’s it."
 
     lia "Uh huh."
 
-    clara "Okay, fine. It was nice."
+    gina "Okay, fine. It was nice."
 
     show lia neutral at left
 
     lia "He's not awful. But can I be real for a sec?"
 
-    show clara neutral at right
-    clara "Always."
+    show gina neutral at right
+    gina "Always."
 
     lia "You remember at lunch a couple weeks ago? He was acting kind of weird."
 
-    clara "Weird how?"
+    gina "Weird how?"
 
     lia "Like... super quiet, staring at everyone but not really talking. Gave me ‘trying to analyze the table dynamic’ vibes."
 
-    clara "Maybe he was just nervous?"
+    gina "Maybe he was just nervous?"
 
     lia "Maybe. But also during the physics study group — he was definitely staring at you while you were explaining stuff."
 
-    clara "...Oh."
+    gina "...Oh."
 
     lia "And I’m not trying to be petty, but in middle school? He used to follow some of the popular girls around a little too often."
 
-    clara "Seriously?"
+    gina "Seriously?"
 
     lia "Yeah. Like, not 'call-the-counselor' level, but definitely hovering. Whispery hallway kid energy."
 
-    clara "...Damn."
+    gina "...Damn."
 
     pause
 
     lia "Look, I’m not saying he’s a red flag bouquet or anything. Just... don’t rush into trusting the vibe too quick. Also don't shut him out, he might actually be figuring things out."
 
-    clara "Got it. Yeah I guess, he chases me around a bit. But not in an annoying way. He's definitely not as try-hard as Bobby."
+    gina "Got it. Yeah I guess, he chases me around a bit. But not in an annoying way. He's definitely not as try-hard as Bobby."
 
     lia "Bobby...?"
 
-    clara "Yeah, that guy called me \"babe\" like the week we met"
+    gina "Yeah, that guy called me \"babe\" like the week we met"
 
     lia "Screams pretty try-hard to me."
 
-    clara "Exactly. Bobby is all try-hard energy. Like he’s performing. Alex is... quieter. More himself."
+    gina "Exactly. Bobby is all try-hard energy. Like he’s performing. Alex is... quieter. More himself."
 
     show lia blush at left
 
     lia "Hmm okay... Well let me know if you need me to start planning the wedding"
 
-    show clara blush at right
+    show gina blush at right
 
-    clara "Liaaaaa, noooo, its not anything like that yet"
+    gina "Liaaaaa, noooo, its not anything like that yet"
 
     lia "Too late. I already picked the bunny as ring bearer."
 
-    clara "You're actually insane."
+    gina "You're actually insane."
 
     lia "Only for you."
 
-    clara "Okay for real though, next time, don’t ditch me."
+    gina "Okay for real though, next time, don’t ditch me."
 
     lia "Deal."
     

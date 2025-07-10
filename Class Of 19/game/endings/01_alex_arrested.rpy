@@ -30,15 +30,7 @@ screen credits1():
                 text "The next morning, the charges were read: criminal trespassing, stalking, and harrassment."
             hbox:
                 text "When the case went to trial, the judge showed no leniency. Alex was sentenced to three months in adult prison."
-            hbox:
-                text "The experience was brutal — the noise, the tension, the constant sense of danger."
-            hbox:
-                text "When he was finally released, he found out he now had a restraining order, barring him from any contact with Clara."
-            hbox:
-                text "As part of his probation, he was required to complete twelve months of community service."
-            hbox:
-                text "Not only that, but he was forced to transfer to a different high school to finish his final year, with a criminal record likely preventing him from even having a shot at college."
-            hbox:
+            hbox:tan
                 text "Alex was now isolated from his old life. No friends, no relationships, and a bleak future - marked by a record he couldn’t erase."
             
 

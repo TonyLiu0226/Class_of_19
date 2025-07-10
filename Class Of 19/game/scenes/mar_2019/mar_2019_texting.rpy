@@ -23,15 +23,15 @@ label mar_2019_texting:
 
     pause
     
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara neutral at center
+    show gina neutral at center
     show phone at left
 
     play sound phone_ping
-    clara "{i}lol who told you that??{/i}"
+    gina "{i}lol who told you that??{/i}"
     play sound phone_ping
-    clara "{i}i’ve only seen like the first season 😭{/i}"
+    gina "{i}i’ve only seen like the first season 😭{/i}"
 
     scene bg bobby_room_night
 
@@ -41,15 +41,15 @@ label mar_2019_texting:
     play sound phone_ping
     bobby "{i}oh word? the way you were talking about Rengoku in class made it sound serious{/i}"
 
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara neutral at center
+    show gina neutral at center
     show phone at left
 
     play sound phone_ping
-    clara "{i}okay fair, he’s a legend{/i}"
+    gina "{i}okay fair, he’s a legend{/i}"
     play sound phone_ping
-    clara "{i}i cried on the train scene and everything{/i}"
+    gina "{i}i cried on the train scene and everything{/i}"
 
     scene bg bobby_room_night
 
@@ -61,15 +61,15 @@ label mar_2019_texting:
     play sound phone_ping
     bobby "{i}dude really went out with flames AND wisdom{/i}"
 
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara neutral at center
+    show gina neutral at center
     show phone at left
 
     play sound phone_ping
-    clara "🔥🔥🔥"
+    gina "🔥🔥🔥"
     play sound phone_ping
-    clara "{i}i respect that. 10/10 death monologue{/i}"
+    gina "{i}i respect that. 10/10 death monologue{/i}"
 
     scene bg bobby_room_night
 
@@ -82,14 +82,14 @@ label mar_2019_texting:
 
     menu:
         "Flirt a little":
-            $ flirted_with_clara = True
+            $ flirted_with_gina = True
             $Ending7Eligible = False
-            jump clara_flirt_path
+            jump gina_flirt_path
         "Keep it light":
-            $ flirted_with_clara = False
-            jump clara_chill_path
+            $ flirted_with_gina = False
+            jump gina_chill_path
 
-    label clara_flirt_path:
+    label gina_flirt_path:
     play sound phone_ping
     bobby "{i}not gonna lie{/i}"
     play sound phone_ping
@@ -103,15 +103,15 @@ label mar_2019_texting:
 
     pause
 
-    scene bg clara_room_night
+    scene bg gina_room_night
 
-    show clara happy at center
+    show gina happy at center
     show phone at left
 
     play sound phone_ping
-    clara "{i}...omg{/i} 😳"
+    gina "{i}...omg{/i} 😳"
     play sound phone_ping
-    clara "{i}ok baeby haha{/i}"
+    gina "{i}ok baeby haha{/i}"
 
     scene bg bobby_room_night
 
@@ -122,7 +122,7 @@ label mar_2019_texting:
 
     jump bobby_texts_alex
 
-    label clara_chill_path:
+    label gina_chill_path:
      
         show bobby neutral at center
         play sound phone_ping
@@ -130,15 +130,15 @@ label mar_2019_texting:
         play sound phone_ping
         bobby "{i}i’ve been rewatching the Mugen Train arc, it still hits{/i}"
 
-        scene bg clara_room_night
+        scene bg gina_room_night
 
-        show clara neutral at center
+        show gina neutral at center
         show phone at left
 
         play sound phone_ping
-        clara "{i}fr fr{/i}"
+        gina "{i}fr fr{/i}"
         play sound phone_ping
-        clara "{i}might rewatch season 1 next week. i need to feel again lol{/i}"
+        gina "{i}might rewatch season 1 next week. i need to feel again lol{/i}"
 
         scene bg bobby_room_night
 
@@ -153,7 +153,7 @@ label mar_2019_texting:
         scene black with pixellate
         with Pause(1)
 
-        bobby "{i}yo i’ve been talking to clara a lot lately{/i}"
+        bobby "{i}yo i’ve been talking to Gina a lot lately{/i}"
 
         play sound phone_ping
         alex "{i}LMAO{/i}"
@@ -175,12 +175,12 @@ label mar_2019_texting:
         scene black with pixellate
         with Pause(1)
 
-    if flirted_with_clara:
-        jump clara_response_scene
+    if flirted_with_gina:
+        jump gina_response_scene
     else:
         return
 
-    label clara_response_scene:
+    label gina_response_scene:
 
         scene bg bobby_room_night
         show bobby happy at center
@@ -194,17 +194,17 @@ label mar_2019_texting:
 
         bobby "{i}need a cuddle buddy for anime trauma recovery?{/i} 💀"
 
-        scene bg clara_room_night
-        show clara blush at center
+        scene bg gina_room_night
+        show gina blush at center
 
-        clara "..."
+        gina "..."
 
-        clara "...he’s kinda cute when he says dumb stuff like that..."
+        gina "...he’s kinda cute when he says dumb stuff like that..."
 
-        show clara neutral at center
+        show gina neutral at center
 
-        clara "...but this feels... extra?"
-        clara "like he’s trying way too hard now."
+        gina "...but this feels... extra?"
+        gina "like he’s trying way too hard now."
 
         pause
 
