@@ -83,7 +83,7 @@ label jul_2019_aftermath:
 
     alex "I was feeling low, right? I just wanted to talk to someone, especially during and after finals. I messaged her a few times — light stuff, nothing weird."
 
-    alex "She replied... but slower. Less and less. I felt it. So I asked Albert what I should do."
+    alex "She replied... but slower. Less and less. I felt it. So I asked Egbert what I should do."
 
     bobby "Well I know he said to give her some space, but guess you didn't take that advice on that day."
 
@@ -93,7 +93,7 @@ label jul_2019_aftermath:
 
     bobby "So why didn't you just text her?"
 
-    alex "I wasn't sure. Should I still give her space and wait for her to come to me? Or should I be more proactive? I went to Albert for advice, and boy did his advice change."
+    alex "I wasn't sure. Should I still give her space and wait for her to come to me? Or should I be more proactive? I went to Egbert for advice, and boy did his advice change."
 
     bobby "So this man now decides to tell you to bike to her house? What a goddamn troll."
 

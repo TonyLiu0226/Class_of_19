@@ -16,7 +16,7 @@ label may_2019_field_trip:
     scene bg theme_park
 
     show qwen neutral at right
-    show albert neutral at left
+    show egbert neutral at left
     show alex neutral at middle_left
     show bobby neutral at mid_left
     show gina neutral at mid_right
@@ -33,7 +33,7 @@ label may_2019_field_trip:
     qwen "Once you’re done, you’re free to enjoy the park—but remember, I want actual numbers, not napkin scribbles from the cotton candy stand."
 
     hide qwen with moveoutright
-    hide albert with moveoutleft
+    hide egbert with moveoutleft
     hide gina with moveoutleft
     hide lia with moveoutleft
 
@@ -159,7 +159,7 @@ label may_2019_field_trip:
 
     alex "So... not heading back with anyone?"
 
-    gina "Nah. Lia ditched me for Albert’s chaos squad. I was just gonna walk home."
+    gina "Nah. Lia ditched me for Egbert’s chaos squad. I was just gonna walk home."
 
     show alex blush at center
     alex "Same. You wanna walk together?"

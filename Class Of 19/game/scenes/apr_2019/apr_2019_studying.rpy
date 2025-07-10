@@ -15,26 +15,26 @@ label apr_2019_studying:
     scene bg school_hallway
 
     show alex neutral at left
-    show albert happy at right
+    show egbert happy at right
 
-    albert "Yo Alex! How was your break, bro?"
+    egbert "Yo Alex! How was your break, bro?"
 
     alex "Not bad. Mostly just slept and ignored responsibility."
 
-    albert "Classic. Me, I went downtown with my cousin... dropped like 500 bucks on these bad boys."
+    egbert "Classic. Me, I went downtown with my cousin... dropped like 500 bucks on these bad boys."
 
     alex "Five hundred? On glasses?"
 
-    albert "Gucci, man. You gotta respect the flex."
+    egbert "Gucci, man. You gotta respect the flex."
 
     show alex excited at left
     alex "Can’t relate, but I respect it."
 
-    albert "Anyway—there’s a physics test coming up, right? You wanna hit the library after school? Group study sesh."
+    egbert "Anyway—there’s a physics test coming up, right? You wanna hit the library after school? Group study sesh."
 
     alex "Yeah sure. That’d probably save my grade."
 
-    albert "Cool. We got a little squad... you’ll vibe."
+    egbert "Cool. We got a little squad... you’ll vibe."
 
     stop music
    
@@ -47,9 +47,9 @@ label apr_2019_studying:
     show gina neutral at middle_left
     show lia neutral at middle_right
     show alex neutral at far_left
-    show albert neutral at far_right
+    show egbert neutral at far_right
     
-    albert "Alright, question five ... object rolling down an incline. Acceleration due to gravity is 9.8, angle is 30 degrees."
+    egbert "Alright, question five ... object rolling down an incline. Acceleration due to gravity is 9.8, angle is 30 degrees."
 
     lia "Easy. a = g * sin(theta). So 9.8 * 0.5 = 4.9 m/s²."
 
@@ -64,7 +64,7 @@ label apr_2019_studying:
     play sound flipping_page
     pause
 
-    albert "Okay next—projectile motion. A ball is launched at 20 m/s at a 45° angle. What’s the time of flight?"
+    egbert "Okay next—projectile motion. A ball is launched at 20 m/s at a 45° angle. What’s the time of flight?"
 
     alex "...uh, vertical velocity’s 20 * sin(45)... that’s around 14.1?"
 
@@ -72,15 +72,15 @@ label apr_2019_studying:
 
     lia "2 * 14.1 / 9.8 = 2.88 seconds. Boom."
 
-    show albert happy at far_right
-    albert "Let’s gooo. You guys are cracked."
+    show egbert happy at far_right
+    egbert "Let’s gooo. You guys are cracked."
 
     gina "Okay but plot twist—what if we’re on the moon?"
 
     show alex excited at far_left
-    alex "Then Albert can afford real estate there."
+    alex "Then Egbert can afford real estate there."
 
-    albert "True. Gucci shades, lunar edition."
+    egbert "True. Gucci shades, lunar edition."
 
     show lia happy at middle_right
     show gina happy at middle_left
@@ -92,7 +92,7 @@ label apr_2019_studying:
     show gina neutral at middle_left
     show lia neutral at middle_right
     show alex neutral at far_left
-    show albert neutral at far_right
+    show egbert neutral at far_right
 
     gina "Okay serious time—last section. Torque problems. I hate these."
 
@@ -111,8 +111,8 @@ label apr_2019_studying:
 
     gina "Exactly. See? You’re already better than half the class."
 
-    show albert troll at far_right
-    albert "Bro, we should just cheat off Gina."
+    show egbert troll at far_right
+    egbert "Bro, we should just cheat off Gina."
 
     show gina blush at middle_left
     gina "You wish."
@@ -120,8 +120,8 @@ label apr_2019_studying:
     play sound flipping_page
     pause
 
-    show albert neutral at far_right
-    albert "Yo Lia... your boyfriend still suspended?"
+    show egbert neutral at far_right
+    egbert "Yo Lia... your boyfriend still suspended?"
 
     show gina neutral at middle_left
     lia "Ugh, don’t even. He’s not suspended, but he’s like *this* close to being kicked out."
@@ -135,8 +135,8 @@ label apr_2019_studying:
 
     lia "Unfortunately."
 
-    show albert troll at far_right
-    albert "Dude thought he was in a Marvel movie."
+    show egbert troll at far_right
+    egbert "Dude thought he was in a Marvel movie."
 
     lia "And then he told Mr. Nguyen it was a 'chemistry experiment to measure chaos.' Like bro, stop."
 

@@ -133,31 +133,31 @@ label jun_2019_complications:
     show phone at right
     play sound dial
     $renpy.pause(6.0, hard=True)
-    albert "Yo yo. What’s up?"
+    egbert "Yo yo. What’s up?"
 
     alex "Hey. Can I vent for a second?"
 
-    albert "Always. What’s going on?"
+    egbert "Always. What’s going on?"
 
     alex "Gina’s going cold. Like, she still responds, but it’s robotic. It feels like she’s pulling away."
 
-    albert "Yeah... that’s rough."
+    egbert "Yeah... that’s rough."
 
     alex "I don’t know if I should say something or just... wait it out."
 
-    albert "Honestly? Wait it out."
+    egbert "Honestly? Wait it out."
 
     alex "What?"
 
-    albert "Dude, it’s finals. Everyone’s stressed. You don’t want to be that guy blowing up her notifications when she’s trying to cram for chem."
+    egbert "Dude, it’s finals. Everyone’s stressed. You don’t want to be that guy blowing up her notifications when she’s trying to cram for chem."
 
     alex "...So just do nothing?"
 
-    albert "Give it space. Let her miss you, if she will. If not, summer’s around the corner. New energy. New people. Focus on your grind."
+    egbert "Give it space. Let her miss you, if she will. If not, summer’s around the corner. New energy. New people. Focus on your grind."
 
     alex "Hmm..."
 
-    albert "Trust me. Chasing too hard just makes it worse."
+    egbert "Trust me. Chasing too hard just makes it worse."
 
     pause
 
@@ -213,7 +213,7 @@ label jun_2019_complications:
 
     show alex neutral at center
     show phone at right
-    alex "(Albert says wait it out. Bobby says be honest.)"
+    alex "(Egbert says wait it out. Bobby says be honest.)"
 
     alex "(I don’t know what’s right anymore.)"
 

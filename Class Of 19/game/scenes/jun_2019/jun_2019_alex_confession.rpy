@@ -175,7 +175,7 @@ label jun_2019_alex_confession:
         play sound phone_ping
         gina "{i}we’re good{/i}"
 
-        jump albert_park
+        jump egbert_park
 
     label gina_cafe:
         scene black with pixellate
@@ -269,64 +269,64 @@ label jun_2019_alex_confession:
 
         gina "*sighs* Fine."
 
-    label albert_park:
+    label egbert_park:
         scene black with pixellate
         with Pause(1)
 
         scene bg park
 
         show alex neutral at left
-        show albert happy at right
+        show egbert happy at right
 
         if Ending6Eligible == False:
-            albert "So? Did you shoot your shot?"
+            egbert "So? Did you shoot your shot?"
             alex "I did. Told her straight up."
-            albert "And?"
+            egbert "And?"
             alex "She said she needs time. I think I overwhelmed her a bit."
-            albert "Honestly? Could’ve been worse. She’s still talking to you, right?"
+            egbert "Honestly? Could’ve been worse. She’s still talking to you, right?"
             alex "Yeah. Just... taking space."
-            albert "Then you're still in the game, my friend."
+            egbert "Then you're still in the game, my friend."
 
         else:
-            albert "So? Did you tell her how you feel?"
+            egbert "So? Did you tell her how you feel?"
             alex "Kinda. She asked. But I backed off."
-            albert "Wait, you backed off?"
+            egbert "Wait, you backed off?"
             alex "Yeah. She said I was pressuring her. I didn't want to make things worse."
-            albert "That’s mature... and also kinda tragic."
+            egbert "That’s mature... and also kinda tragic."
             alex "Whatever. I needed to hear it."
 
-        albert "Anyway, you missed it — Jacob is officially expelled."
+        egbert "Anyway, you missed it — Jacob is officially expelled."
 
         show alex excited at left
 
         alex "NANI?"
 
-        albert "And it's deja vu. Chem lab again. Guy literally set Ruby's hair on fire, because of some stupid drama with her friend group or something."
+        egbert "And it's deja vu. Chem lab again. Guy literally set Ruby's hair on fire, because of some stupid drama with her friend group or something."
 
         alex "That man lives for catching chaos."
 
-        albert "Fire alarm was set off. Again."
+        egbert "Fire alarm was set off. Again."
 
         alex "Unreal."
 
-        show albert troll at right
+        show egbert troll at right
 
-        albert "Also, I don't know, but Lia is definitely cheating on him too. Saw her walking with a guy after school yesterday."
+        egbert "Also, I don't know, but Lia is definitely cheating on him too. Saw her walking with a guy after school yesterday."
 
         alex "Bruh after what happened, I'm not surprised. As Gina said it, Lia deserves someone with actual brain cells."
 
-        albert "Cheating on him all of a sudden kinda sounds slutty though not gonna lie."
+        egbert "Cheating on him all of a sudden kinda sounds slutty though not gonna lie."
 
         alex "Damn. I mean, her outfits though, screams sugar baby to a lot of guys."
 
-        show albert neutral at right
+        show egbert neutral at right
 
-        albert "Facts. Anyways, down for some food?"
+        egbert "Facts. Anyways, down for some food?"
 
         show alex neutral at left
 
         alex "Yep about time. I'm starving."
 
-        albert "Ok, let's go."
+        egbert "Ok, let's go."
 
         return

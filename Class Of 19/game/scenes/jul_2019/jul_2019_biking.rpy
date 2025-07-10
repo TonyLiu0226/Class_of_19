@@ -10,65 +10,65 @@ label jul_2019_biking:
     scene bg cafe
 
     show alex neutral at left
-    show albert happy at right
+    show egbert happy at right
 
-    albert "Man, this burger is actually insane."
+    egbert "Man, this burger is actually insane."
 
     alex "Yeah, it's good."
 
-    albert "You’ve barely touched yours."
+    egbert "You’ve barely touched yours."
 
     alex "Just... not that hungry."
 
-    albert "Still Gina?"
+    egbert "Still Gina?"
 
     alex "Still Gina."
 
     pause
 
-    show albert troll at right
+    show egbert troll at right
 
-    albert "So... what happened at Gina's house on June 24th?"
+    egbert "So... what happened at Gina's house on June 24th?"
 
     show alex excited at left
     alex "Bruh... how did you know?"
 
-    albert "Of course I know. Don't ask how."
+    egbert "Of course I know. Don't ask how."
 
     show alex neutral at left
     alex "But we talked for a bit. She was upset at first, but it didn’t explode. She said we should take space. Be honest."
 
-    show albert happy at right
+    show egbert happy at right
 
-    albert "Dude. That's not even bad. Sounds like you handled it."
+    egbert "Dude. That's not even bad. Sounds like you handled it."
 
     alex "I guess. But after that? Nothing. No messages. Total silence."
 
-    albert "You think she meant it when she said you could stay friends?"
+    egbert "You think she meant it when she said you could stay friends?"
 
     alex "I don’t know anymore. Every time I try to say something chill, it feels like I’m just annoying her."
 
     pause
 
-    albert "Okay, but like... finals are over now. The pressure’s gone."
+    egbert "Okay, but like... finals are over now. The pressure’s gone."
 
     alex "Yeah?"
 
-    albert "Yeah. So maybe this is the perfect time to talk again. For real. In person."
+    egbert "Yeah. So maybe this is the perfect time to talk again. For real. In person."
 
     alex "You mean go back to her house?"
 
-    show albert troll at right
+    show egbert troll at right
 
-    albert "Why not? No school stress. No deadlines. Just show up, be calm, and straighten things out."
+    egbert "Why not? No school stress. No deadlines. Just show up, be calm, and straighten things out."
 
     alex "...I don’t know, man."
 
-    albert "What do you mean?"
+    egbert "What do you mean?"
 
     alex "The first time I went to her place, she was already weirded out. I saw it in her face. She literally asked me why I was there. I almost felt she was about to call the cops on me."
 
-    albert "But you didn’t do anything wrong. You called her first, remember?"
+    egbert "But you didn’t do anything wrong. You called her first, remember?"
 
     alex "I know. But still — I feel like if I do it again, it’ll just make things worse."
 
@@ -76,15 +76,15 @@ label jul_2019_biking:
 
     alex "(What if this is the last chance I get to actually fix things?)"
 
-    show albert happy at right
+    show egbert happy at right
 
-    albert "Look. If she really didn't want to talk to you, she would’ve blocked you already. She didn't. That’s something."
+    egbert "Look. If she really didn't want to talk to you, she would’ve blocked you already. She didn't. That’s something."
 
-    albert "Sometimes people just need a little push. Don’t let fear talk you out of doing what might actually fix things."
+    egbert "Sometimes people just need a little push. Don’t let fear talk you out of doing what might actually fix things."
 
     alex "I know, but... I just don't want to mess things up again."
 
-    albert "Bruh... just do what you feel is right. Worst that can happen is she'll be mad at you, and you'll be able to move on."
+    egbert "Bruh... just do what you feel is right. Worst that can happen is she'll be mad at you, and you'll be able to move on."
 
     alex "(I need to decide on this soon...)"
 

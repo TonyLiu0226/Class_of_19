@@ -72,7 +72,7 @@ label apr_2019_texting_2:
     show alex neutral at center
     show phone at right
     play sound phone_ping
-    alex "{i}same. mostly chill stuff. lately been grinding CSGO tho (but albert keeps recking me){/i}"
+    alex "{i}same. mostly chill stuff. lately been grinding CSGO tho (but Egbert keeps recking me){/i}"
 
     pause
     scene bg gina_room_night

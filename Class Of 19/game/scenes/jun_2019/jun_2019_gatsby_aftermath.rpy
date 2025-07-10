@@ -68,17 +68,17 @@ label jun_2019_gatsby_aftermath:
     show gina neutral at mid_left
     show kyra sad at center
     show lia neutral at mid_right
-    show albert troll at right
+    show egbert troll at right
 
     # Group is halfway through lunch
 
-    albert "You guys realize Bobby hasn’t been here all week?"
+    egbert "You guys realize Bobby hasn’t been here all week?"
 
     alex "Yeah. I've texted him twice. No response."
 
     lia "He’s probably buried himself in some corner of the school."
 
-    albert "Library goblin arc?"
+    egbert "Library goblin arc?"
 
     gina "More like coward arc."
 
@@ -90,7 +90,7 @@ label jun_2019_gatsby_aftermath:
 
     lia "He should’ve been embarrassed."
 
-    albert "What even possessed him to say that? Middle of Gatsby? Really?"
+    egbert "What even possessed him to say that? Middle of Gatsby? Really?"
 
     gina "He thought it was funny. Or charming. Either way, it wasn’t."
 
@@ -108,9 +108,9 @@ label jun_2019_gatsby_aftermath:
 
     alex "People’ll forget. High school memory only lasts until the next hallway scandal."
 
-    show albert neutral at right
+    show egbert neutral at right
 
-    albert "Exactly. Wait till Jacob fails chem again and sets off the fire alarm. It'll blow over."
+    egbert "Exactly. Wait till Jacob fails chem again and sets off the fire alarm. It'll blow over."
 
     show gina angry at mid_left
     pause
@@ -127,9 +127,9 @@ label jun_2019_gatsby_aftermath:
 
     gina "I’m going to find him."
 
-    show albert troll at right
+    show egbert troll at right
 
-    albert "Should we prepare a eulogy?"
+    egbert "Should we prepare a eulogy?"
 
     gina "Don’t be dramatic."
 

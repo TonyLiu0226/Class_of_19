@@ -127,46 +127,46 @@ label jun_2019_bike:
     $renpy.pause(1.5, hard=True)
 
     show gina neutral at left with move
-    show albert happy at right with moveinright
+    show egbert happy at right with moveinright
 
-    albert "Was that Alex you were talking to?"
+    egbert "Was that Alex you were talking to?"
 
     show gina blush at left
 
     gina "Umm... were you spying on us the whole time?"
 
-    show albert troll at right
+    show egbert troll at right
 
-    albert "Totally wasn't. Anyways, everything good?"
+    egbert "Totally wasn't. Anyways, everything good?"
 
     show gina embarrassed at center with move
 
     gina "Define \"good.\""
 
-    show albert neutral at left with move
-    albert "What happened?"
+    show egbert neutral at left with move
+    egbert "What happened?"
 
     gina "He biked to my house. Called me from across the street."
 
-    albert "Bold."
+    egbert "Bold."
 
     gina "Desperate, more like."
 
-    albert "Did you send him packing?"
+    egbert "Did you send him packing?"
 
     show gina neutral at center
 
     gina "We talked. It wasn’t as bad as I thought it would be."
 
-    albert "So...?"
+    egbert "So...?"
 
     gina "So, we’re still figuring it out. But at least we’re doing it like people, not a CW drama."
 
-    albert "Proud of you."
+    egbert "Proud of you."
 
     gina "Shut up and let's grab some ice cream. I'm craving it."
 
     hide gina with moveoutright
-    hide albert with moveoutright
+    hide egbert with moveoutright
 
     return
