@@ -7,7 +7,7 @@ transform credits_scroll(speed):
 screen credits3():
     style_prefix "credits3"
 
-    add "bg 03_tanish_deported"
+    add "bg 03_bobby_deported"
 
     frame at credits_scroll(60.0):
         background None
@@ -21,7 +21,7 @@ screen credits3():
             null height 150
 
             hbox:
-                text "Tanish never apologized. Maybe he didn't know how. After everything that happened with Cindy, he just disappeared."
+                text "Bobby never apologized. Maybe he didn't know how. After everything that happened with Cindy, he just disappeared."
             hbox:
                 text "He stopped showing up to school, stopped talking to anyone. His grades dropped to zero, and he let them."
             hbox:
@@ -58,12 +58,12 @@ style game_over_button3:
 
 screen game_over_button3():
 
-    add "bg 03_tanish_deported"
+    add "bg 03_bobby_deported"
     textbutton _("Return to Main Menu") text_style "game_over_button3" action Return() xalign 0.5 yalign 0.5
 
 ## Show credits screen.
 
-label tanish_deported:
+label bobby_deported:
     window hide
     show screen credits3
     $ renpy.pause(60.0, hard=True)
