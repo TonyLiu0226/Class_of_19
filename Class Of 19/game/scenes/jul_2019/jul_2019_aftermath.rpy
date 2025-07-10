@@ -111,11 +111,11 @@ label jul_2019_aftermath:
 
     alex "Still hurts."
 
-    if BobbyCindyBreakup:
+    if BobbyKyraBreakup:
 
         bobby "I get that. Trust me, I’ve been there."
 
-        alex "Yeah... with Cindy?"
+        alex "Yeah... with Kyra?"
 
         bobby "Yeah. When that all fell apart, I kept second guessing everything. But sometimes... people just move on."
 

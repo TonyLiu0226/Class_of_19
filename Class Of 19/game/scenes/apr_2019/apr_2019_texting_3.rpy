@@ -19,25 +19,25 @@ label apr_2019_texting_3:
 
     bobby "Ahh... just another boring weeknight. What should I do?"
     menu:
-        "Text Cindy":
+        "Text Kyra":
             $Ending9Condition1 = True
             $Ending7Eligible = False
-            jump cindy_flirting
+            jump kyra_flirting
         "Watch Anime":
             return
 
-    label cindy_flirting:
+    label kyra_flirting:
         show phone at mid_right
 
         play sound phone_ping
         bobby "yo, did you ever finish that drawing you were working on?"
 
-        scene bg cindy_room
-        show cindy neutral at center
+        scene bg kyra_room
+        show kyra neutral at center
         show phone at mid_right
 
         play sound phone_ping
-        cindy "the monstera leaf one? yeah kinda. still sketchy tho"
+        kyra "the monstera leaf one? yeah kinda. still sketchy tho"
 
         scene bg bobby_room_night
         show bobby happy at center
@@ -46,11 +46,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "you gonna show me or are you gatekeeping your greatness?"
 
-        scene bg cindy_room
-        show cindy happy at center
+        scene bg kyra_room
+        show kyra happy at center
         show phone at mid_right
         play sound phone_ping
-        cindy "lol it’s not even greatness, it’s leaf with tiny faces"
+        kyra "lol it’s not even greatness, it’s leaf with tiny faces"
 
         scene bg bobby_room_night
         show bobby happy at center
@@ -58,11 +58,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "so… greatness"
 
-        scene bg cindy_room
-        show cindy blush at center
+        scene bg kyra_room
+        show kyra blush at center
         show phone at mid_right
         play sound phone_ping
-        cindy "fine. maybe I’ll send it later"
+        kyra "fine. maybe I’ll send it later"
 
         scene bg bobby_room_night
         show bobby happy at center
@@ -70,11 +70,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "deal. chunky the jade warrior needs a portrait anyway"
 
-        scene bg cindy_room
-        show cindy blush at center
+        scene bg kyra_room
+        show kyra blush at center
         show phone at mid_right
         play sound phone_ping
-        cindy "lmao he’s thriving on the windowsill btw. so powerful"
+        kyra "lmao he’s thriving on the windowsill btw. so powerful"
 
         scene bg bobby_room_night
         show bobby happy at center
@@ -82,11 +82,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "what's next for the squad? any new plants on your wishlist?"
 
-        scene bg cindy_room
-        show cindy blush at center
+        scene bg kyra_room
+        show kyra blush at center
         show phone at mid_right
         play sound phone_ping
-        cindy "definitely want a calathea but i heard they’re drama queens"
+        kyra "definitely want a calathea but i heard they’re drama queens"
 
         scene bg bobby_room_night
         show bobby happy at center
@@ -94,11 +94,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "fitting for your vibe"
 
-        scene bg cindy_room
-        show cindy sideways at center
+        scene bg kyra_room
+        show kyra sideways at center
         show phone at mid_right
         play sound phone_ping
-        cindy "rude"
+        kyra "rude"
 
         scene bg bobby_room_night
         show bobby happy at center
@@ -106,11 +106,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "i mean that lovingly"
 
-        scene bg cindy_room
-        show cindy happy at center
+        scene bg kyra_room
+        show kyra happy at center
         show phone at mid_right
         play sound phone_ping
-        cindy "hm. you’re lucky chunky approves"
+        kyra "hm. you’re lucky chunky approves"
 
         scene bg bobby_room_night
         show bobby happy at center
@@ -118,11 +118,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "blessed by the leaf gods"
 
-        scene bg cindy_room
-        show cindy neutral at center
+        scene bg kyra_room
+        show kyra neutral at center
         show phone at mid_right 
         play sound phone_ping
-        cindy "but fr school is kinda drowning me lately"
+        kyra "but fr school is kinda drowning me lately"
 
         scene bg bobby_room_night
         show bobby neutral at center
@@ -130,11 +130,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "math?"
         pause
-        scene bg cindy_room
-        show cindy neutral at center
+        scene bg kyra_room
+        show kyra neutral at center
         show phone at mid_right
         play sound phone_ping
-        cindy "math"
+        kyra "math"
 
         scene bg bobby_room_night
         show bobby blush at center
@@ -142,11 +142,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "say less. you tryna study together this weekend?"
         pause
-        scene bg cindy_room
-        show cindy neutral at center
+        scene bg kyra_room
+        show kyra neutral at center
         show phone at mid_right
         play sound phone_ping
-        cindy "at the library?"
+        kyra "at the library?"
 
         scene bg bobby_room_night
         show bobby blush at center
@@ -154,11 +154,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "yeah. snacks, notes, self-loathing"
 
-        scene bg cindy_room
-        show cindy happy at center
+        scene bg kyra_room
+        show kyra happy at center
         show phone at mid_right
         play sound phone_ping
-        cindy "honestly sounds perfect"
+        kyra "honestly sounds perfect"
 
         scene bg bobby_room_night
         show bobby happy at center
@@ -166,11 +166,11 @@ label apr_2019_texting_3:
         play sound phone_ping
         bobby "cool. I’ll bring something sugary and tragic"
 
-        scene bg cindy_room
-        show cindy happy at center
+        scene bg kyra_room
+        show kyra happy at center
         show phone at mid_right
         play sound phone_ping
-        cindy "i’ll bring chunky for moral support"
+        kyra "i’ll bring chunky for moral support"
 
         scene bg gina_room_night
 
@@ -185,7 +185,7 @@ label apr_2019_texting_3:
         gina "they used to just be fun and cringe. now it’s like getting kinda annoying—"
 
         show gina neutral at center
-        gina "Bobby is suddenly friendly with Cindy? Sweet, even."
+        gina "Bobby is suddenly friendly with Kyra? Sweet, even."
 
         gina "is he for real? or just trying to mess around to get a rise out of me?"
 

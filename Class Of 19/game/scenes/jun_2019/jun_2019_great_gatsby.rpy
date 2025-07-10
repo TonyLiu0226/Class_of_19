@@ -21,7 +21,7 @@ label jun_2019_great_gatsby:
     scene bg classroom
 
     show bobby neutral at left
-    show cindy neutral at right
+    show kyra neutral at right
     show alex neutral at mid_left
     show nicole blush at mid_right
     show neuheimer neutral at center
@@ -41,27 +41,27 @@ label jun_2019_great_gatsby:
     pause
 
     show bobby neutral at middle_left with moveinleft
-    show cindy neutral at middle_right with moveinright
+    show kyra neutral at middle_right with moveinright
 
     bobby "You ever read the book or are you just here for DiCaprio?"
 
-    cindy "I read it. Didn't love it. Gatsby’s a walking red flag."
+    kyra "I read it. Didn't love it. Gatsby’s a walking red flag."
 
     bobby "He’s literally the king of ignoring boundaries."
 
-    cindy "And still people romanticize him. Wild."
+    kyra "And still people romanticize him. Wild."
 
     bobby "At least the soundtrack slaps."
 
-    cindy "Okay, yeah. That part’s valid."
+    kyra "Okay, yeah. That part’s valid."
 
     # Steamy scene begins
 
     narrator "A steamy scene begins to play."
 
     menu:
-        "Whisper to Cindy: 'This will be us in the future.'":
-            $BobbyCindyBreakup = True
+        "Whisper to Kyra: 'This will be us in the future.'":
+            $BobbyKyraBreakup = True
             jump bobby_inappropriate
         "Stay quiet and keep watching the movie.":
             jump bobby_respectful
@@ -75,11 +75,11 @@ label jun_2019_great_gatsby:
 
         bobby "This will be us in the future."
 
-        show cindy angry at middle_right
+        show kyra angry at middle_right
 
-        cindy "..."
+        kyra "..."
 
-        cindy "What the hell is wrong with you?"
+        kyra "What the hell is wrong with you?"
 
         play sound slapping
 
@@ -88,7 +88,7 @@ label jun_2019_great_gatsby:
         show neuheimer sad at center with moveinleft
 
         show bobby sad at mid_left with move
-        show cindy angry at mid_right with move
+        show kyra angry at mid_right with move
 
         neuheimer "Mister Singh... Is there a problem?"
 
@@ -102,11 +102,11 @@ label jun_2019_great_gatsby:
 
         neuheimer "(sighs)"
 
-        neuheimer "Cindy, I'm going to need you to go to the principal's office to explain what happened."
+        neuheimer "Kyra, I'm going to need you to go to the principal's office to explain what happened."
 
-        cindy "(sighs)"
+        kyra "(sighs)"
 
-        hide cindy with moveoutright
+        hide kyra with moveoutright
 
         scene splash
 
@@ -120,21 +120,21 @@ label jun_2019_great_gatsby:
 
         scene bg classroom_dimmed
 
-        show cindy sad at middle_right
+        show kyra sad at middle_right
 
         pause
 
-        cindy "(I can’t believe he said that... in the middle of class.)"
+        kyra "(I can’t believe he said that... in the middle of class.)"
 
-        cindy "(I didn’t mean to slap him that hard... now we’re both humiliated.)"
+        kyra "(I didn’t mean to slap him that hard... now we’re both humiliated.)"
 
-        cindy "(On top of that, I have detention after school tomorrow, yet Bobby can just run away like nothing happened.)"
+        kyra "(On top of that, I have detention after school tomorrow, yet Bobby can just run away like nothing happened.)"
 
         # Movie ends. Class dismisses
 
         show bg classroom at fade
 
-        show cindy sad at right with moveinright
+        show kyra sad at right with moveinright
         show alex neutral at left with moveinleft
         show nicole blush at mid_left with moveinleft
         show neuheimer neutral at mid_right with moveinright
@@ -147,7 +147,7 @@ label jun_2019_great_gatsby:
 
         neuheimer "You’re dismissed."
 
-        hide cindy with moveoutright
+        hide kyra with moveoutright
         hide nicole with moveoutleft
 
         # Alex is left with a choice
@@ -203,7 +203,7 @@ label jun_2019_great_gatsby:
         show bg classroom at fade
 
         show bobby neutral at left
-        show cindy neutral at right
+        show kyra neutral at right
         show alex neutral at mid_left
         show nicole blush at mid_right
         show neuheimer neutral at center
@@ -218,7 +218,7 @@ label jun_2019_great_gatsby:
 
         alex "Honestly? I liked it more than I expected."
 
-        cindy "Same. I mean, it's a mess, but that was kind of the point."
+        kyra "Same. I mean, it's a mess, but that was kind of the point."
 
         nicole "Everyone was just emotionally wrecked and rich enough to ignore the consequences."
 
@@ -226,7 +226,7 @@ label jun_2019_great_gatsby:
 
         alex "And Daisy never really wanted to be caught. She just liked the attention."
 
-        cindy "Exactly. He built this whole illusion for her, and she didn’t even ask for it."
+        kyra "Exactly. He built this whole illusion for her, and she didn’t even ask for it."
 
         nicole "Meanwhile, Tom’s just stomping around ruining lives."
 
@@ -234,7 +234,7 @@ label jun_2019_great_gatsby:
 
         alex "Nah, the villain is the American Dream."
 
-        cindy "Woah. That’s deep."
+        kyra "Woah. That’s deep."
 
         nicole "That’s English class energy."
 
@@ -244,18 +244,18 @@ label jun_2019_great_gatsby:
         hide alex with moveoutleft
 
         show bobby neutral at left
-        show cindy happy at right
+        show kyra happy at right
 
-        cindy "Okay. Not bad. You actually held a decent conversation."
+        kyra "Okay. Not bad. You actually held a decent conversation."
 
         show bobby blush at left
 
         bobby "Are you proud of me?"
 
-        cindy "Mildly."
+        kyra "Mildly."
 
         bobby "Wanna walk out together?"
 
-        cindy "Sure."
+        kyra "Sure."
 
     return

@@ -8,13 +8,13 @@ label jun_2019_gatsby_aftermath:
 
     scene bg school_hallway
 
-    show cindy sad at center
+    show kyra sad at center
     show gina neutral at middle_left
     show lia neutral at middle_right
 
-    gina "Cindy? Hey—what’s wrong?"
+    gina "Kyra? Hey—what’s wrong?"
 
-    cindy "..."
+    kyra "..."
 
     pause
 
@@ -22,41 +22,41 @@ label jun_2019_gatsby_aftermath:
 
     lia "Did something happen in English?"
 
-    cindy "...Yeah. Bobby happened."
+    kyra "...Yeah. Bobby happened."
 
     gina "What did he do?"
 
-    cindy "During the movie—during that steamy scene—he leaned over and whispered..."
+    kyra "During the movie—during that steamy scene—he leaned over and whispered..."
 
-    cindy "‘This will be us in the future.’"
+    kyra "‘This will be us in the future.’"
 
     lia "...You're kidding."
 
-    cindy "I froze. I didn’t know what to do. I slapped him."
+    kyra "I froze. I didn’t know what to do. I slapped him."
 
-    cindy "And then the teacher stopped the movie. Turned on the lights. Everyone stared."
+    kyra "And then the teacher stopped the movie. Turned on the lights. Everyone stared."
 
     show gina angry at middle_left
 
     gina "What the hell was he thinking?"
 
-    cindy "I don’t know. He just said it like it was a joke. Like we were in on it together."
+    kyra "I don’t know. He just said it like it was a joke. Like we were in on it together."
 
     lia "You were just trying to watch a movie and this dude thinks he’s funny."
 
-    cindy "It was so embarrassing. I didn’t want to make it a scene, but my body just reacted."
+    kyra "It was so embarrassing. I didn’t want to make it a scene, but my body just reacted."
 
     show gina neutral at middle_left
 
     gina "No one blames you. He crossed a line."
 
-    cindy "Still… I feel like the entire class was watching me for the rest of the period."
+    kyra "Still… I feel like the entire class was watching me for the rest of the period."
 
     lia "They were probably just shocked. You handled it way better than I would’ve."
 
     gina "You don’t need to explain anything. We’ve got your back."
 
-    cindy "...Thanks. I just want this to go away."
+    kyra "...Thanks. I just want this to go away."
 
     scene black
     show text "The next week" with dissolve
@@ -66,7 +66,7 @@ label jun_2019_gatsby_aftermath:
 
     show alex neutral at left
     show gina neutral at mid_left
-    show cindy sad at center
+    show kyra sad at center
     show lia neutral at mid_right
     show albert troll at right
 
@@ -82,7 +82,7 @@ label jun_2019_gatsby_aftermath:
 
     gina "More like coward arc."
 
-    cindy "..."
+    kyra "..."
 
     pause
 
@@ -98,13 +98,13 @@ label jun_2019_gatsby_aftermath:
 
     alex "Honestly, it was uncomfortable just being in the room."
 
-    cindy "...I just wish he hadn’t made me part of it."
+    kyra "...I just wish he hadn’t made me part of it."
 
     gina "You didn’t do anything wrong."
 
     lia "Girl, you slapped him into another timeline. That was justified."
 
-    cindy "Yeah, but everyone keeps looking at me in class like I'm radioactive."
+    kyra "Yeah, but everyone keeps looking at me in class like I'm radioactive."
 
     alex "People’ll forget. High school memory only lasts until the next hallway scandal."
 
@@ -121,7 +121,7 @@ label jun_2019_gatsby_aftermath:
 
     lia "Gina—"
 
-    gina "He humiliated Cindy and left her to deal with it alone. That’s not okay."
+    gina "He humiliated Kyra and left her to deal with it alone. That’s not okay."
 
     alex "You gonna talk to him?"
 
@@ -143,9 +143,9 @@ label jun_2019_gatsby_aftermath:
 
     lia "Remind me to never cross her."
 
-    show cindy neutral at center
+    show kyra neutral at center
 
-    cindy "...Thanks, Gina."
+    kyra "...Thanks, Gina."
 
     scene black
     with Pause(1)
@@ -168,7 +168,7 @@ label jun_2019_gatsby_aftermath:
 
     bobby "I didn’t feel like seeing anyone."
 
-    gina "Well if it wasn’t obvious, you made Cindy cry."
+    gina "Well if it wasn’t obvious, you made Kyra cry."
 
     bobby "...I know."
 
@@ -192,12 +192,12 @@ label jun_2019_gatsby_aftermath:
 
     gina "You don't sound sorry at all... You sound pathetic..."
 
-    gina "Anyways, I'm going to leave you to it. You decide whether you want to actually apologize or not. But let me be clear, time is running out, and Cindy is still pissed."
+    gina "Anyways, I'm going to leave you to it. You decide whether you want to actually apologize or not. But let me be clear, time is running out, and Kyra is still pissed."
 
     hide gina with moveoutleft
 
     menu:
-        "Apologize to Cindy":
+        "Apologize to Kyra":
             jump bobby_apologizes
         "Refuse to apologize":
             $Ending3Triggered = True
@@ -236,19 +236,19 @@ label jun_2019_gatsby_aftermath:
         play sound phone_ping
         bobby "I was trying to be funny, but I wasn’t thinking at all. I’m sorry."
 
-        scene bg cindy_room
+        scene bg kyra_room
 
-        show cindy sad at center
+        show kyra sad at center
         show phone at right
 
         play sound phone_ping
-        cindy "Thanks for the apology."
+        kyra "Thanks for the apology."
         play sound phone_ping
-        cindy "It doesn’t make it okay, but I appreciate that you owned up to it."
+        kyra "It doesn’t make it okay, but I appreciate that you owned up to it."
         play sound phone_ping
-        cindy "We’re done, though. I’m not interested in picking this back up."
+        kyra "We’re done, though. I’m not interested in picking this back up."
         play sound phone_ping
-        cindy "Take care of yourself, alright?"
+        kyra "Take care of yourself, alright?"
 
         scene bg bobby_room_night
 

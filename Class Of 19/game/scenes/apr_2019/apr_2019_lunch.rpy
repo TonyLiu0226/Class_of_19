@@ -67,11 +67,11 @@ label apr_2019_lunch:
     scene bg cafeteria_lunch
 
     show gina neutral at middle_left
-    show cindy neutral at middle_right
+    show kyra neutral at middle_right
 
     gina "Glad to hear your plants are doing well!"
 
-    cindy "Thanks! I've be.."
+    kyra "Thanks! I've be.."
 
     alex "Hey—mind if we join you guys?"
 
@@ -79,7 +79,7 @@ label apr_2019_lunch:
 
     gina "Uh..."
 
-    cindy "Sure, go ahead. Plenty of room."
+    kyra "Sure, go ahead. Plenty of room."
 
     show alex sideways at right with moveinright
     show bobby left at left with moveinleft
@@ -89,7 +89,7 @@ label apr_2019_lunch:
 
     bobby "Plus the other options smelled like sadness."
 
-    cindy "You mean the magic the gathering players?"
+    kyra "You mean the magic the gathering players?"
 
     show alex neutral at right
     alex "Oh god, I blocked those memories."
@@ -105,7 +105,7 @@ label apr_2019_lunch:
     show gina neutral at middle_left
     gina "I know right? It's like they're wanting us to starve or smth."
 
-    cindy "I’m just hoping the school doesn't go bankrupt."
+    kyra "I’m just hoping the school doesn't go bankrupt."
 
     bobby "If so, we riot."
 
@@ -113,52 +113,52 @@ label apr_2019_lunch:
 
     gina "Hahaha if only."
 
-    # Cindy and Bobby break into their side convo
+    # Kyra and Bobby break into their side convo
     show bobby happy at mid_left with moveinleft
     bobby "Hey what’s your name again?"
     pause
     show gina neutral at mid_right with moveinleft
-    show cindy happy at left with moveinright
-    cindy "Cindy. You’re Bobby, right?"
+    show kyra happy at left with moveinright
+    kyra "Kyra. You’re Bobby, right?"
 
     bobby "Yup. Good memory."
 
-    cindy "You guys were talking about anime earlier, right?"
+    kyra "You guys were talking about anime earlier, right?"
     show bobby blush at mid_left
     bobby "Guilty. You into that?"
 
-    cindy "Not really, I’m more into drawing and plants. Like houseplants, succulents, stuff like that."
+    kyra "Not really, I’m more into drawing and plants. Like houseplants, succulents, stuff like that."
 
     bobby "Yo that’s actually cool. I always wanted a bonsai but I’d 100\% forget to water it."
 
-    cindy "Succulents forgive. Bonsai do not."
+    kyra "Succulents forgive. Bonsai do not."
 
     bobby "Noted. Stick to cacti for now."
-    show cindy blush at left
-    cindy "Probably smart."
+    show kyra blush at left
+    kyra "Probably smart."
 
     bobby "You ever post your art anywhere?"
 
-    cindy "Sometimes, but I don’t really share much. I just do it for fun."
+    kyra "Sometimes, but I don’t really share much. I just do it for fun."
 
     bobby "I used to sketch dragons in chem when I got bored. They looked cursed but it passed the time."
 
-    cindy "Dragons are never cursed. Only misunderstood."
+    kyra "Dragons are never cursed. Only misunderstood."
 
     show bobby neutral at mid_left
     bobby "That’s honestly deep."
     show gina neutral at mid_right
-    show cindy neutral at left
-    cindy "You wanna trade art sometime?"
+    show kyra neutral at left
+    kyra "You wanna trade art sometime?"
 
     show bobby blush at mid_left
     bobby "Only if I can survive the cringe of my old notebook."
 
-    show cindy blush at left
-    cindy "Deal. You got a number?"
+    show kyra blush at left
+    kyra "Deal. You got a number?"
 
     bobby "Yeah—here."
 
-    cindy "Cool. Texting you now."
+    kyra "Cool. Texting you now."
 
     return

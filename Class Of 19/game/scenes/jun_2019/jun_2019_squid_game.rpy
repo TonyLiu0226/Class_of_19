@@ -6,76 +6,76 @@ label jun_2019_squid_game:
 
     play music calc_studying
 
-    scene bg cindy_room
+    scene bg kyra_room
 
-    show cindy neutral at mid_right
+    show kyra neutral at mid_right
     show bobby neutral at mid_left
 
-    cindy "Time to unwind after that English class."
+    kyra "Time to unwind after that English class."
 
     bobby "Yep agreed... What better way to than let's say... more time with the big screen?"
 
-    cindy "Okay. Don’t judge me, but I already queued up the first episode."
+    kyra "Okay. Don’t judge me, but I already queued up the first episode."
 
     bobby "...Of what?"
 
-    cindy "*Squid Game.*"
+    kyra "*Squid Game.*"
 
     show bobby blush at mid_left
 
     bobby "Seriously? That show with the pink PlayStation guards and the traumatized TikToks?"
 
-    show cindy happy at mid_right
+    show kyra happy at mid_right
 
-    cindy "Yes. That one. And it’s actually good."
+    kyra "Yes. That one. And it’s actually good."
 
     show bobby neutral at mid_left
 
     bobby "I don’t know... I usually avoid things the internet loves too loudly."
 
-    cindy "You watched all of *Wednesday* because Twitter told you to."
+    kyra "You watched all of *Wednesday* because Twitter told you to."
 
     bobby "...That’s different. She blinked once and I was sold."
 
-    cindy "Then you’ll survive *Squid Game*. Come on—just one episode. If you hate it, I’ll let you pick the next show. Even if it’s, like, *Attack on Titan* again."
+    kyra "Then you’ll survive *Squid Game*. Come on—just one episode. If you hate it, I’ll let you pick the next show. Even if it’s, like, *Attack on Titan* again."
 
     bobby "...Tempting."
 
-    show cindy blush at mid_right
+    show kyra blush at mid_right
 
-    cindy "Please?"
+    kyra "Please?"
 
     bobby "Ugh, fine. But if someone dies in the first five minutes, I reserve the right to mock you relentlessly."
 
-    cindy "Deal."
+    kyra "Deal."
 
     play sound tv_static
     pause
 
     show bobby happy at mid_left
-    show cindy happy at mid_right
+    show kyra happy at mid_right
 
     bobby "Wait—this guy’s addicted to gambling?"
 
-    cindy "Yep. That’s our extremely flawed main character."
+    kyra "Yep. That’s our extremely flawed main character."
 
     bobby "I already want to yell at him."
 
-    cindy "You will. A lot."
+    kyra "You will. A lot."
 
     play sound tv_static
     pause
 
     show bobby neutral at mid_left
-    show cindy neutral at mid_right
+    show kyra neutral at mid_right
 
     bobby "I'm not sure if I should be impressed or horrified."
 
-    cindy "I'm not sure either."
+    kyra "I'm not sure either."
 
     bobby "...That doll in the red light, green light game was horrifying."
 
-    cindy "Isn't she adorable?"
+    kyra "Isn't she adorable?"
 
     bobby "She’s the face of my next nightmare."
 
@@ -83,19 +83,19 @@ label jun_2019_squid_game:
     $ renpy.pause(3.0, hard=True)
 
     show bobby happy at mid_left
-    show cindy happy at middle_right with move
+    show kyra happy at middle_right with move
 
     bobby "...Okay, fine. That was actually good."
 
-    cindy "Told you."
+    kyra "Told you."
 
     bobby "I'm emotionally compromised and also terrified. Congrats."
 
-    cindy "You’ll thank me later."
+    kyra "You’ll thank me later."
 
     bobby "...This was nice."
 
-    cindy "Yeah. I’m glad you came over."
+    kyra "Yeah. I’m glad you came over."
 
     show bobby blush at mid_right with move
 
@@ -103,21 +103,21 @@ label jun_2019_squid_game:
 
     bobby "...Can I?"
 
-    show cindy blush at middle_right
+    show kyra blush at middle_right
 
-    cindy "Yeah."
+    kyra "Yeah."
 
     play sound kiss
     bobby "You’re warm."
 
-    cindy "You’re cold."
+    kyra "You’re cold."
 
     bobby "You expected anything else?"
 
-    cindy "Always with the sass."
+    kyra "Always with the sass."
 
     bobby "Just trying to stay consistent."
 
-    cindy "...I like it."
+    kyra "...I like it."
  
     return

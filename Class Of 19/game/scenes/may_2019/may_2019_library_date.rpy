@@ -17,26 +17,26 @@ label may_2019_library_date:
     scene bg public_library
 
     show bobby neutral at mid_right
-    show cindy sad at mid_left
+    show kyra sad at mid_left
     show chunky at center
 
     bobby "Alright. Math time. Let's suffer."
 
-    cindy "Ugh. Do we have to?"
+    kyra "Ugh. Do we have to?"
 
     bobby "If we don’t, we fail and bring shame to Chunky the jade plant."
 
-    show cindy neutral at mid_left
+    show kyra neutral at mid_left
 
-    cindy "Fine. Chunky wouldn’t want that."
+    kyra "Fine. Chunky wouldn’t want that."
 
     bobby "Start with derivatives?"
 
-    cindy "Yeah... chain rule is still my enemy, thanks to Mr. Retardick... I mean Retallack."
+    kyra "Yeah... chain rule is still my enemy, thanks to Mr. Retardick... I mean Retallack."
 
     bobby "Lucky for you, I am slightly less dumb at this now."
 
-    cindy "Flex."
+    kyra "Flex."
 
     bobby "Nah seriously, look—let's do this one."
 
@@ -44,35 +44,35 @@ label may_2019_library_date:
 
     bobby "f(x) = (3x² + 1)^4"
 
-    cindy "Oh god."
+    kyra "Oh god."
 
     bobby "You got this. It’s outer function to the power of 4, right?"
 
-    cindy "So... 4(3x² + 1)^3?"
+    kyra "So... 4(3x² + 1)^3?"
 
     bobby "Yep. Now chain rule—the inner derivative?"
 
-    cindy "6x?"
+    kyra "6x?"
 
     bobby "Perfect."
 
     pause
 
-    cindy "So the whole derivative is... 4(3x² + 1)^3 * 6x"
+    kyra "So the whole derivative is... 4(3x² + 1)^3 * 6x"
 
     show bobby happy at mid_right
     bobby "Which is... 24x(3x² + 1)^3. Nailed it."
 
-    cindy "Okay wait, that actually made sense."
+    kyra "Okay wait, that actually made sense."
 
     bobby "Told you. You just needed a real tutor and a fictional plant mascot."
 
-    show cindy happy at mid_left
-    cindy "Chunky delivers again."
+    show kyra happy at mid_left
+    kyra "Chunky delivers again."
 
     bobby "Chunky is the MVP of this arc."
 
-    cindy "Next one’s yours."
+    kyra "Next one’s yours."
 
     bobby "Bring it on."
 
@@ -86,75 +86,75 @@ label may_2019_library_date:
     scene bg public_library
 
     show bobby neutral at mid_right
-    show cindy neutral at mid_left
+    show kyra neutral at mid_left
     show chunky at center
 
     bobby "Okay, that was like... 40\% productivity."
 
-    cindy "Better than I expected."
+    kyra "Better than I expected."
 
     bobby "You want a break?"
 
-    cindy "Desperately."
+    kyra "Desperately."
 
     bobby "Cool. Let's wander and touch books like we read for fun."
 
-    cindy "Scandalous."
+    kyra "Scandalous."
 
     hide bobby with moveoutright
-    hide cindy with moveoutright
+    hide kyra with moveoutright
 
     pause
     scene bg library_shelf
 
     show bobby happy at left
-    show cindy neutral at right
+    show kyra neutral at right
 
     bobby "Yo. Hold up."
 
-    cindy "What?"
+    kyra "What?"
 
     bobby "This manga is literally called... 'The Erotic Adventures of Kana and Diona.'"
 
-    show cindy happy at right
+    show kyra happy at right
 
-    cindy "No way."
+    kyra "No way."
 
     bobby "I swear, look."
 
-    cindy "How is this even in the public library?"
+    kyra "How is this even in the public library?"
 
     bobby "I don't even know, someone must have donated it or something."
 
-    cindy "Wait—are you actually opening it?"
+    kyra "Wait—are you actually opening it?"
 
     show bobby blush at left
     bobby "For academic purposes."
 
-    cindy "Purely educational."
+    kyra "Purely educational."
 
     bobby "Of course. This is... wow. They’re in a hot spring by page five."
 
-    cindy "Classic."
+    kyra "Classic."
 
     play sound flipping_page
     pause
 
     bobby "You know what's weird? The art’s actually good."
 
-    cindy "Unironically yes."
+    kyra "Unironically yes."
 
     play sound flipping_page
 
     bobby "We're gonna accidentally read this whole thing, aren't we?"
 
-    cindy "We already read half. You turned pages."
+    kyra "We already read half. You turned pages."
 
     play sound flipping_page
 
     bobby "You told me to keep going."
 
-    cindy "Because I was invested."
+    kyra "Because I was invested."
 
     play sound flipping_page
     play sound laugh
@@ -168,32 +168,32 @@ label may_2019_library_date:
     scene bg library_shelf
 
     show bobby blush at middle_right
-    show cindy neutral at middle_left
+    show kyra neutral at middle_left
 
     bobby "awww you pre cute... can I touch your hair?"
 
-    show cindy blush at middle_left
-    cindy "... umm... sure i guess?"
+    show kyra blush at middle_left
+    kyra "... umm... sure i guess?"
 
     bobby "okay sweetie"
 
     pause
 
-    cindy "mmm... that's nice"
+    kyra "mmm... that's nice"
 
     play sound kiss
     pause
 
     bobby "Holy SHIT, its already night outside!"
 
-    cindy "When did it get dark?"
+    kyra "When did it get dark?"
 
     bobby "Okay, let’s not get locked in here. Food?"
 
-    cindy "Please. Brain empty."
+    kyra "Please. Brain empty."
 
     hide bobby with moveoutleft
-    hide cindy with moveoutleft
+    hide kyra with moveoutleft
 
     pause
 
@@ -203,56 +203,56 @@ label may_2019_library_date:
     scene bg cafe_night
 
     show bobby blush at middle_left
-    show cindy blush at mid_right
+    show kyra blush at mid_right
 
     bobby "I forgot how nice this place is."
 
-    cindy "Ambiance 10 out of 10. Menu prices? Less so."
+    kyra "Ambiance 10 out of 10. Menu prices? Less so."
 
     bobby "Worth it though. They’ve got that one sandwich with the pesto... life-changing."
 
-    cindy "I’m getting the mushroom melt. Carbs over stress."
+    kyra "I’m getting the mushroom melt. Carbs over stress."
 
     bobby "Respect."
 
     bobby "You want anything to drink?"
 
-    cindy "Ginger ale. Always."
+    kyra "Ginger ale. Always."
 
     bobby "Classy. I’ll get the iced chai."
 
     
     show bobby happy at middle_left
-    show cindy happy at mid_right
+    show kyra happy at mid_right
     show sandwich1 at table_center
     show sandwich2 at table_right
     bobby "Okay... this sandwich is exactly how I remembered it. Messy and glorious."
 
-    cindy "This bread is doing emotional healing."
+    kyra "This bread is doing emotional healing."
 
     bobby "Chunky would be proud of our choices."
 
-    cindy "Chunky demands we honor the carb gods."
+    kyra "Chunky demands we honor the carb gods."
 
     play sound eating
     pause
 
-    show cindy blush at mid_right
+    show kyra blush at mid_right
 
     bobby "So... aside from plants and drawings, what else do you do?"
 
-    cindy "Honestly? Not much. School kinda drains me. I like netflix though. Maybe some chilling too."
+    kyra "Honestly? Not much. School kinda drains me. I like netflix though. Maybe some chilling too."
 
-    cindy "What about you? Aside from being weirdly good at chain rule?"
+    kyra "What about you? Aside from being weirdly good at chain rule?"
 
     show bobby happy at middle_left
     bobby "I dabble. Anime, Osu!, occasionally drawing cursed dragons... gaming when I have energy."
 
-    cindy "Do your dragons breathe fire or anxiety?"
+    kyra "Do your dragons breathe fire or anxiety?"
 
     bobby "Mostly self-doubt. Sometimes boba."
 
-    cindy "Incredible. I’d read that webcomic."
+    kyra "Incredible. I’d read that webcomic."
 
     bobby "I’ll write it just for you."
 
@@ -264,11 +264,11 @@ label may_2019_library_date:
 
 
     show bobby neutral at middle_left
-    show cindy neutral at mid_right
+    show kyra neutral at mid_right
 
     bobby "You ready to bounce?"
 
-    cindy "Yeah. Let’s head out."
+    kyra "Yeah. Let’s head out."
 
     bobby "Cool, I’ll go pay—"
 
@@ -278,8 +278,8 @@ label may_2019_library_date:
     play sound ohno
     pause
 
-    show cindy blush at mid_right
-    cindy "?"
+    show kyra blush at mid_right
+    kyra "?"
 
     bobby "...I forgot my wallet."
 
@@ -287,43 +287,43 @@ label may_2019_library_date:
 
     pause
 
-    show cindy happy at mid_right
-    cindy "It’s fine. I got it."
+    show kyra happy at mid_right
+    kyra "It’s fine. I got it."
 
     show bobby neutral at middle_left
     bobby "Are you sure? I’ll e-transfer you right now."
 
-    cindy "Seriously. It’s okay. Just cover me next time."
+    kyra "Seriously. It’s okay. Just cover me next time."
 
     show bobby happy at middle_left
     bobby "You’re a lifesaver. I owe you fries forever."
 
-    cindy "Noted. Interest accrues daily."
+    kyra "Noted. Interest accrues daily."
 
     bobby "Damn. You’re ruthless."
 
     hide bobby with moveoutright
-    hide cindy with moveoutright
+    hide kyra with moveoutright
 
     scene black
     with Pause(1)
 
-    scene bg cindy_room
+    scene bg kyra_room
 
-    show cindy neutral at center
+    show kyra neutral at center
 
-    cindy "That was actually fun..."
+    kyra "That was actually fun..."
 
-    cindy "He’s goofy, but sweet."
+    kyra "He’s goofy, but sweet."
 
-    show cindy blush at center
+    show kyra blush at center
 
-    cindy "Still... forgetting his wallet?"
+    kyra "Still... forgetting his wallet?"
 
-    cindy "Also... asking if he could touch my hair...?"
+    kyra "Also... asking if he could touch my hair...?"
 
-    cindy "I don’t know. Felt a little off and awkward."
+    kyra "I don’t know. Felt a little off and awkward."
 
-    cindy "But I’ll give him the benefit of the doubt."
+    kyra "But I’ll give him the benefit of the doubt."
 
     return

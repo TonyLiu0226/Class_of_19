@@ -5,7 +5,7 @@
 define gina = Character("Gina")
 define bobby = Character("Bobby")
 define alex = Character("Alex")
-define cindy = Character("Cindy")
+define kyra = Character("Kyra")
 define mcdonald = Character("McDonald")
 define phone = Character("Phone")
 define albert = Character("Albert")
@@ -75,7 +75,7 @@ image bg gina_room_night = "images/backgrounds/gina_room.png"
 image bg gina_room_day = "images/backgrounds/gina_room_day.png"
 image bg school_hallway = "images/backgrounds/hallway.png"
 image bg alex_room = "images/backgrounds/alex_room.png"
-image bg cindy_room = "images/backgrounds/cindy_room.png"
+image bg kyra_room = "images/backgrounds/kyra_room.png"
 image bg classroom = "images/backgrounds/english.png"
 image bg classroom_dimmed = "images/backgrounds/english_dimmed.png"
 image bg cafeteria_lunch = "images/backgrounds/cafeteria.png"
@@ -116,7 +116,7 @@ init python:
     Ending8Condition2 = False
     Ending8Condition3 = False
 
-    # Ending 9: bobby and Cindy Prom
+    # Ending 9: bobby and Kyra Prom
     Ending9Condition1 = False
     Ending9Condition2 = False
 
@@ -126,8 +126,8 @@ init python:
     #Ending 6: Alex harvard university
     Ending6Eligible = True
 
-    # bobby and Cindy breakup
-    BobbyCindyBreakup = False
+    # bobby and Kyra breakup
+    BobbyKyraBreakup = False
 
     # bobby deported ending
     Ending3Triggered = False
@@ -162,14 +162,14 @@ label start:
     if Ending9Condition1:
         call jun_2019_great_gatsby
 
-        if BobbyCindyBreakup:
+        if BobbyKyraBreakup:
             call jun_2019_gatsby_aftermath
 
             if Ending3Triggered:
                 call bobby_deported
                 return
 
-        if Ending9Condition1 and not BobbyCindyBreakup:
+        if Ending9Condition1 and not BobbyKyraBreakup:
             call jun_2019_squid_game
     
     call jun_2019_alex_confession

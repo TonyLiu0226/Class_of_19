@@ -21,7 +21,7 @@ screen credits3():
             null height 150
 
             hbox:
-                text "Bobby never apologized. Maybe he didn't know how. After everything that happened with Cindy, he just disappeared."
+                text "Bobby never apologized. Maybe he didn't know how. After everything that happened with Kyra, he just disappeared."
             hbox:
                 text "He stopped showing up to school, stopped talking to anyone. His grades dropped to zero, and he let them."
             hbox:

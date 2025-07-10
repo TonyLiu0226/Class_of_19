@@ -25,8 +25,8 @@ screen credits0():
             hbox:
                 text "Bobby got an offer for Waterloo CS, while Alex got an offer for Engineering at U of T."
             hbox:
-                if not BobbyCindyBreakup:
-                    text "They both became more confident in themselves, and attended prom with their respective dates - Alex with a Gr. 10 girl he met at a party, and Bobby with Cindy."
+                if not BobbyKyraBreakup:
+                    text "They both became more confident in themselves, and attended prom with their respective dates - Alex with a Gr. 10 girl he met at a party, and Bobby with Kyra."
                 else:
                     text "They both became more confident in themselves, and attended prom with their respective dates - Alex with a Gr. 10 girl he met at a party, and Bobby with a Gr. 12 girl he met in class."
             hbox:
