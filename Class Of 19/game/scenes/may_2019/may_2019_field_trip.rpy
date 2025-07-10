@@ -15,24 +15,24 @@ label may_2019_field_trip:
 
     scene bg theme_park
 
-    show manias neutral at right
+    show qwen neutral at right
     show albert neutral at left
     show alex neutral at middle_left
     show bobby neutral at mid_left
     show gina neutral at mid_right
     show lia neutral at middle_right
 
-    manias "Alright people, welcome to the physics field trip. I know you’re all thrilled to be here instead of in a windowless classroom doing actual work."
+    qwen "Alright people, welcome to the physics field trip. I know you’re all thrilled to be here instead of in a windowless classroom doing actual work."
 
-    manias "But don’t get too comfortable—this is still a graded assignment. You’ll be filling out your kinematics and dynamics worksheets using real rides."
+    qwen "But don’t get too comfortable—this is still a graded assignment. You’ll be filling out your kinematics and dynamics worksheets using real rides."
 
-    manias "Measure acceleration, force, time of motion... you know the drill."
+    qwen "Measure acceleration, force, time of motion... you know the drill."
 
-    manias "You need data from at least two different rides. Roller coasters, drop towers, anything that makes your stomach leave your body."
+    qwen "You need data from at least two different rides. Roller coasters, drop towers, anything that makes your stomach leave your body."
 
-    manias "Once you’re done, you’re free to enjoy the park—but remember, I want actual numbers, not napkin scribbles from the cotton candy stand."
+    qwen "Once you’re done, you’re free to enjoy the park—but remember, I want actual numbers, not napkin scribbles from the cotton candy stand."
 
-    hide manias with moveoutright
+    hide qwen with moveoutright
     hide albert with moveoutleft
     hide gina with moveoutleft
     hide lia with moveoutleft
@@ -102,7 +102,7 @@ label may_2019_field_trip:
     show bobby happy at right
     show alex excited at left
 
-    bobby "Alright, that’s the worksheet done. Manias should give us full marks just for riding that death coaster twice."
+    bobby "Alright, that’s the worksheet done. Qwen should give us full marks just for riding that death coaster twice."
 
     alex "Agreed. E-MOTIONAL - - DAMAGE."
 

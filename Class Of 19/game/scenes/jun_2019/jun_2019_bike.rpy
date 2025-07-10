@@ -96,9 +96,9 @@ label jun_2019_bike:
 
     show alex excited at left
 
-    alex "Oh god... When Manias told the class what was going to be on the final, everyone groaned. And I don't think I'm ready at all."
+    alex "Oh god... When Qwen told the class what was going to be on the final, everyone groaned. And I don't think I'm ready at all."
 
-    gina "Lia told me she’s not even believing him in the slightest, because Manias knows he can't make the whole class fail."
+    gina "Lia told me she’s not even believing him in the slightest, because Qwen knows he can't make the whole class fail."
 
     alex "Honestly... That's a good way of looking at it."
 
