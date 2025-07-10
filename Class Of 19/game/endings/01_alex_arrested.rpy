@@ -30,7 +30,7 @@ screen credits1():
                 text "The next morning, the charges were read: criminal trespassing, stalking, and harrassment."
             hbox:
                 text "When the case went to trial, the judge showed no leniency. Alex was sentenced to three months in adult prison."
-            hbox:tan
+            hbox:
                 text "Alex was now isolated from his old life. No friends, no relationships, and a bleak future - marked by a record he couldn’t erase."
             
 

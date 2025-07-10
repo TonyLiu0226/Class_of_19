@@ -11,7 +11,7 @@ label apr_2019_texting_3:
     scene black with pixellate
     with Pause(1)
 
-    play music theme_music
+    play music TS
 
     scene bg bobby_room_night
 

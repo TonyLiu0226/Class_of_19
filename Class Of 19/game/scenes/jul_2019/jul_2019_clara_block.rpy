@@ -4,7 +4,7 @@ label jul_2019_gina_block:
     scene black
     $renpy.pause(1.5, hard=True)
 
-    play music distance
+    play music sad
 
     scene bg 108_night
 

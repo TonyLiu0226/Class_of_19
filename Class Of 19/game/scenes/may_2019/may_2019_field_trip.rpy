@@ -11,7 +11,7 @@ label may_2019_field_trip:
     scene black with pixellate
     with Pause(1)
 
-    play music themepark
+    play music turtle
 
     scene bg theme_park
 
