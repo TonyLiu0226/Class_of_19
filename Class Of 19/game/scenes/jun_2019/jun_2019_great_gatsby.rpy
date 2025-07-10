@@ -24,15 +24,15 @@ label jun_2019_great_gatsby:
     show kyra neutral at right
     show alex neutral at mid_left
     show nicole blush at mid_right
-    show neuheimer neutral at center
+    show emily neutral at center
 
-    neuheimer "Alright, class. As part of our unit on modernism and disillusionment, we’ll be watching the 2013 adaptation of *The Great Gatsby*."
+    emily "Alright, class. As part of our unit on modernism and disillusionment, we’ll be watching the 2013 adaptation of *The Great Gatsby*."
 
-    neuheimer "You’re expected to take notes on symbolism, tone, and how the film reflects Fitzgerald’s themes."
+    emily "You’re expected to take notes on symbolism, tone, and how the film reflects Fitzgerald’s themes."
 
-    neuheimer "Phones away. Headphones out. Let’s begin."
+    emily "Phones away. Headphones out. Let’s begin."
 
-    hide neuheimer with moveoutleft
+    hide emily with moveoutleft
     hide alex with moveoutleft
     hide nicole with moveoutright
 
@@ -85,24 +85,24 @@ label jun_2019_great_gatsby:
 
         show bg classroom at fade
 
-        show neuheimer sad at center with moveinleft
+        show emily sad at center with moveinleft
 
         show bobby sad at mid_left with move
         show kyra angry at mid_right with move
 
-        neuheimer "Mister Singh... Is there a problem?"
+        emily "Mister Singh... Is there a problem?"
 
         bobby "N-no, sorry—"
 
-        neuheimer "Then why did I just hear slapping?"
+        emily "Then why did I just hear slapping?"
 
         bobby "Uhh,,, I—I need to go."
 
         hide bobby with moveoutleft
 
-        neuheimer "(sighs)"
+        emily "(sighs)"
 
-        neuheimer "Kyra, I'm going to need you to go to the principal's office to explain what happened."
+        emily "Kyra, I'm going to need you to go to the principal's office to explain what happened."
 
         kyra "(sighs)"
 
@@ -137,15 +137,15 @@ label jun_2019_great_gatsby:
         show kyra sad at right with moveinright
         show alex neutral at left with moveinleft
         show nicole blush at mid_left with moveinleft
-        show neuheimer neutral at mid_right with moveinright
+        show emily neutral at mid_right with moveinright
 
         pause
 
-        neuheimer "Alright, that’s... enough for today."
+        emily "Alright, that’s... enough for today."
 
-        neuheimer "I expect everyone to reflect on the film’s use of symbolism and tone in your responses."
+        emily "I expect everyone to reflect on the film’s use of symbolism and tone in your responses."
 
-        neuheimer "You’re dismissed."
+        emily "You’re dismissed."
 
         hide kyra with moveoutright
         hide nicole with moveoutleft
@@ -153,17 +153,17 @@ label jun_2019_great_gatsby:
         # Alex is left with a choice
 
         menu:
-            "Ask Neuheimer a question about the movie":
+            "Ask Emily a question about the movie":
                 $Ending8Condition1 = True
-                jump alex_talks_to_neuheimer
+                jump alex_talks_to_emily
             "Leave and save the question for next class":
                 jump scene_12_end
 
-                label alex_talks_to_neuheimer:
+                label alex_talks_to_emily:
 
-                    alex "Hey, Ms. Neuheimer? I had a question about that scene near the end... the green light?"
+                    alex "Hey, Ms. Emily? I had a question about that scene near the end... the green light?"
 
-                    neuheimer "Ah. Fitzgerald’s favorite metaphor. Hope, dreams, delusion. Classic."
+                    emily "Ah. Fitzgerald’s favorite metaphor. Hope, dreams, delusion. Classic."
 
                     alex "Makes sense. It kinda hit harder in the movie."
 
@@ -171,17 +171,17 @@ label jun_2019_great_gatsby:
 
                     alex "...Also, sorry about what happened earlier. That was... intense."
 
-                    neuheimer "Yeah. I’ve been teaching fifteen years. Never seen a student get slapped mid-Gatsby."
+                    emily "Yeah. I’ve been teaching fifteen years. Never seen a student get slapped mid-Gatsby."
 
-                    show neuheimer happy at mid_right
+                    show emily happy at mid_right
 
-                    neuheimer "Still, I’m glad you’re handling it maturely."
+                    emily "Still, I’m glad you’re handling it maturely."
 
                     show alex excited at left
 
                     alex "It was hard not to notice."
 
-                    neuheimer "Just remember—some people react to embarrassment by saying the worst possible thing. Others learn from it."
+                    emily "Just remember—some people react to embarrassment by saying the worst possible thing. Others learn from it."
 
                     alex "Thanks. See you next class."
 
@@ -206,13 +206,13 @@ label jun_2019_great_gatsby:
         show kyra neutral at right
         show alex neutral at mid_left
         show nicole blush at mid_right
-        show neuheimer neutral at center
+        show emily neutral at center
 
-        neuheimer "Alright, let’s do a five-minute group discussion before you go."
+        emily "Alright, let’s do a five-minute group discussion before you go."
 
-        neuheimer "Talk with the people near you—focus on themes, characterization, or anything that stood out."
+        emily "Talk with the people near you—focus on themes, characterization, or anything that stood out."
 
-        hide neuheimer with moveoutleft
+        hide emily with moveoutleft
 
         bobby "So... Gatsby. Thoughts?"
 

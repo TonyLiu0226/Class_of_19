@@ -15,7 +15,7 @@ define sandwich2 = Character("Sandwich2")
 define chunky = Character("Chunky")
 define qwen = Character("Qwen")
 define bunny = Character("Bunny")
-define neuheimer = Character("Neuheimer")
+define emily = Character("Emily")
 define nicole = Character("Nicole")
 define dealer = Character("Dealer")
 define cop = Character("Cop")
@@ -111,7 +111,7 @@ define table_left = Position(xalign=0.4, yalign=0.3)
 
 init python:
 
-    # Ending 8: Alex dates Ms. Neuheimer
+    # Ending 8: Alex dates Ms. Emily
     Ending8Condition1 = False
     Ending8Condition2 = False
     Ending8Condition3 = False
