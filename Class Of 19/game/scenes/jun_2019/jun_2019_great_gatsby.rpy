@@ -23,7 +23,7 @@ label jun_2019_great_gatsby:
     show bobby neutral at left
     show kyra neutral at right
     show alex neutral at mid_left
-    show nicole blush at mid_right
+    show emma blush at mid_right
     show emily neutral at center
 
     emily "Alright, class. As part of our unit on modernism and disillusionment, we’ll be watching the 2013 adaptation of *The Great Gatsby*."
@@ -34,7 +34,7 @@ label jun_2019_great_gatsby:
 
     hide emily with moveoutleft
     hide alex with moveoutleft
-    hide nicole with moveoutright
+    hide emma with moveoutright
 
     show bg classroom_dimmed at fade
 
@@ -136,7 +136,7 @@ label jun_2019_great_gatsby:
 
         show kyra sad at right with moveinright
         show alex neutral at left with moveinleft
-        show nicole blush at mid_left with moveinleft
+        show emma blush at mid_left with moveinleft
         show emily neutral at mid_right with moveinright
 
         pause
@@ -148,7 +148,7 @@ label jun_2019_great_gatsby:
         emily "You’re dismissed."
 
         hide kyra with moveoutright
-        hide nicole with moveoutleft
+        hide emma with moveoutleft
 
         # Alex is left with a choice
 
@@ -205,7 +205,7 @@ label jun_2019_great_gatsby:
         show bobby neutral at left
         show kyra neutral at right
         show alex neutral at mid_left
-        show nicole blush at mid_right
+        show emma blush at mid_right
         show emily neutral at center
 
         emily "Alright, let’s do a five-minute group discussion before you go."
@@ -220,7 +220,7 @@ label jun_2019_great_gatsby:
 
         kyra "Same. I mean, it's a mess, but that was kind of the point."
 
-        nicole "Everyone was just emotionally wrecked and rich enough to ignore the consequences."
+        emma "Everyone was just emotionally wrecked and rich enough to ignore the consequences."
 
         bobby "I lowkey felt bad for Gatsby. He was chasing a fantasy that never existed."
 
@@ -228,7 +228,7 @@ label jun_2019_great_gatsby:
 
         kyra "Exactly. He built this whole illusion for her, and she didn’t even ask for it."
 
-        nicole "Meanwhile, Tom’s just stomping around ruining lives."
+        emma "Meanwhile, Tom’s just stomping around ruining lives."
 
         bobby "Tom might be the real villain here."
 
@@ -236,11 +236,11 @@ label jun_2019_great_gatsby:
 
         kyra "Woah. That’s deep."
 
-        nicole "That’s English class energy."
+        emma "That’s English class energy."
 
         # Bell rings
 
-        hide nicole with moveoutright
+        hide emma with moveoutright
         hide alex with moveoutleft
 
         show bobby neutral at left

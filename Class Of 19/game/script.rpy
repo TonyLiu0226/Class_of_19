@@ -16,7 +16,7 @@ define chunky = Character("Chunky")
 define qwen = Character("Qwen")
 define bunny = Character("Bunny")
 define emily = Character("Emily")
-define nicole = Character("Nicole")
+define emma = Character("Emma")
 define dealer = Character("Dealer")
 define cop = Character("Cop")
 

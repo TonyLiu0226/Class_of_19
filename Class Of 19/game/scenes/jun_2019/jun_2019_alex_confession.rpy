@@ -185,13 +185,13 @@ label jun_2019_alex_confession:
 
         show gina neutral at center
         show lia happy at right
-        show nicole blush at left
+        show emma blush at left
 
         lia "You told him?"
 
         gina "Yeah."
 
-        nicole "Finally. That’s been simmering for weeks."
+        emma "Finally. That’s been simmering for weeks."
 
         lia "How’d he take it?"
 
@@ -199,13 +199,13 @@ label jun_2019_alex_confession:
 
         gina "Pretty well, actually. He was honest about it. Said he really likes me."
 
-        nicole "Did he ask you out?"
+        emma "Did he ask you out?"
 
         gina "Kinda. But I told him I need time."
 
         lia "That’s fair. He’s been... kinda obsessed to say the least."
 
-        nicole "Yeah, like, sweet... but kind of constantly in orbit around you."
+        emma "Yeah, like, sweet... but kind of constantly in orbit around you."
 
         show gina embarrassed at center
 
@@ -217,7 +217,7 @@ label jun_2019_alex_confession:
 
         gina "I don’t want to hurt him. He means well."
 
-        nicole "You’re not hurting him by telling the truth. You don’t owe anyone a yes."
+        emma "You’re not hurting him by telling the truth. You don’t owe anyone a yes."
 
         gina "I know. But I also don't want to just cut him off, you know?"
 
@@ -229,15 +229,15 @@ label jun_2019_alex_confession:
 
         gina "Not gonna lie, I do a little. But I don't know if I'm ready for any commitments. Besides, what you told me the other week about his past... still kinda gives me a bit of a red flag."
 
-        nicole "Oh uhh... what?"
+        emma "Oh uhh... what?"
 
         lia "Well, I told her that Alex used to chase around the popular girls in middle school. It kinda got on their nerves, and he basically got told to piss off."
 
-        nicole "Oh, I didn't know that about him. But from what Gina is telling us, maybe we're seeing a similar kind of energy build up with Alex hovering over her."
+        emma "Oh, I didn't know that about him. But from what Gina is telling us, maybe we're seeing a similar kind of energy build up with Alex hovering over her."
 
         lia "Yea I guess Alex is a bit awkward, but I’ve seen worse. Remember Ben from our history class?"
 
-        nicole "He literally took pics of the substitute teacher's feet and sent them to the whole class."
+        emma "He literally took pics of the substitute teacher's feet and sent them to the whole class."
 
         show gina blush at center
 
@@ -249,7 +249,7 @@ label jun_2019_alex_confession:
 
         gina "That’s what makes this hard. If he was a jerk or a total perv, I could just walk away."
 
-        nicole "Take your time. Just don’t ghost him."
+        emma "Take your time. Just don’t ghost him."
 
         show gina neutral at center
 
@@ -257,7 +257,7 @@ label jun_2019_alex_confession:
 
         lia "That’s what we’re here for. Also, to remind you to eat something."
 
-        nicole "Seriously, go order something."
+        emma "Seriously, go order something."
 
         show gina happy at center
 
