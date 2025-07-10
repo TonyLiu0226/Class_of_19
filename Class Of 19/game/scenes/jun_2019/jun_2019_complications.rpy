@@ -163,49 +163,49 @@ label jun_2019_complications:
 
     alex "(...Maybe.)"
 
-    alex "(Let's talk to Tanish. Haven't heard from him in a while.)"
+    alex "(Let's talk to Bobby. Haven't heard from him in a while.)"
 
     play sound dial
     $renpy.pause(6.0, hard=True)
 
-    scene bg tanish_room_night
+    scene bg bobby_room_night
 
-    show tanish neutral at center
+    show bobby neutral at center
     show phone at right
 
-    tanish "Alex? What’s up?"
+    bobby "Alex? What’s up?"
 
     alex "Clara."
 
-    tanish "...Oof. Yeah."
+    bobby "...Oof. Yeah."
 
     alex "I don’t know what to do. She’s still replying, but it’s like... one-word replies, huge delays. I feel like I’m clinging to something that’s slipping."
 
-    tanish "Man, I’ve been there."
+    bobby "Man, I’ve been there."
 
     alex "With Cindy?"
 
-    tanish "Yeah. Back when I said that dumb line during the Gatsby screening? Things tanked after that. I thought it was over."
+    bobby "Yeah. Back when I said that dumb line during the Gatsby screening? Things tanked after that. I thought it was over."
 
     alex "I remember. You disappeared for like a week."
 
-    tanish "I didn’t know how to talk to her without making it worse. But eventually I did. I apologized. I explained myself. I gave her space — but I also gave her clarity."
+    bobby "I didn’t know how to talk to her without making it worse. But eventually I did. I apologized. I explained myself. I gave her space — but I also gave her clarity."
 
     alex "So you think I should reach out?"
 
-    tanish "If you care, yeah. Don’t ghost her out of pride. And don’t keep throwing half-hearted texts either."
+    bobby "If you care, yeah. Don’t ghost her out of pride. And don’t keep throwing half-hearted texts either."
 
     alex "But what if it makes her more uncomfortable?"
 
-    tanish "Then let her say that. But let it be clear. Like... tell her how you feel, and ask her straight if she still wants to keep talking."
+    bobby "Then let her say that. But let it be clear. Like... tell her how you feel, and ask her straight if she still wants to keep talking."
 
     alex "It feels scary."
 
-    tanish "So is guessing forever. At least this way, it’s honest. That’s what worked with Cindy. Even if it was awkward."
+    bobby "So is guessing forever. At least this way, it’s honest. That’s what worked with Cindy. Even if it was awkward."
 
     alex "And if it doesn’t work?"
 
-    tanish "Then at least you gave it a shot. You won’t be stuck wondering ‘what if’ all summer."
+    bobby "Then at least you gave it a shot. You won’t be stuck wondering ‘what if’ all summer."
 
     pause
 
@@ -213,7 +213,7 @@ label jun_2019_complications:
 
     show alex neutral at center
     show phone at right
-    alex "(Albert says wait it out. Tanish says be honest.)"
+    alex "(Albert says wait it out. Bobby says be honest.)"
 
     alex "(I don’t know what’s right anymore.)"
 

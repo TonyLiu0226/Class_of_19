@@ -20,7 +20,7 @@ label jun_2019_alex_rejected:
 
     alex "(God I am not looking forward to the CS exam today...)"
 
-    alex "(Why is Tanish still not responding to my messages? Is he even gonna show up today?)"
+    alex "(Why is Bobby still not responding to my messages? Is he even gonna show up today?)"
 
     alex "(Also, Clara is not responding to my messages... great)"
 

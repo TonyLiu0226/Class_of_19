@@ -13,13 +13,13 @@ label mar_2019_texting:
 
     play music lunchly
 
-    scene bg tanish_room_night
+    scene bg bobby_room_night
 
-    show tanish happy at center
+    show bobby happy at center
     show phone at right
 
     play sound phone_ping
-    tanish "{i}yo, i heard you’re a huge fan of Demon Slayer{/i}"
+    bobby "{i}yo, i heard you’re a huge fan of Demon Slayer{/i}"
 
     pause
     
@@ -33,13 +33,13 @@ label mar_2019_texting:
     play sound phone_ping
     clara "{i}i’ve only seen like the first season 😭{/i}"
 
-    scene bg tanish_room_night
+    scene bg bobby_room_night
 
-    show tanish happy at center
+    show bobby happy at center
     show phone at right
 
     play sound phone_ping
-    tanish "{i}oh word? the way you were talking about Rengoku in class made it sound serious{/i}"
+    bobby "{i}oh word? the way you were talking about Rengoku in class made it sound serious{/i}"
 
     scene bg clara_room_night
 
@@ -51,15 +51,15 @@ label mar_2019_texting:
     play sound phone_ping
     clara "{i}i cried on the train scene and everything{/i}"
 
-    scene bg tanish_room_night
+    scene bg bobby_room_night
 
-    show tanish happy at center
+    show bobby happy at center
     show phone at right
 
     play sound phone_ping
-    tanish "{i}you and half the country tbh{/i}"
+    bobby "{i}you and half the country tbh{/i}"
     play sound phone_ping
-    tanish "{i}dude really went out with flames AND wisdom{/i}"
+    bobby "{i}dude really went out with flames AND wisdom{/i}"
 
     scene bg clara_room_night
 
@@ -71,14 +71,14 @@ label mar_2019_texting:
     play sound phone_ping
     clara "{i}i respect that. 10/10 death monologue{/i}"
 
-    scene bg tanish_room_night
+    scene bg bobby_room_night
 
-    show tanish blush at center
+    show bobby blush at center
     show phone at left
 
-    tanish "She’s not obsessed with anime or anything, but she’s fun to talk to."
-    tanish "Funny, kinda chaotic in a good way. Honestly… I like texting her."
-    tanish "This might be a good moment. Should I turn the dial up just a bit?"
+    bobby "She’s not obsessed with anime or anything, but she’s fun to talk to."
+    bobby "Funny, kinda chaotic in a good way. Honestly… I like texting her."
+    bobby "This might be a good moment. Should I turn the dial up just a bit?"
 
     menu:
         "Flirt a little":
@@ -91,15 +91,15 @@ label mar_2019_texting:
 
     label clara_flirt_path:
     play sound phone_ping
-    tanish "{i}not gonna lie{/i}"
+    bobby "{i}not gonna lie{/i}"
     play sound phone_ping
-    tanish "{i}talking to you kinda makes this break feel less boring{/i} 🫣"
+    bobby "{i}talking to you kinda makes this break feel less boring{/i} 🫣"
 
     pause
-    show tanish happy at center
+    show bobby happy at center
 
     play sound phone_ping
-    tanish "{i}might have to start calling u baeby now lmao{/i}"
+    bobby "{i}might have to start calling u baeby now lmao{/i}"
 
     pause
 
@@ -113,22 +113,22 @@ label mar_2019_texting:
     play sound phone_ping
     clara "{i}ok baeby haha{/i}"
 
-    scene bg tanish_room_night
+    scene bg bobby_room_night
 
-    show tanish blush at center
+    show bobby blush at center
     show phone at right
 
-    tanish "That worked… sort of. Her reply’s cute, flirty even. Who knows what will happen from here."
+    bobby "That worked… sort of. Her reply’s cute, flirty even. Who knows what will happen from here."
 
-    jump tanish_texts_alex
+    jump bobby_texts_alex
 
     label clara_chill_path:
      
-        show tanish neutral at center
+        show bobby neutral at center
         play sound phone_ping
-        tanish "{i}lol same{/i}"
+        bobby "{i}lol same{/i}"
         play sound phone_ping
-        tanish "{i}i’ve been rewatching the Mugen Train arc, it still hits{/i}"
+        bobby "{i}i’ve been rewatching the Mugen Train arc, it still hits{/i}"
 
         scene bg clara_room_night
 
@@ -140,34 +140,34 @@ label mar_2019_texting:
         play sound phone_ping
         clara "{i}might rewatch season 1 next week. i need to feel again lol{/i}"
 
-        scene bg tanish_room_night
+        scene bg bobby_room_night
 
-        show tanish neutral at center
+        show bobby neutral at center
 
         play sound phone_ping
-        tanish "{i}nothing like anime trauma to keep u grounded{/i}"
+        bobby "{i}nothing like anime trauma to keep u grounded{/i}"
 
-        jump tanish_texts_alex
+        jump bobby_texts_alex
 
-    label tanish_texts_alex:
+    label bobby_texts_alex:
         scene black with pixellate
         with Pause(1)
 
-        tanish "{i}yo i’ve been talking to clara a lot lately{/i}"
+        bobby "{i}yo i’ve been talking to clara a lot lately{/i}"
 
         play sound phone_ping
         alex "{i}LMAO{/i}"
         play sound phone_ping
         alex "{i}u tryna bag the TA or what?{/i}"
 
-        tanish "{i}bruh she’s not even MY TA{/i} 💀"
+        bobby "{i}bruh she’s not even MY TA{/i} 💀"
 
         play sound phone_ping
         alex "{i}still fair game{/i}"
         play sound phone_ping
         alex "{i}lowkey i’ve been thinking of messaging her too{/i} 👀"
 
-        tanish "{i}don’t u dare lol{/i}"
+        bobby "{i}don’t u dare lol{/i}"
 
         play sound phone_ping
         alex "{i}better shoot ur shot before i do{/i} 😎"
@@ -182,17 +182,17 @@ label mar_2019_texting:
 
     label clara_response_scene:
 
-        scene bg tanish_room_night
-        show tanish happy at center
+        scene bg bobby_room_night
+        show bobby happy at center
         show phone at left
 
         play sound phone_ping
-        tanish "{i}yo baeby{/i} 😘"
+        bobby "{i}yo baeby{/i} 😘"
         play sound phone_ping
-        tanish "{i}miss me yet or still crying over Rengoku?{/i}"
+        bobby "{i}miss me yet or still crying over Rengoku?{/i}"
         play sound phone_ping
 
-        tanish "{i}need a cuddle buddy for anime trauma recovery?{/i} 💀"
+        bobby "{i}need a cuddle buddy for anime trauma recovery?{/i} 💀"
 
         scene bg clara_room_night
         show clara blush at center

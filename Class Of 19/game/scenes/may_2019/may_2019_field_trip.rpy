@@ -18,7 +18,7 @@ label may_2019_field_trip:
     show manias neutral at right
     show albert neutral at left
     show alex neutral at middle_left
-    show tanish neutral at mid_left
+    show bobby neutral at mid_left
     show clara neutral at mid_right
     show lia neutral at middle_right
 
@@ -37,84 +37,84 @@ label may_2019_field_trip:
     hide clara with moveoutleft
     hide lia with moveoutleft
 
-    show tanish neutral at left with move
+    show bobby neutral at left with move
     show alex neutral at right with move
 
-    tanish "Yo you wanna team up for this?"
+    bobby "Yo you wanna team up for this?"
 
     alex "For sho, chigga"
 
-    show tanish left at left
+    show bobby left at left
 
-    tanish "Bruh you high or something? You don't sound right"
+    bobby "Bruh you high or something? You don't sound right"
 
     show alex excited at right
 
     alex "Nah its all gucci, lets just get this little fucker over with"
 
-    # Alex and Tanish working on data
+    # Alex and Bobby working on data
 
     scene black
     with Pause(2)
     scene bg drop_tower
 
     show alex neutral at middle_left
-    show tanish neutral at middle_right
+    show bobby neutral at middle_right
 
-    tanish "Okay... stopwatch ready. You’re counting the seconds when the ride drops."
+    bobby "Okay... stopwatch ready. You’re counting the seconds when the ride drops."
 
     alex "KK. Just say when."
 
-    tanish "Three... two... one... go!"
+    bobby "Three... two... one... go!"
 
     pause
 
-    tanish "And... stop."
+    bobby "And... stop."
 
     alex "3.4 seconds."
 
-    tanish "Height is what—about 30 meters?"
+    bobby "Height is what—about 30 meters?"
 
     alex "That’s what the sign says."
 
-    tanish "Okay... then acceleration is..."
+    bobby "Okay... then acceleration is..."
 
     alex "Bruh did you forget the formula chigga?"
 
-    tanish "It’s not forgetting. It’s... selectively outsourcing."
+    bobby "It’s not forgetting. It’s... selectively outsourcing."
 
     alex "a = 2 * d / t². You’re welcome."
 
-    tanish "You’d make a great calculator with a bad attitude."
+    bobby "You’d make a great calculator with a bad attitude."
 
     alex "And you’d make a decent partner if you didn't treat this dumbass worksheet like a game show."
 
-    tanish "Coming up next: Two dumb teens miscalculate gravity!"
+    bobby "Coming up next: Two dumb teens miscalculate gravity!"
 
     alex "We’re doing science, not stand-up."
 
-    tanish "You say that, but this worksheet is comedy gold."
+    bobby "You say that, but this worksheet is comedy gold."
 
     scene black
     with Pause(2)
     scene bg theme_park
 
-    show tanish happy at right
+    show bobby happy at right
     show alex excited at left
 
-    tanish "Alright, that’s the worksheet done. Manias should give us full marks just for riding that death coaster twice."
+    bobby "Alright, that’s the worksheet done. Manias should give us full marks just for riding that death coaster twice."
 
     alex "Agreed. E-MOTIONAL - - DAMAGE."
 
-    show tanish neutral at right
+    show bobby neutral at right
 
-    tanish "Anyway, I gotta dip early — parents are picking me up at the gate."
+    bobby "Anyway, I gotta dip early — parents are picking me up at the gate."
 
     alex "All good. Catch you tomorrow?"
 
-    tanish "Unless I’m still recovering from that loop."
+    bobby "Unless I’m still recovering from that loop."
 
-    hide tanish with moveoutright
+    hide bobby with moveoutright
 
     # Alex alone at the park entrance
 
@@ -262,14 +262,14 @@ label may_2019_field_trip:
     show alex neutral at left
     alex "As expected."
 
-    clara "You and Tanish should really co-author a book called \"Naming Things Is Hard: A Journey into Functional Nihilism\""
+    clara "You and Bobby should really co-author a book called \"Naming Things Is Hard: A Journey into Functional Nihilism\""
 
     alex "Why?"
 
-    clara "Didn't Tanish name a bunch of files \'.png? Basically the same energy as you naming your bunny \"Bunny\"."
+    clara "Didn't Bobby name a bunch of files \'.png? Basically the same energy as you naming your bunny \"Bunny\"."
 
     show alex blush at left
-    alex "Oh, of course Tanish... He'd definitely be the type to do that."
+    alex "Oh, of course Bobby... He'd definitely be the type to do that."
 
     show clara neutral at right
     clara "Anyways, gotta get going. Thanks for the walk though. And the bunny interaction."
@@ -365,15 +365,15 @@ label may_2019_field_trip:
 
     lia "Look, I’m not saying he’s a red flag bouquet or anything. Just... don’t rush into trusting the vibe too quick. Also don't shut him out, he might actually be figuring things out."
 
-    clara "Got it. Yeah I guess, he chases me around a bit. But not in an annoying way. He's definitely not as try-hard as Tanish."
+    clara "Got it. Yeah I guess, he chases me around a bit. But not in an annoying way. He's definitely not as try-hard as Bobby."
 
-    lia "Tanish...?"
+    lia "Bobby...?"
 
     clara "Yeah, that guy called me \"babe\" like the week we met"
 
     lia "Screams pretty try-hard to me."
 
-    clara "Exactly. Tanish is all try-hard energy. Like he’s performing. Alex is... quieter. More himself."
+    clara "Exactly. Bobby is all try-hard energy. Like he’s performing. Alex is... quieter. More himself."
 
     show lia blush at left
 

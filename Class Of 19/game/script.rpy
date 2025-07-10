@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 define clara = Character("Clara")
-define tanish = Character("Tanish")
+define bobby = Character("Bobby")
 define alex = Character("Alex")
 define cindy = Character("Cindy")
 define mcdonald = Character("McDonald")
@@ -70,7 +70,7 @@ image bg 108_day = "images/backgrounds/108_day.png"
 image bg 108_night = "images/backgrounds/108_night.png"
 image splash = "images/backgrounds/school.png"
 image bg library = "images/backgrounds/library.png"
-image bg tanish_room_night = "images/backgrounds/tanish_room.png"
+image bg bobby_room_night = "images/backgrounds/bobby_room.png"
 image bg clara_room_night = "images/backgrounds/clara_room.png"
 image bg clara_room_day = "images/backgrounds/clara_room_day.png"
 image bg school_hallway = "images/backgrounds/hallway.png"
@@ -94,7 +94,7 @@ image bg bar = "images/backgrounds/bar.png"
 image bg 00_neutral_ending = "images/backgrounds/00_neutral_ending.png"
 image bg 01_alex_arrested = "images/backgrounds/01_alex_arrested.png"
 image bg 02_alex_suicide = "images/backgrounds/02_alex_suicide.png"
-image bg 03_tanish_deported = "images/backgrounds/03_tanish_deported.png"
+image bg 03_bobby_deported = "images/backgrounds/03_bobby_deported.png"
 image bg 05_alex_overdose = "images/backgrounds/05_overdose.png"
 image bg 07_alex_harvard = "images/backgrounds/07_alex_harvard.png"
 
@@ -116,20 +116,20 @@ init python:
     Ending8Condition2 = False
     Ending8Condition3 = False
 
-    # Ending 9: Tanish and Cindy Prom
+    # Ending 9: bobby and Cindy Prom
     Ending9Condition1 = False
     Ending9Condition2 = False
 
-    # Ending 7: Tanish waterloo cs
+    # Ending 7: bobby waterloo cs
     Ending7Eligible = True
 
     #Ending 6: Alex harvard university
     Ending6Eligible = True
 
-    # Tanish and Cindy breakup
-    TanishCindyBreakup = False
+    # bobby and Cindy breakup
+    BobbyCindyBreakup = False
 
-    # Tanish deported ending
+    # bobby deported ending
     Ending3Triggered = False
 
     # Alex overdose ending
@@ -162,14 +162,14 @@ label start:
     if Ending9Condition1:
         call jun_2019_great_gatsby
 
-        if TanishCindyBreakup:
+        if BobbyCindyBreakup:
             call jun_2019_gatsby_aftermath
 
             if Ending3Triggered:
-                call tanish_deported
+                call bobby_deported
                 return
 
-        if Ending9Condition1 and not TanishCindyBreakup:
+        if Ending9Condition1 and not BobbyCindyBreakup:
             call jun_2019_squid_game
     
     call jun_2019_alex_confession

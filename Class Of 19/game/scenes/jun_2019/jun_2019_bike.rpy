@@ -58,7 +58,7 @@ label jun_2019_bike:
 
     alex "...Yeah. I know."
 
-    clara "But I also know you’re not Tanish. You actually bothered to call and commnuicate your feelings."
+    clara "But I also know you’re not Bobby. You actually bothered to call and commnuicate your feelings."
 
     alex "I didn’t want to make things worse. I just wanted to understand where we stand."
 

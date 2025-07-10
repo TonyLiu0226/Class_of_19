@@ -89,7 +89,7 @@ label apr_2019_texting_2:
     show alex excited at center
     show phone at right
     play sound phone_ping
-    alex "{i}WAIT really? lmao i used to be obsessed with that. Me and Tanish would literally play it while Mr. Blackwell droned on last year in science.{/i}"
+    alex "{i}WAIT really? lmao i used to be obsessed with that. Me and Bobby would literally play it while Mr. Blackwell droned on last year in science.{/i}"
 
     scene bg clara_room_night
     show clara blush at center

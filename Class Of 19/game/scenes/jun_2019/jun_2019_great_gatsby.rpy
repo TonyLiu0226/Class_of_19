@@ -20,7 +20,7 @@ label jun_2019_great_gatsby:
 
     scene bg classroom
 
-    show tanish neutral at left
+    show bobby neutral at left
     show cindy neutral at right
     show alex neutral at mid_left
     show nicole blush at mid_right
@@ -40,18 +40,18 @@ label jun_2019_great_gatsby:
 
     pause
 
-    show tanish neutral at middle_left with moveinleft
+    show bobby neutral at middle_left with moveinleft
     show cindy neutral at middle_right with moveinright
 
-    tanish "You ever read the book or are you just here for DiCaprio?"
+    bobby "You ever read the book or are you just here for DiCaprio?"
 
     cindy "I read it. Didn't love it. Gatsby’s a walking red flag."
 
-    tanish "He’s literally the king of ignoring boundaries."
+    bobby "He’s literally the king of ignoring boundaries."
 
     cindy "And still people romanticize him. Wild."
 
-    tanish "At least the soundtrack slaps."
+    bobby "At least the soundtrack slaps."
 
     cindy "Okay, yeah. That part’s valid."
 
@@ -61,19 +61,19 @@ label jun_2019_great_gatsby:
 
     menu:
         "Whisper to Cindy: 'This will be us in the future.'":
-            $TanishCindyBreakup = True
-            jump tanish_inappropriate
+            $BobbyCindyBreakup = True
+            jump bobby_inappropriate
         "Stay quiet and keep watching the movie.":
-            jump tanish_respectful
+            jump bobby_respectful
 
-    label tanish_inappropriate:
+    label bobby_inappropriate:
 
         stop music
         play music gatsby
 
-        show tanish blush at middle_left
+        show bobby blush at middle_left
 
-        tanish "This will be us in the future."
+        bobby "This will be us in the future."
 
         show cindy angry at middle_right
 
@@ -87,18 +87,18 @@ label jun_2019_great_gatsby:
 
         show neuheimer sad at center with moveinleft
 
-        show tanish sad at mid_left with move
+        show bobby sad at mid_left with move
         show cindy angry at mid_right with move
 
-        neuheimer "Mister Shah... Is there a problem?"
+        neuheimer "Mister Singh... Is there a problem?"
 
-        tanish "N-no, sorry—"
+        bobby "N-no, sorry—"
 
         neuheimer "Then why did I just hear slapping?"
 
-        tanish "Uhh,,, I—I need to go."
+        bobby "Uhh,,, I—I need to go."
 
-        hide tanish with moveoutleft
+        hide bobby with moveoutleft
 
         neuheimer "(sighs)"
 
@@ -110,13 +110,13 @@ label jun_2019_great_gatsby:
 
         scene splash
 
-        show tanish sad at center with moveinleft
+        show bobby sad at center with moveinleft
 
         pause
 
-        tanish "God. What the hell was I thinking..."
+        bobby "God. What the hell was I thinking..."
 
-        hide tanish with moveoutright
+        hide bobby with moveoutright
 
         scene bg classroom_dimmed
 
@@ -128,7 +128,7 @@ label jun_2019_great_gatsby:
 
         cindy "(I didn’t mean to slap him that hard... now we’re both humiliated.)"
 
-        cindy "(On top of that, I have detention after school tomorrow, yet Tanish can just run away like nothing happened.)"
+        cindy "(On top of that, I have detention after school tomorrow, yet Bobby can just run away like nothing happened.)"
 
         # Movie ends. Class dismisses
 
@@ -196,13 +196,13 @@ label jun_2019_great_gatsby:
     # RESPECTFUL BRANCH
     # ────────────────────────────────
 
-    label tanish_respectful:
+    label bobby_respectful:
 
         pause
 
         show bg classroom at fade
 
-        show tanish neutral at left
+        show bobby neutral at left
         show cindy neutral at right
         show alex neutral at mid_left
         show nicole blush at mid_right
@@ -214,7 +214,7 @@ label jun_2019_great_gatsby:
 
         hide neuheimer with moveoutleft
 
-        tanish "So... Gatsby. Thoughts?"
+        bobby "So... Gatsby. Thoughts?"
 
         alex "Honestly? I liked it more than I expected."
 
@@ -222,7 +222,7 @@ label jun_2019_great_gatsby:
 
         nicole "Everyone was just emotionally wrecked and rich enough to ignore the consequences."
 
-        tanish "I lowkey felt bad for Gatsby. He was chasing a fantasy that never existed."
+        bobby "I lowkey felt bad for Gatsby. He was chasing a fantasy that never existed."
 
         alex "And Daisy never really wanted to be caught. She just liked the attention."
 
@@ -230,7 +230,7 @@ label jun_2019_great_gatsby:
 
         nicole "Meanwhile, Tom’s just stomping around ruining lives."
 
-        tanish "Tom might be the real villain here."
+        bobby "Tom might be the real villain here."
 
         alex "Nah, the villain is the American Dream."
 
@@ -243,18 +243,18 @@ label jun_2019_great_gatsby:
         hide nicole with moveoutright
         hide alex with moveoutleft
 
-        show tanish neutral at left
+        show bobby neutral at left
         show cindy happy at right
 
         cindy "Okay. Not bad. You actually held a decent conversation."
 
-        show tanish blush at left
+        show bobby blush at left
 
-        tanish "Are you proud of me?"
+        bobby "Are you proud of me?"
 
         cindy "Mildly."
 
-        tanish "Wanna walk out together?"
+        bobby "Wanna walk out together?"
 
         cindy "Sure."
 

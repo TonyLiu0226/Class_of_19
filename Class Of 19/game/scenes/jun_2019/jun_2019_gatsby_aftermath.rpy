@@ -22,7 +22,7 @@ label jun_2019_gatsby_aftermath:
 
     lia "Did something happen in English?"
 
-    cindy "...Yeah. Tanish happened."
+    cindy "...Yeah. Bobby happened."
 
     clara "What did he do?"
 
@@ -72,7 +72,7 @@ label jun_2019_gatsby_aftermath:
 
     # Group is halfway through lunch
 
-    albert "You guys realize Tanish hasn’t been here all week?"
+    albert "You guys realize Bobby hasn’t been here all week?"
 
     alex "Yeah. I've texted him twice. No response."
 
@@ -152,43 +152,43 @@ label jun_2019_gatsby_aftermath:
 
     scene bg library
 
-    show tanish sad at center
+    show bobby sad at center
 
-    tanish "(Why do I even come to school anymore... It's like I can't even look anyone in the eye without being reminded of what happened during that awful class again.)"
+    bobby "(Why do I even come to school anymore... It's like I can't even look anyone in the eye without being reminded of what happened during that awful class again.)"
 
-    tanish "(I'm so embarrassed. I can't believe I did that. I'm such a fool.)"
+    bobby "(I'm so embarrassed. I can't believe I did that. I'm such a fool.)"
 
     show clara angry at left with moveinleft
 
     clara "I... Found You..."
 
-    tanish "Clara... hey."
+    bobby "Clara... hey."
 
     clara "Don’t ‘hey’ me. You’ve been hiding out for days, not responding to anyone, not talking to anyone at school... We've all been wondering what the hell happened with you."
 
-    tanish "I didn’t feel like seeing anyone."
+    bobby "I didn’t feel like seeing anyone."
 
     clara "Well if it wasn’t obvious, you made Cindy cry."
 
-    tanish "...I know."
+    bobby "...I know."
 
     clara "You embarrassed her in front of a whole class. What did you expect?"
 
-    tanish "I messed up. I get it."
+    bobby "I messed up. I get it."
 
     clara "Then own it. Go apologize."
 
-    show tanish angry at center
+    show bobby angry at center
 
-    tanish "I know! I know it's bad, and I'm sorry!"
+    bobby "I know! I know it's bad, and I'm sorry!"
 
     clara "Don't apologize to me, I'm not the one who got slapped!"
 
-    tanish "But for real, where should I even start? Do I just go up to her and say \"Hey, I’m sorry I said something weird. I don’t remember what it was, so can you remind me? And if it’s that bad, I promise I’ll never talk to you again so it’s less awkward?\""
+    bobby "But for real, where should I even start? Do I just go up to her and say \"Hey, I’m sorry I said something weird. I don’t remember what it was, so can you remind me? And if it’s that bad, I promise I’ll never talk to you again so it’s less awkward?\""
 
     clara "Are you serious right now?"
 
-    clara "Do you even hear yourself, Tanish? You don’t even remember what you said, and somehow you’re still messing this up by acting like she owes you something?"
+    clara "Bruh do you even hear yourself? You don’t even remember what you said, and somehow you’re still messing this up by acting like she owes you something?"
 
     clara "You don't sound sorry at all... You sound pathetic..."
 
@@ -198,43 +198,43 @@ label jun_2019_gatsby_aftermath:
 
     menu:
         "Apologize to Cindy":
-            jump tanish_apologizes
+            jump bobby_apologizes
         "Refuse to apologize":
             $Ending3Triggered = True
-            jump tanish_refuses
+            jump bobby_refuses
 
-    label tanish_apologizes:
+    label bobby_apologizes:
 
-        show tanish neutral at center
+        show bobby neutral at center
 
-        tanish "Okay. You're right."
+        bobby "Okay. You're right."
 
-        tanish "I’ll talk to her tomorrow. I owe her that much."
+        bobby "I’ll talk to her tomorrow. I owe her that much."
 
         show clara neutral at left with moveinleft
 
         clara "You owe her more, but yeah. Start there."
 
-        tanish "Thanks... for coming to yell at me, I guess."
+        bobby "Thanks... for coming to yell at me, I guess."
 
         clara "Don’t make me do it again."
 
         scene black
         with Pause(1)
 
-        scene bg tanish_room_night
+        scene bg bobby_room_night
 
-        show tanish sad at center
+        show bobby sad at center
         show phone at right
 
-        tanish "(Okay... here goes nothing.)"
+        bobby "(Okay... here goes nothing.)"
     
         play sound phone_ping
-        tanish "Hey. I just wanted to say I’m sorry for what I said during the movie."
+        bobby "Hey. I just wanted to say I’m sorry for what I said during the movie."
         play sound phone_ping
-        tanish "It was stupid and disrespectful. You didn’t deserve that."
+        bobby "It was stupid and disrespectful. You didn’t deserve that."
         play sound phone_ping
-        tanish "I was trying to be funny, but I wasn’t thinking at all. I’m sorry."
+        bobby "I was trying to be funny, but I wasn’t thinking at all. I’m sorry."
 
         scene bg cindy_room
 
@@ -250,22 +250,22 @@ label jun_2019_gatsby_aftermath:
         play sound phone_ping
         cindy "Take care of yourself, alright?"
 
-        scene bg tanish_room_night
+        scene bg bobby_room_night
 
-        show tanish sad at center
+        show bobby sad at center
         show phone at right
 
-        tanish "(Yeah. I deserve that.)"
+        bobby "(Yeah. I deserve that.)"
 
         play sound phone_ping
-        tanish "ok... you too. Take care."
+        bobby "ok... you too. Take care."
         pause
-        tanish "(Screw it. Guess it's anime therapy hours again.)"
+        bobby "(Screw it. Guess it's anime therapy hours again.)"
 
-        tanish "(Time to change my username to 'hikkikomori_life'.)"
+        bobby "(Time to change my username to 'hikkikomori_life'.)"
 
         return
 
-    label tanish_refuses:
+    label bobby_refuses:
 
         return
