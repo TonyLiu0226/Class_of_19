@@ -19,19 +19,19 @@ label mar_2019_volunteering:
 
     show alex neutral at right
     show bobby neutral at left
-    show mcdonald neutral at center
+    show chatjippity neutral at center
 
-    mcdonald "Appreciate you two sticking around. I’ve got to head out early today, but I trust you to get the drafts started for the media project rubric."
+    chatjippity "Appreciate you two sticking around. I’ve got to head out early today, but I trust you to get the drafts started for the media project rubric."
 
     bobby "No problem. Should we aim for detailed feedback or just wing it with 'good,' 'meh,' and 'yikes'?"
 
-    mcdonald "Let’s not traumatize the students, Bobby. Just keep it clear and constructive. Use 'Excellent,' 'Satisfactory,' and 'Needs Work' for each category—things like clarity, creativity, multimedia use."
+    chatjippity "Let’s not traumatize the students, Bobby. Just keep it clear and constructive. Use 'Excellent,' 'Satisfactory,' and 'Needs Work' for each category—things like clarity, creativity, multimedia use."
 
     alex "You got it. Rubrics of justice, coming right up."
 
-    mcdonald "I’ll check in tomorrow. Don’t burn the place down."
+    chatjippity "I’ll check in tomorrow. Don’t burn the place down."
 
-    hide mcdonald with moveoutleft
+    hide chatjippity with moveoutleft
 
     alex "So… do we give points for effort? Like if someone narrates their whole project in ASMR?"
 
@@ -48,7 +48,7 @@ label mar_2019_volunteering:
 
     gina "Hey—what are you two still doing here? I saw Alex through the door looking way too intense for 4 PM."
 
-    alex "Volunteer hours. We're helping McDonald build rubrics for the media project. He bailed and left us in charge."
+    alex "Volunteer hours. We're helping Chatjippity build rubrics for the media project. He bailed and left us in charge."
 
     bobby "It’s basically a power trip disguised as community service."
 
@@ -159,7 +159,7 @@ label mar_2019_volunteering:
     show bobby neutral at right
     alex "You know, we actually finished a lot."
 
-    gina "Maybe Lam should abandon us more often."
+    gina "Maybe Chatjippity should abandon us more often."
 
     bobby "Careful. Say that too loud and he’ll make us rubric consultants for every class."
 

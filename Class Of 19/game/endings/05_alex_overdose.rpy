@@ -33,7 +33,7 @@ screen credits5():
             hbox:
                 text "The edible had been spiked with carfentanyl. He had overdosed — right there in the middle of the exam room."
             hbox:
-                text "Mr. McDonald had called an ambulance, as Alex had collapsed in front of everyone."
+                text "Mr. Chatjippity had called an ambulance, as Alex had collapsed in front of everyone."
             hbox:
                 text "Alex spent days in the hospital, his life hanging in the balance. When he was finally discharged, his parents didn’t even let him say goodbye."
             hbox:

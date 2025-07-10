@@ -39,20 +39,20 @@ label feb_2019_cs_lab:
     play sound door_open
     pause
 
-    show mcdonald neutral at center with moveinleft
-    mcdonald "Alex. Bobby. I assume your animated discussion is directly related to linked lists?"
+    show chatjippity neutral at center with moveinleft
+    chatjippity "Alex. Bobby. I assume your animated discussion is directly related to linked lists?"
 
     show bobby neutral at left
     show alex neutral at right
     bobby "Oh! Uh, technically… Mob Psycho does have arcs..."
 
-    mcdonald "The only arcs I care about are binary trees. Assignment is due tomorrow, remember?"
+    chatjippity "The only arcs I care about are binary trees. Assignment is due tomorrow, remember?"
 
     alex "We… totally knew that."
 
-    mcdonald "I'd be less worried if you didn't say it like a question."
+    chatjippity "I'd be less worried if you didn't say it like a question."
 
-    hide mcdonald with moveoutleft
+    hide chatjippity with moveoutleft
     pause
 
     show bobby left at left
