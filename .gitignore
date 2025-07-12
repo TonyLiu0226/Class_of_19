@@ -1,2 +1,37 @@
+# Ignore the Ren'Py SDK
+/renpy-8.3.7-sdk/
+
+# Ignore distribution builds
+*-dists/
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Directories that Ren'Py changes files in.
+Class Of 19/game/saves
+Class Of 19/game/cache
+
+# Compiled script files. These are important for saving, and so should
+# be preserved by developer and build systems after the game has been released.
+/game/**/*.rpyc
+/game/**/*.rpymc
+
+# Files Ren'Py can generate.
+Class Of 19/game/**/*.bak
+Class Of 19/game/**/*.new
+Class Of 19/game/**/*.old
+
+# Error, log, and output files.
+Class Of 19/errors.txt
+Class Of 19/files.txt
+Class Of 19/image_cache.txt
+Class Of 19/log.txt
+Class Of 19/save_dump.txt
+Class Of 19/traceback.txt
+
+# Launcher-generated files.
+Class Of 19/dialogue.tab
+Class Of 19/dialogue.txt
+Class Of 19/strings.json
+
 assets/
-Class Of 19/game/audio/
