@@ -104,9 +104,9 @@ define mid_right = Position(xalign=0.75, yalign=1.0)
 define middle_left = Position(xalign=0.365, yalign=1.0)
 define middle_right = Position(xalign=0.635, yalign=1.0)
 
-define table_right = Position(xalign=0.6, yalign=0.3)
-define table_center = Position(xalign=0.5, yalign=0.3)
-define table_left = Position(xalign=0.4, yalign=0.3)
+define table_right = Position(xalign=0.6, yalign=0.7)
+define table_center = Position(xalign=0.5, yalign=0.7)
+define table_left = Position(xalign=0.4, yalign=0.7)
 
 init python:
 
@@ -145,65 +145,65 @@ init python:
 
 # The game starts here.
 label start:
-    call feb_2019_cs_lab
-    call mar_2019_volunteering
-    call mar_2019_texting
-    call apr_2019_studying
-    call apr_2019_texting_2
-    call apr_2019_lunch
-    call apr_2019_texting_3
+    call feb_2019_cs_lab from _call_feb_2019_cs_lab
+    call mar_2019_volunteering from _call_mar_2019_volunteering
+    call mar_2019_texting from _call_mar_2019_texting
+    call apr_2019_studying from _call_apr_2019_studying
+    call apr_2019_texting_2 from _call_apr_2019_texting_2
+    call apr_2019_lunch from _call_apr_2019_lunch
+    call apr_2019_texting_3 from _call_apr_2019_texting_3
 
     if Ending9Condition1:
-        call may_2019_library_date
+        call may_2019_library_date from _call_may_2019_library_date
 
-    call may_2019_field_trip
+    call may_2019_field_trip from _call_may_2019_field_trip
 
     if Ending9Condition1:
-        call jun_2019_great_gatsby
+        call jun_2019_great_gatsby from _call_jun_2019_great_gatsby
 
         if BobbyKyraBreakup:
-            call jun_2019_gatsby_aftermath
+            call jun_2019_gatsby_aftermath from _call_jun_2019_gatsby_aftermath
 
             if Ending3Triggered:
-                call bobby_deported
+                call bobby_deported from _call_bobby_deported
                 return
 
         if Ending9Condition1 and not BobbyKyraBreakup:
-            call jun_2019_squid_game
+            call jun_2019_squid_game from _call_jun_2019_squid_game
     
-    call jun_2019_alex_confession
+    call jun_2019_alex_confession from _call_jun_2019_alex_confession
 
     if Ending6Eligible == False:
-        call jun_2019_alex_rejected
+        call jun_2019_alex_rejected from _call_jun_2019_alex_rejected
 
         if Ending5Triggered:
-            call alex_overdose
+            call alex_overdose from _call_alex_overdose
             return
     else:
-        call alex_harvard
+        call alex_harvard from _call_alex_harvard
         return
     
-    call jun_2019_complications
+    call jun_2019_complications from _call_jun_2019_complications
 
     if AlexBikedToGina:
-        call jun_2019_bike
+        call jun_2019_bike from _call_jun_2019_bike
     else:
-        call alex_harvard
+        call alex_harvard from _call_alex_harvard_1
         return
 
-    call jul_2019_bar_night
-    call jul_2019_biking
+    call jul_2019_bar_night from _call_jul_2019_bar_night
+    call jul_2019_biking from _call_jul_2019_biking
 
     if Ending1Triggered:
-        call alex_arrested
+        call alex_arrested from _call_alex_arrested
         return
     else:
-        call jul_2019_gina_block
-        call jul_2019_aftermath
+        call jul_2019_gina_block from _call_jul_2019_gina_block
+        call jul_2019_aftermath from _call_jul_2019_aftermath
         if Ending2Triggered:
-            call alex_suicide
+            call alex_suicide from _call_alex_suicide
             return
 
-    call neutral_ending
+    call neutral_ending from _call_neutral_ending
 
     return

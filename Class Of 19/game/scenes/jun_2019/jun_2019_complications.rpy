@@ -181,16 +181,18 @@ label jun_2019_complications:
 
     alex "I don’t know what to do. She’s still replying, but it’s like... one-word replies, huge delays. I feel like I’m clinging to something that’s slipping."
 
-    bobby "Man, I’ve been there."
+    if BobbyKyraBreakup:
+        bobby "Man, I’ve been there."
 
-    alex "With Cindy?"
+        alex "With Kyra?"
 
-    bobby "Yeah. Back when I said that dumb line during the Gatsby screening? Things tanked after that. I thought it was over."
+        bobby "Yeah. Back when I said that dumb line during the Gatsby screening? Things tanked after that. I thought it was over."
 
-    alex "I remember. You disappeared for like a week."
+        alex "I remember. You disappeared for like a week."
 
-    bobby "I didn’t know how to talk to her without making it worse. But eventually I did. I apologized. I explained myself. I gave her space — but I also gave her clarity."
+        bobby "I didn’t know how to talk to her without making it worse. But eventually I did. I apologized. I explained myself. I gave her space — but I also gave her clarity."
 
+    pause
     alex "So you think I should reach out?"
 
     bobby "If you care, yeah. Don’t ghost her out of pride. And don’t keep throwing half-hearted texts either."
@@ -201,7 +203,7 @@ label jun_2019_complications:
 
     alex "It feels scary."
 
-    bobby "So is guessing forever. At least this way, it’s honest. That’s what worked with Cindy. Even if it was awkward."
+    bobby "So is guessing forever. At least this way, it’s honest. That’s what worked with Kyra. Even if it was awkward."
 
     alex "And if it doesn’t work?"
 

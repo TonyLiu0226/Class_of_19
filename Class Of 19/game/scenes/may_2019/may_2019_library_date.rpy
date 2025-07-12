@@ -32,7 +32,7 @@ label may_2019_library_date:
 
     bobby "Start with derivatives?"
 
-    kyra "Yeah... chain rule is still my enemy, thanks to Mr. Retardick... I mean Retallack."
+    kyra "Yeah... chain rule is still my enemy, thanks to Mr. Grok"
 
     bobby "Lucky for you, I am slightly less dumb at this now."
 
